@@ -7,30 +7,30 @@
 
 - [Description](./description.md)
 
-## Wetlab
-- [Wetlab](./wetlab/index.md)
-    - [Notebook](./wetlab/notebook.md)
-    - [Design](./wetlab/design/index.md)
-    - [Engineering Success](./wetlab/engineering/index.md)
-    - [Parts](./wetlab/parts/index.md)
-    - [Results](./wetlab/results/index.md)
-    - [Protocols](./wetlab/protocols/index.md)
-    - [Safety](./wetlab/safety/index.md)
+## Wet Lab
+- [Wet Lab](./wet-lab/index.md)
+    - [Notebook](./wet-lab/notebook.md)
+    - [Design](./wet-lab/design/index.md)
+    - [Engineering Success](./wet-lab/engineering/index.md)
+    - [Parts](./wet-lab/parts/index.md)
+    - [Results](./wet-lab/results/index.md)
+    - [Protocols](./wet-lab/protocols/index.md)
+    - [Safety](./wet-lab/safety/index.md)
 
-## Drylab
-- [Drylab](./drylab/index.md)
-    - [Protein Modelling](./drylab/protein-modelling/index.md)
-        - [Resources](./drylab/protein-modelling/resources.md)
-        - [Lucy](./drylab/protein-modelling/lucy.md)
-        - [Sebastian](./drylab/protein-modelling/sebastian.md)
-    - [Math Modelling](./drylab/math-modelling/index.md)
-        - [Resources](./drylab/math-modelling/resources.md)
-        - [Piyush](./drylab/math-modelling/piyush.md)
-        - [Samuel](./drylab/math-modelling/samuel.md)
-    - [Bioinformatics](./drylab/bioinformatics/index.md)
-        - [Resources](./drylab/bioinformatics/resources.md)
-        - [Riya](./drylab/bioinformatics/riya.md)
-        - [Matthias](./drylab/bioinformatics/matthias.md)
+## Dry Lab
+- [Dry Lab](./dry-lab/index.md)
+    - [Protein Modelling](./dry-lab/protein-modelling/index.md)
+        - [Resources](./dry-lab/protein-modelling/resources.md)
+        - [Lucy](./dry-lab/protein-modelling/lucy.md)
+        - [Sebastian](./dry-lab/protein-modelling/sebastian.md)
+    - [Math Modelling](./dry-lab/math-modelling/index.md)
+        - [Resources](./dry-lab/math-modelling/resources.md)
+        - [Piyush](./dry-lab/math-modelling/piyush.md)
+        - [Samuel](./dry-lab/math-modelling/samuel.md)
+    - [Bioinformatics](./dry-lab/bioinformatics/index.md)
+        - [Resources](./dry-lab/bioinformatics/resources.md)
+        - [Riya](./dry-lab/bioinformatics/riya.md)
+        - [Matthias](./dry-lab/bioinformatics/matthias.md)
 
 ## Human Practices
 - [Human Practices](./human-practices/index.md)

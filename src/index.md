@@ -11,7 +11,7 @@ If you have any questions regarding documenting your progress and work, please s
 ## What should this internal wiki contain?
 This wiki contains everything that lets other members know how other subteams get things running, what other subteams are researching, and the current state of a subteam. 
 
-What differentiates this internal wiki from the master todo list? On the master todo list, you can see a task someone in drylab is working on, while in this internal wiki you can read about the progress, current state, and future plans that member (or subteam) has regarding this task.
+What differentiates this internal wiki from the master todo list? On the master todo list, you can see a task someone in dry lab is working on, while in this internal wiki you can read about the progress, current state, and future plans that member (or subteam) has regarding this task.
 
 On the sidebar you can see all the different categories for each subteam. These folders were put here for a reason; they are a one to one correspondence with the required wiki pages for the iGEM competition. Create files within these folders when adding your content. This internal wiki serves as documentation for every subteam. Any content that is related to any of these topics on the sidebar should be here.
 
@@ -26,14 +26,14 @@ Commits to this internal wiki hub are public. This means members can see who is 
 
 One notable requirement of iGEM is to demonstrate we have used the Engineering Cycle in our project. This means we must demonstrate that we are iterating on the design of our project which is only possible if we record down what went wrong in our processes and how we plan to fix it.
 
-Additionally, iGEM also requires a notebook (from wetlab, but drylab should also have individual notebooks). Anyone should be able to freely access these notebooks to inquire about what subteams are up to.
+Additionally, iGEM also requires a notebook (from wet lab, but dry lab should also have individual notebooks). Anyone should be able to freely access these notebooks to inquire about what subteams are up to.
 
 We are also using [software practices](#why-are-we-using-software-practices) when adding content to our internal wiki. This includes all members making a personal branch to pull updates and push their own, making PRs to merge their content into the main branch, using issues, and more. If you are confused by this, wait until our Git, GitHub and Documentation workshop; if you're still confused send a message in the documentation channel.  
 
 ### Knowledge Transfer
 **Encourage creativity**; the more knowledge sharing we have, the better all our different subteams can collaborate. The more integrated each subteam is the better we will perform at iGEM.
 
-**iGEM is a holistic competition.** Having a strong drylab will get you no better than silver if other subteams are struggling. Everyone is expected to have an educated and in depth knowledge of the project from every angle; drylab, wetlab and HP. This is not possible without documentation from each subteam. 
+**iGEM is a holistic competition.** Having a strong dry lab will get you no better than silver if other subteams are struggling. Everyone is expected to have an educated and in depth knowledge of the project from every angle; dry lab, wet lab and HP. This is not possible without documentation from each subteam. 
 
 Additionally, teams must integrate each other's work into their own work. This is only possible if knowledge is being shared between all members of the team.
 
