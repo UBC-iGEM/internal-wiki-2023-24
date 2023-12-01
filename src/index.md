@@ -4,6 +4,7 @@ Welcome to the UBC iGEM 2023-2024 Internal Wiki. Read these pages before you sta
 - [How to Document](./documentation/index.md)
     - [For members](./documentation/member.md)
     - [For leads](./documentation/lead.md)
+    - [For wiki liaisons](./documentation/liaison.md)
 
 If you have any questions regarding documenting your progress and work, please send a Slack to Lucy.
 
@@ -30,8 +31,7 @@ We are also using [software practices](#why-are-we-using-software-practices) whe
 ### Knowledge Transfer
 Encourage creativity; the more knowledge sharing we have, the better different subteams can collaborate. The more integrated each subteam is the better we will perform at iGEM.
 
-iGEM is a holistic competition. Having a strong drylab will get you no better than silver if the other subteams are struggling.
-Everyone is expected to have an educated and in depth knowledge of the project from every angle; drylab, wetlab and HP. This is not possible without documentation from each subteam. 
+**iGEM is a holistic competition.** Having a strong drylab will get you no better than silver if other subteams are struggling. Everyone is expected to have an educated and in depth knowledge of the project from every angle; drylab, wetlab and HP. This is not possible without documentation from each subteam. 
 
 Additionally, teams must integrate each other's work into their own work. This is only possbile if knowledge is being shared between all members of the team.
 
@@ -39,7 +39,7 @@ Additionally, teams must integrate each other's work into their own work. This i
 The iGEM project involves many moving parts from all our subteams. In order to ensure everyone is aware of what is going on and to comply with [subteam transparency](#subteam-transparency), we must break our project down into concrete, small steps. Now you're asking, what does it mean to create a concrete, small step?
 
 #### Concrete (with a meaningful deliverable)
-When defining a next course of action, either for your subteam members or yourself, make sure there is a clear reason for doing this task that contributes to an overarching goal. Each task should also have deliverable that indicates that this step has been successfully completed. For instance, if you are a lead and have given your subteam members a task to understand Golden Gate Assembly, there are two things you should think about. One, why should they learn this procedure? In the context of synthetic biology, you should let your members know that [Golden Gate Assmebly](https://technology.igem.org/assembly/golden-gate) is an  "extremely powerful modular assembly technique in synthetic biology that allows for the efficient and precise assembly of multiple DNA fragments into a single construct.". Even if you believe the reasoning behind a task is obvious, this is not the case for every member. Be explicit in this reasoning.
+When defining a next course of action, either for your subteam members or yourself, make sure there is a clear reason for doing this task that contributes to an overarching goal. Each task should also have deliverable that indicates that this step has been successfully completed. For instance, if you are a lead and have given your subteam members a task to understand Golden Gate Assembly, there are two things you should think about. One, why should they learn this procedure? In the context of synthetic biology, you should let your members know that [Golden Gate Assmebly](https://technology.igem.org/assembly/golden-gate) is an "extremely powerful modular assembly technique in synthetic biology that allows for the efficient and precise assembly of multiple DNA fragments into a single construct." and that we are planning to use this technique in our experiments. Even if you believe the reasoning behind a task is obvious, this is not the case for every member. Be explicit in this reasoning.
 
 Two, how can your subteam members can explicitly demonstrate this understanding in a way that if possible, benefits all members? For instance, ask every member to upload their notes to this internal wiki; then members from other subteams can read what they have written and understand the Golden Gate Assembly as well. This not only allows your members to consolidate their understanding of Golden Gate Assembly, but also to allow knowledge sharing to other subteams.
 
@@ -55,4 +55,4 @@ Everyone is expected to write on the wiki. Having your progress, results and kno
 ### Why mdBook?
 ### Why are we using GitHub and Git?
 ### Is it okay if I have everything locally?
-### Why are we using software practices?
+### Why are we using software/agile practices?
