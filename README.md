@@ -1,1 +1,3 @@
-# internal-wiki-2023-24
+# iGEM 2023/24 Internal Wiki
+
+- using [mdBook](https://github.com/rust-lang/mdBook)
