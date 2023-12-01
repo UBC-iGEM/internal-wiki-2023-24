@@ -3,6 +3,7 @@
 - [How to Document](./documentation/index.md)
     - [For members](./documentation/member.md)
     - [For leads](./documentation/lead.md)
+    - [For wiki liaisons](./documentation/liaison.md)
 
 - [Description](./description.md)
 
