@@ -5,6 +5,6 @@ Welcome to the iGEM 2023/24 Internal Wiki. If you are a member of the current te
 1. Using [Codespaces](https://docs.github.com/en/codespaces/overview)
 2. Locally
 
-If you need help setting up for either method please Slack Lucy. 
+If you need help setting up for either method please send a message in the documentation channel. 
 
 - using [mdBook](https://github.com/rust-lang/mdBook)

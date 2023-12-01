@@ -6,7 +6,7 @@ Welcome to the UBC iGEM 2023-2024 Internal Wiki. Read these pages before you sta
     - [For leads](./documentation/lead.md)
     - [For wiki liaisons](./documentation/liaison.md)
 
-If you have any questions regarding documenting your progress and work, please send a Slack to Lucy.
+If you have any questions regarding documenting your progress and work, please send a message in the documentation channel.
 
 ## What should this internal wiki contain?
 This wiki contains everything that lets other members know how other subteams get things running, what other subteams are researching, and the current state of a subteam. 
@@ -18,7 +18,7 @@ On the sidebar you can see all the different categories for each subteam. These 
 **NOTE**: We are not writing the final wiki pages here. Later on when we start writing our final content for the iGEM Wiki, use this website as a way to quickly and efficiently absorb and understand material from all our different subteams. The final wiki document is NOT HERE. When you start wiki writing, you will be **DIRECTLY committing** to the **iGEM provisioned Wiki repository on GitLab**.
 
 ## What doesn't this internal wiki contain?
-Subteam meeting notes, administrative documents, sponsorship documents, finance. Anything sub-related to our project. Message Lucy or your lead to verify what goes here. Documentation officially starts when we are finished with pitching and have chosen a project.
+Subteam meeting notes, administrative documents, sponsorship documents, finance. Anything sub-related to our project. Message the documentation channel to verify what goes on the internal wiki if you are unsure. Documentation officially starts when we are finished with pitching and have chosen a project.
 
 ## Goals
 ### Subteam transparency 
@@ -28,7 +28,7 @@ One notable requirement of iGEM is to demonstrate we have used the Engineering C
 
 Additionally, iGEM also requires a notebook (from wetlab, but drylab should also have individual notebooks). Anyone should be able to freely access these notebooks to inquire about what subteams are up to.
 
-We are also using [software practices](#why-are-we-using-software-practices) when adding content to our internal wiki. This includes all members making a personal branch to pull updates and push their own, making PRs to merge their content into the main branch, using issues, and more. If you are confused by this, wait until our Git, GitHub and Documentation workshop; if you're still confused send a message to Lucy on Slack.  
+We are also using [software practices](#why-are-we-using-software-practices) when adding content to our internal wiki. This includes all members making a personal branch to pull updates and push their own, making PRs to merge their content into the main branch, using issues, and more. If you are confused by this, wait until our Git, GitHub and Documentation workshop; if you're still confused send a message in the documentation channel.  
 
 ### Knowledge Transfer
 **Encourage creativity**; the more knowledge sharing we have, the better all our different subteams can collaborate. The more integrated each subteam is the better we will perform at iGEM.
