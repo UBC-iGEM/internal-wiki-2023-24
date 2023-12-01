@@ -65,6 +65,9 @@ Everyone is expected to write on the wiki. Having your progress, results and kno
 ### Why mdBook?
 This documentation format was created by the Rust Language to document their programming language and other Rust projects. 
 
+### Why aren't we using Notion?
+An ideal platform is Notion, however, Canadian schools are not able to get free access to Notion, and our student accounts have limits that cannot accommodate our team of 20 people. Using [Notion](https://www.notion.so/pricing) would cost us $1920.
+
 ### Why are we using GitHub and Git?
 
 ### Is it okay if I have everything locally?

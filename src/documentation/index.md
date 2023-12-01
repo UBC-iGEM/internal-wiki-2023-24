@@ -1,3 +1,10 @@
-# How to Document
+# How to Document 
 
-If you would like, read the Rust Language's document on [How to Write Documentation](https://doc.rust-lang.org/rustdoc/how-to-write-documentation.html)
+## How to write Markdown
+
+## How to add new pages and subsections
+
+Now go to the following pages to see how to write documentation if you are a:
+- [Member](./documentation/member.md)
+- [Lead](./documentation/lead.md)
+- [Wiki Liaison](./documentation/liaison.md)
