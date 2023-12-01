@@ -22,7 +22,7 @@
     - [Protein Modelling](./drylab/protein-modelling/index.md)
         - [Resources](./drylab/protein-modelling/resources.md)
         - [Lucy](./drylab/protein-modelling/lucy.md)
-        - [Sebastion](./drylab/protein-modelling/sebastion.md)
+        - [Sebastian](./drylab/protein-modelling/sebastian.md)
     - [Math Modelling](./drylab/math-modelling/index.md)
         - [Resources](./drylab/math-modelling/resources.md)
         - [Piyush](./drylab/math-modelling/piyush.md)
@@ -35,3 +35,6 @@
 ## Human Practices
 - [Human Practices](./human-practices/index.md)
     - [Education](./human-practices/education/index.md)
+    - [Integrated Human Practices](./human-practices/ihp/index.md)
+    - [Inclusivity](./human-practices/inclusivity/index.md)
+    - [Communication](./human-practices/communication/index.md)
