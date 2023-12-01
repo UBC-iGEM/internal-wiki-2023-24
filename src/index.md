@@ -14,5 +14,5 @@ Everyone is expected to have an educated and in depth knowledge of the project f
 The more integrated each subteam is the better we will perform at iGEM."
 
 ## Wiki Transfer
-Everyone is expected to write on the wiki
+Everyone is expected to write on the wiki. Having your progress, results and knowledge here will make wiki writing easier for everyone.
 
