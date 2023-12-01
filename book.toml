@@ -1,0 +1,6 @@
+[book]
+authors = ["Lucy Hao"]
+language = "en"
+multilingual = false
+src = "src"
+title = "iGEM 2023/24"
