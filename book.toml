@@ -4,3 +4,6 @@ language = "en"
 multilingual = false
 src = "src"
 title = "iGEM 2023/24"
+
+[output.html]
+mathjax-support = true

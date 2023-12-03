@@ -41,6 +41,14 @@ This is an example of a footnote[^note].
 <div class="warning">A big warning!</div>
 ```
 
+5. Latex, via [MathJax](https://www.mathjax.org/)
+```
+\\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
+```
+
+\\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
+
+
 Note you can write HTML in Markdown as well! But please refrain from doing so unless necessary.
 
 If you want to see all the Markdown features available to you, here is the [spec](https://spec.commonmark.org/0.30/).
