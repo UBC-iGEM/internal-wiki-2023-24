@@ -37,7 +37,7 @@ We are also using [software practices](#why-are-we-using-software-practices) whe
 
 Additionally, teams must integrate each other's work into their own work. This is only possible if knowledge is being shared between all members of the team.
 
-### Concrete, small steps (with deliverables) towards our goal
+### Track Progress: Concrete, small steps (with deliverables) towards our goal
 The iGEM project involves many moving parts from all our subteams. In order to ensure everyone is aware of what is going on and to comply with [subteam transparency](#subteam-transparency), we must break our project down into a few overarching goals, and then these goals into concrete, small steps. **Leads should create goals** based on their subteams and larger tasks for these goals, while **subteam members should take these larger tasks and break them down into smaller tasks for themselves**. This should **all be recorded on the internal wiki**. Not on Slack channels, not in private DMs or Google Docs. New folders and files should be created to aid this process.
 
 Now you're asking, what does it mean to create a concrete, small step?
