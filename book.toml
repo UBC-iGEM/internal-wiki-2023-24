@@ -9,5 +9,11 @@ title = "iGEM 2023/24"
 command = "mdbook-graphviz"
 output-to-file = false # defaults to false, change to true to create SVG files instead of rendering them inline
 
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+
 [output.html]
 mathjax-support = true
+
+[output.linkcheck]

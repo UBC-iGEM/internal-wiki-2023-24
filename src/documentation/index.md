@@ -1,10 +1,13 @@
-# How to Document 
+# How to Document
+
+<!-- toc -->
 
 ## How to write Markdown
 
 Check out the [CommonMark quick reference](https://commonmark.org/help/) first. Much of this document is borrowed from the rustdoc book[^rust].
 
 Here are some features you must use in our internal wiki:
+
 1. Adding References. If a reference is added in another format, the member who added the reference must convert it to this format.
 
 ```
@@ -16,7 +19,7 @@ This is an example of a footnote[^note].
 2. Adding Tables. To make cooler tables, check out the [GitHub Tables extension](https://github.github.com/gfm/#tables-extension-).
 
 | Header1 | Header2 |
-|---------|---------|
+| ------- | ------- |
 | abc     | def     |
 
 ```
@@ -42,12 +45,12 @@ This is an example of a footnote[^note].
 ```
 
 5. Latex, via [MathJax](https://www.mathjax.org/)
+
 ```
 \\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
 ```
 
 \\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
-
 
 6. Graphs via the [DOT Language](https://graphviz.gitlab.io/doc/info/lang.html)
 
@@ -57,16 +60,20 @@ digraph {
 }
 ```
 
+7. [Including Files](https://rust-lang.github.io/mdBook/format/mdbook.html#including-files)
+
 Note you can write HTML in Markdown as well! But please refrain from doing so unless necessary.
 
 If you want to see all the Markdown features available to you, here is the [spec](https://spec.commonmark.org/0.30/).
 
 ## How to add new pages and subsections
-Open this 
+
+Open the [Internal Wiki](https://github.com/UBC-iGEM/internal-wiki-2023-24) in a Codespace. Follow the instructions [here](https://rust-lang.github.io/mdBook/format/summary.html) on how to add new pages and subsections.
 
 Now go to the following pages to see how to write documentation if you are a:
-- [Member](./documentation/member.md)
-- [Lead](./documentation/lead.md)
-- [Wiki Liaison](./documentation/liaison.md)
+
+- [Member](./member.md)
+- [Lead](./lead.md)
+- [Wiki Liaison](./liaison.md)
 
 [^rust]: https://doc.rust-lang.org/rustdoc/how-to-write-documentation.html
