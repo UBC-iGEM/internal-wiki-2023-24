@@ -1,8 +1,7 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/rust:latest",
   "features": {
-    "ghcr.io/eitsupi/devcontainer-features/mdbook:1": {},
-    "rust": "latest"
+    "ghcr.io/eitsupi/devcontainer-features/mdbook:1": {}
   },
-  "postCreateCommand": ".devcontainer/postCreate.sh"
+  "postCreateCommand": "sh .devcontainer/postCreate.sh"
 }
