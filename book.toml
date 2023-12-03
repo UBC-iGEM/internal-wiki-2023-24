@@ -5,5 +5,9 @@ multilingual = false
 src = "src"
 title = "iGEM 2023/24"
 
+[preprocessor.graphviz]
+command = "mdbook-graphviz"
+output-to-file = false # defaults to false, change to true to create SVG files instead of rendering them inline
+
 [output.html]
 mathjax-support = true

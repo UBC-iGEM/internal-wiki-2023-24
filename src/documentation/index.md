@@ -49,6 +49,14 @@ This is an example of a footnote[^note].
 \\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
 
 
+6. Graphs via the [DOT Language](https://graphviz.gitlab.io/doc/info/lang.html)
+
+```dot process
+digraph {
+    "processed" -> "graph"
+}
+```
+
 Note you can write HTML in Markdown as well! But please refrain from doing so unless necessary.
 
 If you want to see all the Markdown features available to you, here is the [spec](https://spec.commonmark.org/0.30/).
