@@ -4,7 +4,6 @@
     - [For members](./documentation/member.md)
     - [For leads](./documentation/lead.md)
     - [For wiki liaisons](./documentation/liaison.md)
-    - [Goals Template](./documentation/goals.md)
 
 - [Description](./description.md)
 
