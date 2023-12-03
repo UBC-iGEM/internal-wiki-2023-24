@@ -11,3 +11,6 @@ As mentioned, having [concrete, small steps (with deliverables) towards our goal
 5. Create a PR when you are done writing, and get at least one other lead from **another subteam** to review your plans.
 
 These goals should be continually iterated upon; if you are finding that your subteam has trouble reaching these goals or reaches them too quickly, reevaluate your goals as these issues arise. 
+
+Here is a template for each goal:
+
