@@ -18,6 +18,8 @@
   - [Results](./wet-lab/results/index.md)
   - [Protocols](./wet-lab/protocols/index.md)
   - [Safety](./wet-lab/safety/index.md)
+  - [Individual Progress](./wet-lab/individual-prog/index.md)
+    - [Wet Lab Member Name]()
 
 # Dry Lab
 
@@ -44,6 +46,8 @@
   - [Communication](./human-practices/communication/index.md)
   - [Interviews](./human-practices/interviews/index.md)
   - [Event Recaps](./human-practices/events/index.md)
+  - [Individual Progress](./human-practices/individual-prog/index.md)
+    - [HP Member Name]()
 
 # External Collaborators
 
