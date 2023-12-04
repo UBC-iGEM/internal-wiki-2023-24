@@ -41,3 +41,6 @@
     - [Integrated Human Practices](./human-practices/ihp/index.md)
     - [Inclusivity](./human-practices/inclusivity/index.md)
     - [Communication](./human-practices/communication/index.md)
+
+# External Collaborators
+- [Attributions](./external/index.md)
