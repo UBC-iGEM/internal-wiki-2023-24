@@ -14,3 +14,36 @@ Add everything that is listed below at the page: /[your-subteam]/index.html. For
 5. Create a PR when you are done writing, and get at least one other lead from **another subteam** to review your plans.
 
 These goals should be continually iterated upon; if you are finding that your subteam has trouble reaching these goals or reaches them too quickly, reevaluate your goals as these issues arise.
+
+Each overview page should have the following:
+
+## Goals
+
+[TODO]
+
+## Timeline
+
+| Event       | Start Date | End Date |
+| ----------- | ---------- | -------- |
+| Requirement | December   |          |
+| Requirement | December   |          |
+| Requirement | January    |          |
+| Requirement | January    |          |
+
+...
+
+## iGEM Medal Requirements
+
+### Bronze
+
+- [ ] Requirement
+
+### Silver
+
+- [ ] Engineering Success
+- [ ] [Human Practices](../human-practices/index.md)
+
+### Gold
+
+- [ ] Wiki Writing
+- [ ] Special Award Nomination
