@@ -2,7 +2,6 @@
 
 - [How to Document](./documentation/index.md)
 
-  - [For members](./documentation/member.md)
   - [For leads](./documentation/lead.md)
   - [For wiki liaisons](./documentation/liaison.md)
 
@@ -12,7 +11,10 @@
 
 - [Overview](./wet-lab/index.md)
   - [Notebook](./wet-lab/notebook/index.md)
+    - [yyyy-mm-dd](./wet-lab/notebook/yyyy-mm-dd.md)
   - [Design](./wet-lab/design/index.md)
+    - [Plasmid Design](./wet-lab/design/plasmid.md)
+    - [Experiment Design](./wet-lab/design/experiment.md)
   - [Engineering Success](./wet-lab/engineering/index.md)
   - [Parts](./wet-lab/parts/index.md)
   - [Results](./wet-lab/results/index.md)
