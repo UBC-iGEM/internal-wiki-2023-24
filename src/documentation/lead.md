@@ -21,17 +21,6 @@ Each overview page should have the following:
 
 [TODO]
 
-## Timeline
-
-| Event       | Start Date | End Date |
-| ----------- | ---------- | -------- |
-| Requirement | December   |          |
-| Requirement | December   |          |
-| Requirement | January    |          |
-| Requirement | January    |          |
-
-...
-
 ## iGEM Medal Requirements
 
 ### Bronze
@@ -47,3 +36,14 @@ Each overview page should have the following:
 
 - [ ] Wiki Writing
 - [ ] Special Award Nomination
+
+## Timeline
+
+| Event       | Start Date | End Date |
+| ----------- | ---------- | -------- |
+| Requirement | December   |          |
+| Requirement | December   |          |
+| Requirement | January    |          |
+| Requirement | January    |          |
+
+...

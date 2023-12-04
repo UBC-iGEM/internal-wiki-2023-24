@@ -2,6 +2,29 @@
 
 [Meeting Notes](https://drive.google.com/drive/folders/1QzOAnP1XhyycN8l5DmcQIVxX-E-CWuap?usp=sharing)
 
+## Goals
+
+[TODO]
+
+## iGEM Medal Requirements
+
+### Bronze
+
+- [ ] Documenting work on GitHub (for contributions page)
+
+### Silver
+
+- [ ] Engineering Success
+- [ ] [Human Practices](../human-practices/index.md)
+
+### Gold
+
+- [ ] Wiki Writing
+- [ ] Special Award Nomination
+  - [ ] Best Software Tool
+  - [ ] Best Model
+  - [ ] Best Hardware
+
 ## Timeline
 
 | Event                                             | Start Date | End Date |
