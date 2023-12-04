@@ -2,6 +2,9 @@
 
 [Meeting Notes](https://drive.google.com/drive/folders/1QzOAnP1XhyycN8l5DmcQIVxX-E-CWuap?usp=sharing)
 
+## Goals
+[TODO]
+
 ## Timeline
 
 | Event                                             | Start Date | End Date |
@@ -18,3 +21,23 @@
 | Integration with Human Practices                  |            |          |
 | Wiki Writing                                      |            |          |
 | Jamboree Preparation                              |            |          |
+
+## iGEM Medal Requirements
+
+### Bronze
+
+- [ ] Contributions Page
+  - [ ] Committing work to GitHub
+
+### Silver
+
+- [ ] Engineering Success
+- [ ] [Human Practices](../human-practices/index.md)
+
+### Gold
+
+- [ ] Wiki Writing
+- [ ] Special Award Nomination
+  - [ ] Best Software Tool
+  - [ ] Best Model
+  - [ ] Best Hardware
