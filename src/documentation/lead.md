@@ -10,9 +10,9 @@ As mentioned, having [concrete, small steps (with deliverables) towards our goal
 
 Add everything that is listed below at the page: /[your-subteam]/index.html. For wet lab this would be [here](../wet-lab/index.md).
 
-1. Check out the iGEM requirements for all subteams. List the gold, silver, bronze requirements that must be met for your subteam. Link the related iGEM pages to each medal requirement.
-2. Create timeline for your subteam. Use a table for this.
-3. Create clear goals for your team on the page. Categorize goals based on medal requirement, MVP goals or "for-fun" goals and any other labels you deem useful.
+1. Check out the iGEM requirements for all subteams. List the **gold, silver, bronze requirements** that must be met for your subteam. Link the related iGEM pages to each medal requirement.
+2. Create **timeline** for your subteam. Use a table for this.
+3. Create **clear goals** for your team on the page. Categorize goals based on medal requirement, MVP goals or "for-fun" goals and any other labels you deem useful.
    - These goals should be continually iterated upon; if you are finding that your subteam has trouble reaching these goals or reaches them too quickly, reevaluate your goals as these issues arise.
 4. Consider your subteam members' strengths and preferences and assign members to tasks accordingly.
 5. Create a PR when you are done writing, and get at least one other lead from **another subteam** to review your plans.
