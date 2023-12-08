@@ -52,6 +52,6 @@ Each overview page should have the following:
 
 ...
 
-
 ## Other pages
-For each subteam, there are subsections created on the sidebar. These sections are one-to-one correspondences with the final wiki pages. As your subteam members popular these sections, it is you and the wiki liaisons responsibilities to read over these pages and approve them as PRs come through. 
+
+For each subteam, there are subsections created on the sidebar. These sections are one-to-one correspondences with the final wiki pages. As your subteam members popular these sections, it is you and the wiki liaisons responsibilities to read over these pages and approve them as PRs come through.
