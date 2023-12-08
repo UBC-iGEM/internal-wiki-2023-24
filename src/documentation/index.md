@@ -68,11 +68,17 @@ If you want to see all the Markdown features available to you, here is the [spec
 
 ## How to add new pages and subsections
 
-Open the [Internal Wiki](https://github.com/UBC-iGEM/internal-wiki-2023-24) in a Codespace. Follow the instructions [here](https://rust-lang.github.io/mdBook/format/summary.html) on how to add new pages and subsections.
+Open the [Internal Wiki](https://github.com/UBC-iGEM/internal-wiki-2023-24) in a Codespace. Follow the instructions [here](https://rust-lang.github.io/mdBook/format/summary.html) on how to add new pages and subsections. When are you creating new pages, please follow these file naming conventions. Any files that don't conform to these file naming conventions will not be accepted as documentation.
+
+1. Only punctuation that is allowed are dashes.  
+2. All lowercase. 
+3. When possible create folders to categorize files. If you need help with this, send a message in the documentation/wiki channel.
+4. Only .md files are allowed.
+5. Numbers are allowed.
 
 Now go to the following pages to see how to write documentation if you are a:
 
-- [Member](./member.md)
+- Member: Go to your subteam and read over every subsection.
 - [Lead](./lead.md)
 - [Wiki Liaison](./liaison.md)
 
