@@ -11,6 +11,7 @@
 - [iGEM](./resources/igem.md)
 - [Synthetic Biology](./resources/synbio.md)
 - [Modelling](./resources/modelling.md)
+- [Bioinformatics](./resources/bioinformatics.md)
 
 # Wet Lab
 

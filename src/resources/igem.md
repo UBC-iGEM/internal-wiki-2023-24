@@ -1,6 +1,6 @@
 # iGEM
 
-## iGEM engineering webinars
+## iGEM engineering webinars (thanks to Kimia for these resources)
 
 - [https://technology.igem.org/engineering/webinars](https://technology.igem.org/engineering/webinars)
 - [https://2021.igem.org/Engineering/Webinars](https://2021.igem.org/Engineering/Webinars)
