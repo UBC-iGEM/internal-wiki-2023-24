@@ -8,7 +8,9 @@
 
 - [Mathematical modeling in systems biology](https://www.math.uwaterloo.ca/~bingalls/MMSB/Notes.pdf)
 
-## Enzyme Kinetics (Thanks to Piyush for these resources)
+## Enzyme Kinetics
+
+(Thanks to Piyush for these resources)
 
 In this section, you will be learning about Enzymes, and how they may be modelled mathematically. This is similar to the Le Chatelier’s principle from **IB Chemistry 12**, so may be a good idea to brush up on that if you are a little rusty!
 
@@ -43,3 +45,9 @@ In this section, you will be learning about Enzymes, and how they may be modelle
 ### KhanAcademy: Covalent Modifications to Enzymes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yqwnRekNLg4?si=0mR1APFVir6rybZO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Protein Modelling
+
+- [Solvation free energy of ethanol](https://tutorials.gromacs.org/docs/free-energy-of-solvation.html)
+- [Gromacs Tutorials](http://www.mdtutorials.com/gmx/)
+- [Pyrosetta Tutorials](https://www.pyrosetta.org/documentation/tutorials)
