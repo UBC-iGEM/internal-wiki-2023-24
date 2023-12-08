@@ -18,7 +18,7 @@ To begin, familiarize yourself with general biology. In the suggested videos bel
 
 ### CrashCourse: What is Biotechnology?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/itsb2SqR-R0?si=KvhQTRVd8KucgzyG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qo9gcZ0r8k8?si=nMA58Wy8U3XXxUa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ![Plasmid](../static/resources/plasmid.png)
 
