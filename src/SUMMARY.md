@@ -7,6 +7,11 @@
 
 - [Description](./description.md)
 
+# Resources
+- [iGEM](./resources/igem.md)
+- [Synthetic Biology](./resources/synbio.md)
+- [Modelling](./resources/modelling.md)
+
 # Wet Lab
 
 - [Overview](./wet-lab/index.md)
