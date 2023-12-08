@@ -7,12 +7,6 @@
 
 - [Description](./description.md)
 
-# Resources
-- [iGEM](./resources/igem.md)
-- [Synthetic Biology](./resources/synbio.md)
-- [Modelling](./resources/modelling.md)
-- [Bioinformatics](./resources/bioinformatics.md)
-
 # Wet Lab
 
 - [Overview](./wet-lab/index.md)
@@ -60,3 +54,10 @@
 # External Collaborators
 
 - [Attributions](./external/index.md)
+
+# Resources
+
+- [iGEM](./resources/igem.md)
+- [Synthetic Biology](./resources/synbio.md)
+- [Modelling](./resources/modelling.md)
+- [Bioinformatics](./resources/bioinformatics.md)
