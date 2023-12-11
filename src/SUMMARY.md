@@ -27,15 +27,12 @@
 
 - [Overview](./dry-lab/index.md)
   - [Protein Modelling](./dry-lab/protein-modelling/index.md)
-    - [Resources](./dry-lab/protein-modelling/resources.md)
     - [Lucy](./dry-lab/protein-modelling/lucy.md)
     - [Sebastian](./dry-lab/protein-modelling/sebastian.md)
   - [Math Modelling](./dry-lab/math-modelling/index.md)
-    - [Resources](./dry-lab/math-modelling/resources.md)
     - [Piyush](./dry-lab/math-modelling/piyush.md)
     - [Samuel](./dry-lab/math-modelling/samuel.md)
   - [Bioinformatics](./dry-lab/bioinformatics/index.md)
-    - [Resources](./dry-lab/bioinformatics/resources.md)
     - [Riya](./dry-lab/bioinformatics/riya.md)
     - [Matthias](./dry-lab/bioinformatics/matthias.md)
 

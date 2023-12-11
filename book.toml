@@ -17,3 +17,4 @@ renderer = ["html"]
 mathjax-support = true
 
 [output.linkcheck]
+# follow-web-links = true
