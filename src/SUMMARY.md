@@ -11,7 +11,7 @@
 
 - [Overview](./wet-lab/index.md)
   - [Notebook](./wet-lab/notebook/index.md)
-    - [yyyy-mm-dd](./wet-lab/notebook/yyyy-mm-dd.md)
+    - [month](./wet-lab/notebook/month.md)
   - [Design](./wet-lab/design/index.md)
     - [Plasmid Design](./wet-lab/design/plasmid.md)
     - [Experiment Design](./wet-lab/design/experiment.md)

@@ -2,6 +2,13 @@
 
 [Meeting Notes](https://drive.google.com/drive/folders/1QzOAnP1XhyycN8l5DmcQIVxX-E-CWuap?usp=sharing)
 
+## Individual Pages
+Everytime you work on your project, add a journal entry to your personal page. Use this format and put recent entries at the top of your page; this means the first entry is at the bottom of the page.
+
+## yyyy-mm-dd
+### Tasks: 
+### Notes: 
+
 ## Goals
 
 [TODO]
