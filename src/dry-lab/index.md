@@ -11,13 +11,38 @@ Everytime you work on your project, add a journal entry to your personal page. U
 
 ## Goals
 
-[TODO]
+1. Create a layman's version of the project from a synthetic biology perspective for dry lab members.
+
+2. Design all dry lab projects to have a clear and meaningful integration to another sub team.
+
+3. [TODO]
+
+## Timeline
+
+| Event                                                                | Start Date | End Date  |
+| -------------------------------------------------------------------- | ---------- | --------- |
+| Assessment of all dry lab team members                               | December   |           |
+| Plan dry lab progress for the upcoming iGEM cycle (Leads)            | December   |           |
+| Project pitch brainstorming                                          | January    |           |
+| Start thinking of potential dry lab projects (Leads)                 | January    |           |
+| Search for resources (Leads initially, later whole team)             | January    |           |
+| Project Brainstorming (get in contact with HP)                       | February   | March     |
+| Assign self learning tasks (Leads)                                   | April      |           |
+| Finalize dry lab projects (Make sure connection to wet lab is clear) | April      |           |
+| Individual projects begin                                            | May        | August    |
+| Project check-in #1                                                  | May        |           |
+| Wiki Writing (GitLab Repo is provisioned)                            | June       | September |
+| Project check-in #2                                                  | June       |           |
+| Project check-in #3                                                  | July       |           |
+| Project check-in #4                                                  | August     |           |
+| Jamboree Preparation                                                 | September  | October   |
 
 ## iGEM Medal Requirements
 
 ### Bronze
 
-- [ ] Documenting work on GitHub (for contributions page)
+- [ ] Contributions Page
+  - [ ] Committing work to GitHub
 
 ### Silver
 
@@ -31,20 +56,3 @@ Everytime you work on your project, add a journal entry to your personal page. U
   - [ ] Best Software Tool
   - [ ] Best Model
   - [ ] Best Hardware
-
-## Timeline
-
-| Event                                             | Start Date | End Date |
-| ------------------------------------------------- | ---------- | -------- |
-| Assessment of all dry lab team members            | December   |          |
-| Plan dry lab progress for the upcoming iGEM cycle | December   |          |
-| Project pitch brainstorming                       | January    |          |
-| Search for resources                              | January    |          |
-| Project Brainstorming                             |            |          |
-| Assign self learning tasks                        |            |          |
-| Finalize dry lab projects                         |            |          |
-| Individual projects begin                         |            |          |
-| Integration with Wet Lab                          |            |          |
-| Integration with Human Practices                  |            |          |
-| Wiki Writing                                      |            |          |
-| Jamboree Preparation                              |            |          |
