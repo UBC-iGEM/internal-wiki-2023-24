@@ -7,6 +7,8 @@
 
 - [Description](./description.md)
 
+- [Attributions](./attributions.md)
+
 # Wet Lab
 
 - [Overview](./wet-lab/index.md)
@@ -47,10 +49,6 @@
   - [Event Recaps](./human-practices/events/index.md)
   - [Individual Progress](./human-practices/individual-prog/index.md)
     - [HP Member Name]()
-
-# External Collaborators
-
-- [Attributions](./attributions.md)
 
 # Resources
 
