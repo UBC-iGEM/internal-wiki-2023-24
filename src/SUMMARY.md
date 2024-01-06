@@ -50,7 +50,7 @@
 
 # External Collaborators
 
-- [Attributions](./external/index.md)
+- [Attributions](./attributions.md)
 
 # Resources
 
