@@ -13,6 +13,6 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 ## External Contributions
 
-| Name     | UBC iGEM member who requested their help | Institution Type | Relationship To Team | Tasks                      | Specific Tasks                                                                          |
-| -------- | ---------------------------------------- | ---------------- | -------------------- | -------------------------- | --------------------------------------------------------------------------------------- |
-| rmehri01 | Lucy                                     | Other            | External Advisor     | Wiki Coding, Visualization | Setting up Codespaces for team to develop without needing to set up a local environment |
+| Name     | UBC iGEM member who requested their help | Institution Type | Relationship To Team | Tasks       | Specific Tasks                                                                          |
+| -------- | ---------------------------------------- | ---------------- | -------------------- | ----------- | --------------------------------------------------------------------------------------- |
+| rmehri01 | Lucy                                     | Other            | External Advisor     | Wiki Coding | Setting up Codespaces for team to develop without needing to set up a local environment |
