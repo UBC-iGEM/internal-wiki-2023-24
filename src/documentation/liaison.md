@@ -9,7 +9,7 @@ Your role of wiki liaison well ensure our goals:
 are met.
 
 ## Why was this role created? 
-This role was created out of frustration from Lucy and Piyush. We noticed a disconnect between subteams, and during wiki development, only a few members could contribute to the wiki because frankly, many members just did not know what was happening outside their subteam. Wiki liaisons are expected to have a greater understanding of **all** subteam work, ensure team members (in their own subteam) are contributing to the internal wiki and help Lucy plan for the final competition wiki. Wiki liaisons will be a helping hand to the leads, and can offer new perspectives that leads may not notice. Being a wiki liaison will also give you an idea of what a lead's responsibilities are; if you are staying on the team this will help you decide if you want to be a lead.
+This role was created out of frustration from Lucy and Piyush. We noticed a disconnect between subteams, and during wiki development, only a few members could contribute to the wiki because frankly, many members just did not know what was happening outside their subteam. Wiki liaisons are expected to have a greater understanding of **all** subteam work, ensure team members (in their own subteam) are contributing to the internal wiki and help Lucy plan for the final competition wiki. Wiki liaisons will be a helping hand to the leads, and can offer new perspectives that leads may not notice. Being a wiki liaison will also give you an idea of what a lead's responsibilities are; if you are staying on the team this will help you decide if you want to be a lead or if you want to join another subteam.
 
 ### Our wiki liaisons are: 
 - Wet lab:
@@ -29,7 +29,7 @@ Thirdly, after you have ensured your subteam is contributing to the internal wik
 Finally, when we are writing the wiki for the iGEM Jamboree, you will have a greater hand in helping the leads design wiki. You may also help assign other subteam members to writing and reading content.
 
 ## Who do I ask for help?
-If you feel overwhelmed, you can DM Lucy and she will alert the appropriate subteam members. At anytime if you feel this role is overwhelming let the co-directors or Lucy know. We will probably have weekly asynchronous updates on Slack, with meetings if necessary.
+If you feel overwhelmed at any point, you can DM Lucy and she can either give you a break or get someone else to help you with being wiki liaison. At anytime if you feel this role is overwhelming let the co-directors or Lucy know. We will probably have weekly asynchronous updates on Slack, with meetings if necessary.
 
 If you have any questions that are not of a personal nature, send a message in #wiki-liaison, otherwise DM Lucy.
 
