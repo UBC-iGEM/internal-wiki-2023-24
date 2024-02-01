@@ -9,7 +9,7 @@ Your role of wiki liaison well ensure our goals:
 are met.
 
 ## Why was this role created? 
-This role was created out of fustration from Lucy and Piyush. We noticed a disconnect between subteams, and during wiki development, only a few members could contribute to writing because frankly, many members just did not know what was happening outside their subteam. Wiki liaisons are responsible for knowing what is happening outside their own subteam, ensure team members (in their own subteam) are contributing to the internal wiki and helping Lucy plan for the final competition wiki. All the leads will be ensuring this happens, but wiki liaisons will be a helping hand, and can offer new perspectives that leads may not notice.
+This role was created out of frustration from Lucy and Piyush. We noticed a disconnect between subteams, and during wiki development, only a few members could contribute to the wiki because frankly, many members just did not know what was happening outside their subteam. Wiki liaisons are expected to have a greater understanding of **all** subteam work, ensure team members (in their own subteam) are contributing to the internal wiki and help Lucy plan for the final competition wiki. Wiki liaisons will be a helping hand to the leads, and can offer new perspectives that leads may not notice. Being a wiki liaison will also give you an idea of what a lead's responsibilities are; if you are staying on the team this will help you decide if you want to be a lead.
 
 ### Our wiki liaisons are: 
 - Wet lab:
@@ -17,21 +17,21 @@ This role was created out of fustration from Lucy and Piyush. We noticed a disco
 - HP:
 
 ## What is a wiki liaison?
-Generally, a wiki liaison is a subteam member who is not a lead that is responsible for ensuring that work other subteams are cdoing are well integrated into with their own subteam's work. This means the wiki liaison helps the wiki lead enforce standards like the internal wiki so that we can meet the three goals listed above. They will also have a greater hand in helping design, edit and completing the wiki for the iGEM Jamboree.
+Generally, a wiki liaison is a subteam member who is not a lead that is helps ensure the work of **other** subteams are well integrated into with **their own** subteam's work. This means the wiki liaison helps the wiki lead enforce standards like the internal wiki so that we can meet the three goals listed above. They will also have a greater hand in helping design, edit and complete the wiki for the iGEM Jamboree.
 
 ## What are my tasks? 
-To have subteam transparency and integration, you will help the wiki lead ensure the entire team is writing project related content on the internal wiki, as related to *your* subteam. This means if you're in wet lab, you make sure all experimental designs and changes are being committed to the internal wiki on a daily/weekly basis.
+To have subteam transparency and integration, you will help the wiki lead ensure the entire team is putting their project related content onto the internal wiki, as related to *your* subteam. This means if you're in wet lab, you make sure all experimental designs and changes are being committed to the internal wiki on a daily/weekly basis.
 
 Secondly, after each subteam uploads content to the internal wiki, wiki liaisons are responsible for reading other team's content on the internal wiki. Generally, you are trying to form an overall sense of the goals, directions and motivations of the other subteams. This will help you for the third task.
 
-Thirdly, after you have ensured your subteam is contributing to the internal wiki, and have an understanding of what other subteams are doing, you will be responsible for critically analyzing the work of other subteams. For instance, if you are the dry lab liaison, you will have read over the wet lab and HP pages. If the wet lab plasmid design pages are hard to understand or missing information, you will create a GitHub issue stating what is missing and why this information is important, then send a message to the #documentation-wiki channel, tagging the appropriate poeple and linking the issue. If human practices has described a computational concept incorrectly, or you can enhance the educational material, similarly, make an issue and complete the previously listed steps. The point of all this work is to have all our subteams be cohesive and integrated.
+Thirdly, after you have ensured your subteam is contributing to the internal wiki, and have an understanding of what other subteams are doing, you will be responsible for critically analyzing the work of other subteams. For instance, if you are the dry lab liaison, you will have read over the wet lab and HP pages. If the wet lab plasmid design pages are hard to understand or missing information, you will create a GitHub issue stating what is missing and why this information is important, then send a message to the #wiki-liaison channel with the link of the issue, and a lead will alert the appropriate subteam members. If human practices has described a computational concept incorrectly, or you can enhance the educational material, similarly, make an issue and complete the previously listed steps. The point of all this work is to have all our subteams be cohesive and integrated.
 
-Finally, when we are writing the wiki for the iGEM Jamboree, you will help the leads design the flow of information. You may also help assign other subteam members to writing and reading content.
+Finally, when we are writing the wiki for the iGEM Jamboree, you will have a greater hand in helping the leads design wiki. You may also help assign other subteam members to writing and reading content.
 
 ## Who do I ask for help?
-This may seem overwhelming, and you may be scared or nervous to call out other subteam members. If that case, you can DM Lucy and she will alert the appropriate subteam members. At anytime if you feel this role is overwhelming let the co-directors or Lucy know.
+If you feel overwhelmed, you can DM Lucy and she will alert the appropriate subteam members. At anytime if you feel this role is overwhelming let the co-directors or Lucy know. We will probably have weekly asynchronous updates on Slack, with meetings if necessary.
 
-If you have any questions that are not of a personal nature, send a message in #documentation-wiki, otherwise DM Lucy.
+If you have any questions that are not of a personal nature, send a message in #wiki-liaison, otherwise DM Lucy.
 
 ## What is my role in developing the competition wiki?
-You can take on a "writing", "editing" or "development" role. More on this later.
+Based on your subteam, you will help the leads decide how we should present our information, what graphics to make, and more. To be discussed later.
