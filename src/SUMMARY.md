@@ -5,7 +5,7 @@
   - [For leads](./documentation/lead.md)
   - [For wiki liaisons](./documentation/liaison.md)
 
-- [Description](./description.md)
+- [Project Description](./description.md)
 
 - [Attributions](./attributions.md)
 

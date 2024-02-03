@@ -1,6 +1,6 @@
-# Description
+# Project Description
 
-When writing the description, every member should be table to answer the following questions:
+When writing the project description, every member should be table to answer the following questions:
 
 1. What is the team's vision for the chosen project
 2. What is the project explained in a conceptual manner?
@@ -8,4 +8,8 @@ When writing the description, every member should be table to answer the followi
 
 ## Project
 
-## 
+## Wet Lab
+
+## Dry Lab
+
+## Human Practices
