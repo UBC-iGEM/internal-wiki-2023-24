@@ -13,7 +13,7 @@
 
 - [Overview](./wet-lab/index.md)
   - [Notebook](./wet-lab/notebook/index.md)
-    - [month](./wet-lab/notebook/month.md)
+    - [February](./wet-lab/notebook/february.md)
   - [Design](./wet-lab/design/index.md)
     - [Plasmid Design](./wet-lab/design/plasmid.md)
     - [Experiment Design](./wet-lab/design/experiment.md)
@@ -28,6 +28,8 @@
 # Dry Lab
 
 - [Overview](./dry-lab/index.md)
+  - [Software](./dry-lab/software/index.md)
+    - [Encoding and Decoding](./dry-lab/software/encoding-decoding.md)
   - [Protein Modelling](./dry-lab/protein-modelling/index.md)
     - [Lucy](./dry-lab/protein-modelling/lucy.md)
     - [Sebastian](./dry-lab/protein-modelling/sebastian.md)
