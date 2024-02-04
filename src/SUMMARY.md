@@ -30,15 +30,11 @@
 - [Overview](./dry-lab/index.md)
   - [Software](./dry-lab/software/index.md)
     - [Encoding and Decoding](./dry-lab/software/encoding-decoding.md)
+    - [GUI](./dry-lab/software/gui.md)
+    - [DNA as Persistent Data Structure](./dry-lab/software/persistence.md)
   - [Protein Modelling](./dry-lab/protein-modelling/index.md)
-    - [Lucy](./dry-lab/protein-modelling/lucy.md)
-    - [Sebastian](./dry-lab/protein-modelling/sebastian.md)
   - [Math Modelling](./dry-lab/math-modelling/index.md)
-    - [Piyush](./dry-lab/math-modelling/piyush.md)
-    - [Samuel](./dry-lab/math-modelling/samuel.md)
   - [Bioinformatics](./dry-lab/bioinformatics/index.md)
-    - [Riya](./dry-lab/bioinformatics/riya.md)
-    - [Matthias](./dry-lab/bioinformatics/matthias.md)
 
 # Human Practices
 
