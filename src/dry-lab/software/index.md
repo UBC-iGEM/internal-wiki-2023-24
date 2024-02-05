@@ -6,22 +6,21 @@
 
 ## Components
 
-### Encoding and Decoding
-- Rotation Based Encoding and Decoding
-- Error correction
-- Constraints
+### Graphical User Interface
+
+### "Block" Based Semantics
+- implementation and metadata in software
+- Primer constraints (find OS implementation)
   - Distance
   - Biological
-  - Block based semantics
 
-### Block Based Semantics
-- Primer Generation 
-- Where to store the semantics
+### Encoding and Decoding
+- Rotation Based cipher
+- Error correction
 
 ### DNA as a Persistent Data Structure
 - Primer Generation
-- Reconstructing the file
-- How this works with free running synthesis
+- Reconstructing the file in software
+- metadata stored in software
 
-### Graphical User Interface
 
