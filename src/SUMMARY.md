@@ -29,8 +29,8 @@
 
 - [Overview](./dry-lab/index.md)
   - [Software](./dry-lab/software/index.md)
-    - [Encoding and Decoding](./dry-lab/software/encoding-decoding.md)
     - [GUI](./dry-lab/software/gui.md)
+    - [Encoding and Decoding](./dry-lab/software/encoding-decoding.md)
     - [Block Based Semantics](./dry-lab/software/block.md)
     - [DNA as Persistent Data Structure](./dry-lab/software/persistence.md)
   - [Protein Modelling](./dry-lab/protein-modelling/index.md)

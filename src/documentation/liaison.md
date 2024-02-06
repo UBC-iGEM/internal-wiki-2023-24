@@ -12,9 +12,9 @@ are met.
 This role was created out of frustration from Lucy and Piyush. We noticed a disconnect between subteams, and during wiki development, only a few members could contribute to the wiki because frankly, many members just did not know what was happening outside their subteam. Wiki liaisons are expected to have a greater understanding of **all** subteam work, ensure team members (in their own subteam) are contributing to the internal wiki and help Lucy plan for the final competition wiki. Wiki liaisons will be a helping hand to the leads, and can offer new perspectives that leads may not notice. Being a wiki liaison will also give you an idea of what a lead's responsibilities are; if you are staying on the team this will help you decide if you want to be a lead or if you want to join another subteam.
 
 ### Our wiki liaisons are: 
-- Wet lab:
-- Dry lab:
-- HP:
+- Wet lab: Diego, Burak
+- Dry lab: Riya
+- HP: Jessica
 
 ## What is a wiki liaison?
 Generally, a wiki liaison is a subteam member who is not a lead that is helps ensure the work of **other** subteams are well integrated into with **their own** subteam's work. This means the wiki liaison helps the wiki lead enforce standards like the internal wiki so that we can meet the three goals listed above. They will also have a greater hand in helping design, edit and complete the wiki for the iGEM Jamboree.

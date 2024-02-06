@@ -2,9 +2,9 @@
 
 [ADD CITATIONS]
 
-## Encoding:  
-- requires generating primers based on block based semantics, using open source tools to double check constraints and add on our own constraints (references)
- 
+## Encoding: 
+- consists of segmenting information into blocks, generating primers, mapping primers back to address space and generating all the sequences to be encoded in wet lab.
+
 ### Algorithm design for primers:
 1. Distance constraints
    - Run edit distance and Levenshtein distance constraints on all primers once in a while
@@ -20,11 +20,6 @@
     - Use established tools to avoid hairpins, self-dimers, cross-dimers
     - Avoid mispriming
     - Avoid repeats on the 3’ end
-3. Block based semantic constraints (sequential access):
-   - Represent the address space AAA...AAA to TTT...TTT with an index tree
-   - Each leaf is a strand, with the path representing the address
-   - Based on the representation the user wants, extended primers mapping to folder structure can be created for contiguous access
-   - Add sparsity to enforce biological constraints
 
 #### Encoding Formats
 1. Naive encoding:

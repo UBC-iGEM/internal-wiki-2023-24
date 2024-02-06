@@ -81,7 +81,10 @@ This documentation format was created by the Rust Language to document their pro
 An ideal platform is Notion, however, Canadian schools are not able to get free access to Notion, and our student accounts have limits that cannot accommodate our team of 20 people. Using [Notion](https://www.notion.so/pricing) would cost us $1920.
 
 ### Why are we using GitHub and Git?
+Practice for the final wiki.
 
 ### Is it okay if I have everything locally?
+Brainstorming is okay to keep local, all fleshed out ideas must be on the internal wiki.
 
 ### Why are we using software/agile practices?
+Good way to maintain transparency, and proven to work.

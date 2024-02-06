@@ -1,5 +1,7 @@
 # Software
 
+![](software.png)
+
 ## GitHub Repos
 
 ## Resources
@@ -9,18 +11,16 @@
 ### Graphical User Interface
 
 ### "Block" Based Semantics
-- implementation and metadata in software
+- Implementation and metadata in software
 - Primer constraints (find OS implementation)
   - Distance
   - Biological
 
 ### Encoding and Decoding
-- Rotation Based cipher
+- Rotation based cipher
 - Error correction
 
 ### DNA as a Persistent Data Structure
 - Primer Generation
 - Reconstructing the file in software
-- metadata stored in software
-
-
+- Metadata stored in software
