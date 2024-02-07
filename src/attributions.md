@@ -19,7 +19,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 | Name                | Role    | General Tasks | Specific Tasks |
 | ------------------- | ------- | ------------- | -------------- |
-| Stella Kauryzhka    | Student |               |                |
+| Stella Kauryzhka    | Student | Conceptualization   |(1) Researched project, planned experimental design workshop
 | Tina Wang           | Student |               |                |
 | Achint Lail         | Student |               |                |
 | Ada Jiang           | Student |               |                |
