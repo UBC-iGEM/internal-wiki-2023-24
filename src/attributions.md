@@ -8,12 +8,12 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 ### PI and Co-Directors
 
-| Name              | Role           | General Tasks | Specific Tasks |
-| ----------------- | -------------- | ------------- | -------------- |
-| Steven Hallam     | Primary PI     |               |                |
-| David Oliver      | Secondary PI   |               |                |
-| Chaehyeon Lee     | Student Leader |               |                |
-| Narjis Alhusseini | Student Leader |               |                |
+| Name              | Role           | General Tasks     | Specific Tasks                                                                                                                                                                                                                                                     |
+| ----------------- | -------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Steven Hallam     | Primary PI     |                   |                                                                                                                                                                                                                                                                    |
+| David Oliver      | Secondary PI   |                   |                                                                                                                                                                                                                                                                    |
+| Chaehyeon Lee     | Student Leader |                   |                                                                                                                                                                                                                                                                    |
+| Narjis Alhusseini | Student Leader | Conceptualization | (1) Conceptualization - helped us come up with the initial idea for the project; (2) Fundraising - she raised funds and in-kind donations from Bayer and our university to support the project; and (3) Supervision - she supervised all of the work our team did. |
 
 ### Wet Lab
 
@@ -69,3 +69,4 @@ Put in brackets who is connected to the external contributor if applicable
 | Parneet Sekhon        |                  |                      |             |                                                                                         |
 | Umar Ali              |                  |                      |             |                                                                                         |
 | rmehri01 (Lucy)       | Other            | External Advisor     | Wiki Coding | Setting up Codespaces for team to develop without needing to set up a local environment |
+| Nikita Telkar         |                  |                      |             |                                                                                         |
