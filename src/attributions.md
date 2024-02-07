@@ -29,7 +29,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Diego Perez Hidalgo | Student |               |                |
 | Pattarin Blanchard  | Student |               |                |
 | QingRu Kong         | Student |               |                |
-| Ran Tao             | Student |               |                |
+| Ran Tao             | Student |  Conceptualization; Background Research; Investigation             |                |
 
 ### Dry Lab
 
