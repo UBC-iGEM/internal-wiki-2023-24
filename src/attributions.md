@@ -50,7 +50,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Yejin Lhee      | Student |               |                |
 | Charlotte Lee   |         |               |                |
 | Claire Pinckney |         |               |                |
-| Jessica Xin     |         |               |                |
+| Jessica Xin     | Student | Conceptualization, Public Engagement | (1) Conceptualization - helped brainstorm ideas for project; (2) Public Engagement - created hands on synbio acitivites for high school students;|
 | Aoniya Colynn   |         |               |                |
 | Karen Lin       |         |               |                |
 
