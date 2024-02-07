@@ -44,15 +44,15 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 ### HP and Design
 
-| Name            | Role    | General Tasks | Specific Tasks |
-| --------------- | ------- | ------------- | -------------- |
+| Name            | Role    | General Tasks     | Specific Tasks                                                 |
+| --------------- | ------- | ----------------- | -------------------------------------------------------------- |
 | Harrison Kim    | Student | Conceptualization, Public Engagement             | (1)helped with initial brainstorming of our project;(2)Helped development of our blog and start our educational initiative                |
-| Yejin Lhee      | Student |               |                |
-| Charlotte Lee   |         |               |                |
-| Claire Pinckney |         |               |                |
-| Jessica Xin     |         |               |                |
-| Aoniya Colynn   |         |               |                |
-| Karen Lin       |         |               |                |
+| Yejin Lhee      | Student | Conceptualization | (1) Conceptualization - Ideated HP tasks for the main project. |
+| Charlotte Lee   | Student |                   |                                                                |
+| Claire Pinckney | Student |                   |                                                                |
+| Jessica Xin     | Student |                   |                                                                |
+| Aoniya Colynn   | Student |                   |                                                                |
+| Karen Lin       | Student |                   |                                                                |
 
 ## External Contributions
 
