@@ -49,7 +49,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Harrison Kim    | Student | Conceptualization, Public Engagement | (1)helped with initial brainstorming of our project;(2)Helped development of our blog and start our educational initiative |
 | Yejin Lhee      | Student | Conceptualization                    | (1) Conceptualization - Ideated HP tasks for the main project.                                                             |
 | Charlotte Lee   | Student |                                      |                                                                                                                            |
-| Claire Pinckney | Student |                                      |                                                                                                                            |
+| Claire Pinckney | Student |    Conceptualization                                  |        (1) Conceptualization - Ideated HP tasks for the main project.                                                                                                                    |
 | Jessica Xin     | Student |                                      |                                                                                                                            |
 | Aoniya Colynn   | Student |                                      |                                                                                                                            |
 | Karen Lin       | Student |                                      |                                                                                                                            |
