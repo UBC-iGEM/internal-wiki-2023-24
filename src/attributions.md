@@ -24,7 +24,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Achint Lail         | Student |               |                |
 | Ada Jiang           | Student |               |                |
 | Burak Ozkan         | Student |               |                |
-| Chloe King          | Student |               |                |
+| Chloe King          | Student | Conceptualization              |    (1)  Brainstorming and developing ideas for the project          |
 | Daniel Hinatsu      | Student |               |                |
 | Diego Perez Hidalgo | Student |               |                |
 | Pattarin Blanchard  | Student |               |                |
