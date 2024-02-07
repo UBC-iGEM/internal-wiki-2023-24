@@ -20,7 +20,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Name                | Role    | General Tasks | Specific Tasks |
 | ------------------- | ------- | ------------- | -------------- |
 | Stella Kauryzhka    | Student |               |                |
-| Tina Wang           | Student |               |                |
+| Tina Wang           | Student | Conceptualization, Background Research, Investigation, Notebook/recard keeping Project Administration           |                |
 | Achint Lail         | Student |               |                |
 | Ada Jiang           | Student |               |                |
 | Burak Ozkan         | Student |               |                |
