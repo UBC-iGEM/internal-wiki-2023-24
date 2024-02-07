@@ -17,19 +17,20 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 ### Wet Lab
 
-| Name                | Role    | General Tasks     | Specific Tasks          |
-| ------------------- | ------- | ----------------- | ----------------------- |
-| Stella Kauryzhka    | Student |                   |                         |
-| Tina Wang           | Student |                   |                         |
-| Achint Lail         | Student |                   |                         |
-| Ada Jiang           | Student |                   |                         |
-| Burak Ozkan         | Student |                   |                         |
-| Chloe King          | Student |                   |                         |
-| Daniel Hinatsu      | Student |                   |                         |
-| Diego Perez Hidalgo | Student | Conceptualization | (6) Conceptualization - |
-| Pattarin Blanchard  | Student |                   |                         |
-| QingRu Kong         | Student |                   |                         |
-| Ran Tao             | Student |                   |                         |
+| Name                | Role    | General Tasks | Specific Tasks |
+| ------------------- | ------- | ------------- | -------------- |
+| Stella Kauryzhka    | Student |               |                |
+| Tina Wang           | Student |               |                |
+| Achint Lail         | Student |               |                |
+| Ada Jiang           | Student |               |                |
+| Burak Ozkan         | Student | Background Research, Conceptualization | (1) Background Research - helped contribute to literature review regarding our probiotic to reduce emissions from cows and the wildfire pitch to study A. vinelandii, (2) Conceptualization - helped come up with the probiotic idea and support the importance of the organism in the pitch |
+| Chloe King          | Student |               |                |
+| Daniel Hinatsu      | Student |               |                |
+| Diego Perez Hidalgo | Student | Conceptualization | (1) Conceptualization - |
+| Pattarin Blanchard  | Student |               |                |
+| QingRu Kong         | Student |               |                |
+| Ran Tao             | Student |               |                |
+
 
 ### Dry Lab
 
