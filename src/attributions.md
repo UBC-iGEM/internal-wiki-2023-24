@@ -20,7 +20,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Name                | Role    | General Tasks                          | Specific Tasks                                                                                                                                                                                                                                                                               |
 | ------------------- | ------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stella Kauryzhka    | Student | Conceptualization                      | (1) Researched project, planned experimental design workshop                                                                                                                                                                                                                                 |
-| Tina Wang           | Student |                                        |                                                                                                                                                                                                                                                                                              |
+| Tina Wang           | Student |        Conceptualization, Background Research, Investigation, Notebook/recard keeping Project Administration                                |                                                                                                                                                                                                                                                                                              |
 | Achint Lail         | Student |                                        |                                                                                                                                                                                                                                                                                              |
 | Ada Jiang           | Student | Conceptionalization                    | (1) Brainstorming and developing ideas for the project                                                                                                                                                                                                                                       |
 | Burak Ozkan         | Student | Background Research, Conceptualization | (1) Background Research - helped contribute to literature review regarding our probiotic to reduce emissions from cows and the wildfire pitch to study A. vinelandii, (2) Conceptualization - helped come up with the probiotic idea and support the importance of the organism in the pitch |
@@ -30,6 +30,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Pattarin Blanchard  | Student |                                        |                                                                                                                                                                                                                                                                                              |
 | QingRu Kong         | Student |                                        |                                                                                                                                                                                                                                                                                              |
 | Ran Tao             | Student |                                        |                                                                                                                                                                                                                                                                                              |
+
 
 ### Dry Lab
 
@@ -44,16 +45,15 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 ### HP and Design
 
-| Name            | Role    | General Tasks                        | Specific Tasks                                                                                                             |
-| --------------- | ------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| Harrison Kim    | Student | Conceptualization, Public Engagement | (1)helped with initial brainstorming of our project;(2)Helped development of our blog and start our educational initiative |
-| Yejin Lhee      | Student | Conceptualization                    | (1) Conceptualization - Ideated HP tasks for the main project.                                                             |
-| Charlotte Lee   | Student |                                      |                                                                                                                            |
-| Claire Pinckney | Student |    Conceptualization                                  |        (1) Conceptualization - Ideated HP tasks for the main project.                                                                                                                    |
-| Jessica Xin     | Student |      Conceptualization, Public Engagement                                 | (1) Conceptualization - helped brainstorm ideas for project; (2) Public Engagement - created hands on synbio acitivites for high school students;|
-| Aoniya Colynn   | Student |                                      |                                                                                                                            |
-| Karen Lin       | Student |                                      |                                                                                                                            |
-
+| Name            | Role    | General Tasks                        | Specific Tasks                                                                                                                                    |
+| --------------- | ------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Harrison Kim    | Student | Conceptualization, Public Engagement | (1)helped with initial brainstorming of our project;(2)Helped development of our blog and start our educational initiative                        |
+| Yejin Lhee      | Student | Conceptualization                    | (1) Conceptualization - Ideated HP tasks for the main project.                                                                                    |
+| Charlotte Lee   | Student |                                      |                                                                                                                                                   |
+| Claire Pinckney | Student | Conceptualization                    | (1) Conceptualization - Ideated HP tasks for the main project.                                                                                    |
+| Jessica Xin     | Student | Conceptualization, Public Engagement | (1) Conceptualization - helped brainstorm ideas for project; (2) Public Engagement - created hands on synbio acitivites for high school students; |
+| Aoniya Colynn   | Student |                                      |                                                                                                                                                   |
+| Karen Lin       | Student |                                      |                                                                                                                                                   |
 
 ## External Contributions
 
