@@ -12,7 +12,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | ----------------- | -------------- | ------------- | -------------- |
 | Steven Hallam     | Primary PI     |               |                |
 | David Oliver      | Secondary PI   |               |                |
-| Chaehyeon Lee     | Student Leader |               |                |
+| Chaehyeon Lee     | Student Leader | Conceptualization | (1) Conceptualization - Facilitated the team-wide project brainstorming process.              |
 | Narjis Alhusseini | Student Leader |               |                |
 
 ### Wet Lab
@@ -46,7 +46,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 | Name            | Role    | General Tasks     | Specific Tasks                                                 |
 | --------------- | ------- | ----------------- | -------------------------------------------------------------- |
-| Harrison Kim    | Student |                   |                                                                |
+| Harrison Kim    | Student | Conceptualization, Public Engagement             | (1)helped with initial brainstorming of our project;(2)Helped development of our blog and start our educational initiative                |
 | Yejin Lhee      | Student | Conceptualization | (1) Conceptualization - Ideated HP tasks for the main project. |
 | Charlotte Lee   | Student |                   |                                                                |
 | Claire Pinckney | Student |                   |                                                                |
