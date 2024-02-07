@@ -22,7 +22,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Stella Kauryzhka    | Student |               |                |
 | Tina Wang           | Student |               |                |
 | Achint Lail         | Student |               |                |
-| Ada Jiang           | Student |               |                |
+| Ada Jiang           | Student |Conceptionalization               | (1) Brainstorming and developing ideas for the project                |
 | Burak Ozkan         | Student |               |                |
 | Chloe King          | Student |               |                |
 | Daniel Hinatsu      | Student |               |                |
