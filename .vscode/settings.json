@@ -9,5 +9,6 @@
         "subteam",
         "subteams",
         "wet lab"
-    ]
+    ], 
+    "editor.wordWrap": "off"
 }
