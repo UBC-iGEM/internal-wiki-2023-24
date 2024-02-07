@@ -51,7 +51,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Charlotte Lee   |         |               |                |
 | Claire Pinckney |         |               |                |
 | Jessica Xin     |         |               |                |
-| Aoniya Colynn   |         |               |                |
+| Aoniya Colynn   | Student |  Conceptualization, Visualization |  (1) Brainstorming. (2) Social media graphics.            |
 | Karen Lin       |         |               |                |
 
 ## External Contributions
