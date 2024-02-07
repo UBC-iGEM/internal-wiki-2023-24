@@ -62,6 +62,7 @@ Put in brackets who is connected to the external contributor if applicable
 | --------------------- | ---------------- | -------------------- | ----------- | --------------------------------------------------------------------------------------- |
 | Laura Gonzalez Campos |                  |                      |             |                                                                                         |
 | Madina Kagieva        |                  |                      |             |                                                                                         |
+| Nikita Telkar         |                  |                      |             |                                                                                         |
 | Rodrigo Vallejos      |                  |                      |             |                                                                                         |
 | Anjali Parthasarathy  |                  |                      |             |                                                                                         |
 | Brenda Ma             |                  |                      |             |                                                                                         |
@@ -69,4 +70,3 @@ Put in brackets who is connected to the external contributor if applicable
 | Parneet Sekhon        |                  |                      |             |                                                                                         |
 | Umar Ali              |                  |                      |             |                                                                                         |
 | rmehri01 (Lucy)       | Other            | External Advisor     | Wiki Coding | Setting up Codespaces for team to develop without needing to set up a local environment |
-| Nikita Telkar         |                  |                      |             |                                                                                         |
