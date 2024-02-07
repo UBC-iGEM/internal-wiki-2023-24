@@ -52,7 +52,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Claire Pinckney |         |               |                |
 | Jessica Xin     |         |               |                |
 | Aoniya Colynn   |         |               |                |
-| Karen Lin       |         |               |                |
+| Karen Lin       | Student | visualization             | created logo for simply synbio               |
 
 ## External Contributions
 
