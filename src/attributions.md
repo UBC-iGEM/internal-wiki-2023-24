@@ -46,7 +46,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 | Name            | Role    | General Tasks | Specific Tasks |
 | --------------- | ------- | ------------- | -------------- |
-| Harrison Kim    | Student |               |                |
+| Harrison Kim    | Student | Conceptualization, Public Engagement             | (1)helped with initial brainstorming of our project;(2)Helped development of our blog and start our educational initiative                |
 | Yejin Lhee      | Student |               |                |
 | Charlotte Lee   |         |               |                |
 | Claire Pinckney |         |               |                |
