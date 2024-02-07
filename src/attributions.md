@@ -21,7 +21,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | ------------------- | ------- | ------------- | -------------- |
 | Stella Kauryzhka    | Student |               |                |
 | Tina Wang           | Student |               |                |
-| Achint Lail         | Student |               |                |
+| Achint Lail         | Student | 1. Fundraising 2. Conceptualization   |1. Reached out to industry and academic sponsors to secure grants and funding. 2. Brainstormed potential TdT enzymes to explore and attributes to insert into the plasmid|
 | Ada Jiang           | Student |               |                |
 | Burak Ozkan         | Student |               |                |
 | Chloe King          | Student |               |                |
