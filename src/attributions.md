@@ -47,7 +47,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Name            | Role    | General Tasks | Specific Tasks |
 | --------------- | ------- | ------------- | -------------- |
 | Harrison Kim    | Student |               |                |
-| Yejin Lhee      | Student |               |                |
+| Yejin Lhee      | Student |Conceptualization| (1) Conceptualization - Ideated HP tasks for the main project |
 | Charlotte Lee   |         |               |                |
 | Claire Pinckney |         |               |                |
 | Jessica Xin     |         |               |                |
