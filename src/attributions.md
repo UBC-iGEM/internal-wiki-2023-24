@@ -28,7 +28,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Daniel Hinatsu      | Student |               |                |
 | Diego Perez Hidalgo | Student | Conceptualization | (1) Conceptualization - |
 | Pattarin Blanchard  | Student |               |                |
-| QingRu Kong         | Student |               |                |
+| QingRu Kong         | Student |  Conceptualization, Background Research, Investigation, Safety, Project Administration, Notebook/record keeping  |                |
 | Ran Tao             | Student |               |                |
 
 
