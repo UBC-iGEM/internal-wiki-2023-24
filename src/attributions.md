@@ -12,7 +12,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | ----------------- | -------------- | ------------- | -------------- |
 | Steven Hallam     | Primary PI     |               |                |
 | David Oliver      | Secondary PI   |               |                |
-| Chaehyeon Lee     | Student Leader |               |                |
+| Chaehyeon Lee     | Student Leader | Conceptualization | (1) Conceptualization - Facilitated the team-wide project brainstorming process.              |
 | Narjis Alhusseini | Student Leader |               |                |
 
 ### Wet Lab
