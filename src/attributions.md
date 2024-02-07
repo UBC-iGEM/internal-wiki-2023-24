@@ -17,19 +17,19 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 ### Wet Lab
 
-| Name                | Role    | General Tasks | Specific Tasks |
-| ------------------- | ------- | ------------- | -------------- |
-| Stella Kauryzhka    | Student |               |                |
-| Tina Wang           | Student |               |                |
-| Achint Lail         | Student |               |                |
-| Ada Jiang           | Student |               |                |
-| Burak Ozkan         | Student |               |                |
-| Chloe King          | Student |               |                |
-| Daniel Hinatsu      | Student |               |                |
-| Diego Perez Hidalgo | Student |               |                |
-| Pattarin Blanchard  | Student |               |                |
-| QingRu Kong         | Student |               |                |
-| Ran Tao             | Student |               |                |
+| Name                | Role    | General Tasks     | Specific Tasks |
+| ------------------- | ------- | ----------------- | -------------- |
+| Stella Kauryzhka    | Student |                   |                |
+| Tina Wang           | Student |                   |                |
+| Achint Lail         | Student |                   |                |
+| Ada Jiang           | Student |                   |                |
+| Burak Ozkan         | Student |                   |                |
+| Chloe King          | Student |                   |                |
+| Daniel Hinatsu      | Student |                   |                |
+| Diego Perez Hidalgo | Student | Conceptualization |                |
+| Pattarin Blanchard  | Student |                   |                |
+| QingRu Kong         | Student |                   |                |
+| Ran Tao             | Student |                   |                |
 
 ### Dry Lab
 
