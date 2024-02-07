@@ -48,7 +48,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | --------------- | ------- | ------------- | -------------- |
 | Harrison Kim    | Student |               |                |
 | Yejin Lhee      | Student |               |                |
-| Charlotte Lee   |         |               |                |
+| Charlotte Lee   |  Student       |  Conceptualization |brainstorming and developing ideas for the project |
 | Claire Pinckney |         |               |                |
 | Jessica Xin     |         |               |                |
 | Aoniya Colynn   |         |               |                |
