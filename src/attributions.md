@@ -8,28 +8,29 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 ### PI and Co-Directors
 
-| Name              | Role           | General Tasks | Specific Tasks |
-| ----------------- | -------------- | ------------- | -------------- |
-| Steven Hallam     | Primary PI     |               |                |
-| David Oliver      | Secondary PI   |               |                |
-| Chaehyeon Lee     | Student Leader |               |                |
-| Narjis Alhusseini | Student Leader |               |                |
+| Name              | Role           | General Tasks     | Specific Tasks                                                                   |
+|-------------------|----------------|-------------------|----------------------------------------------------------------------------------|
+| Steven Hallam     | Primary PI     |                   |                                                                                  |
+| David Oliver      | Secondary PI   |                   |                                                                                  |
+| Chaehyeon Lee     | Student Leader | Conceptualization | (1) Conceptualization - Facilitated the team-wide project brainstorming process. |
+| Narjis Alhusseini | Student Leader | Conceptualization | (1) Conceptualization - Facilitated the team-wide project brainstorming process. |
 
 ### Wet Lab
 
 | Name                | Role    | General Tasks | Specific Tasks |
 | ------------------- | ------- | ------------- | -------------- |
-| Stella Kauryzhka    | Student |               |                |
+| Stella Kauryzhka    | Student | Conceptualization   |(1) Researched project, planned experimental design workshop
 | Tina Wang           | Student |               |                |
 | Achint Lail         | Student |               |                |
-| Ada Jiang           | Student |               |                |
-| Burak Ozkan         | Student |               |                |
+| Ada Jiang           | Student |Conceptionalization               | (1) Brainstorming and developing ideas for the project                |
+| Burak Ozkan         | Student | Background Research, Conceptualization | (1) Background Research - helped contribute to literature review regarding our probiotic to reduce emissions from cows and the wildfire pitch to study A. vinelandii, (2) Conceptualization - helped come up with the probiotic idea and support the importance of the organism in the pitch |
 | Chloe King          | Student |               |                |
-| Daniel Hinatsu      | Student |               |                |
-| Diego Perez Hidalgo | Student |               |                |
+| Daniel Hinatsu      | Student |Conceptualization|(1) Conceptualization - Learned how to update the wiki, brainstromed the final project|
+| Diego Perez Hidalgo | Student | Conceptualization | (1) Conceptualization - |
 | Pattarin Blanchard  | Student |               |                |
 | QingRu Kong         | Student |               |                |
 | Ran Tao             | Student |               |                |
+
 
 ### Dry Lab
 
@@ -37,22 +38,23 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | ---------------- | ------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Piyush Awasthi   | Student |                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Lucy Hao         | Student | Notebook/record keeping, Project Administration, Wiki Coding, Writing, Background Research , Conceptualization | (1) Notebook/record keeping - Standardized and maintained laboratory notebook through creation, implementation of internal wiki for team. Took weekly meeting notes for dry lab and wiki meetings. (2) Project Administration - As dry lab co-lead, organized subteam members into projects and monitored progress. Liaison between team and PI. (3) Wiki Coding - As wiki lead, is the primary developer of the competition wiki, leading and overseeing all development and content that is added to the wiki by other subteam members. (4) Writing - (5) Background Research - (6) Conceptualization - |
-| Matthias Wong    | Student | Conceptualization                                                                                              | (1) Conceptualization -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Riya Alluri      | Student |                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Samuel Salitra   | Student |                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Sebastian Hyland | Student |                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Matthias Wong    | Student |     Conceptualization                                                                                                           | (1) Conceptualization -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Riya Alluri      | Student | Conceptualization | (1) Conceptualization - Contributed to brainstorming for initial project ideas and developing final project pitch. |                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Samuel Salitra   | Student | Notebook/record keeping,math modelling                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sebastian Hyland | Student |  
+                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
 ### HP and Design
 
-| Name            | Role    | General Tasks | Specific Tasks |
-| --------------- | ------- | ------------- | -------------- |
-| Harrison Kim    | Student |               |                |
-| Yejin Lhee      | Student |               |                |
-| Charlotte Lee   |         |               |                |
-| Claire Pinckney |         |               |                |
-| Jessica Xin     |         |               |                |
-| Aoniya Colynn   |         |               |                |
-| Karen Lin       |         |               |                |
+| Name            | Role    | General Tasks     | Specific Tasks                                                 |
+| --------------- | ------- | ----------------- | -------------------------------------------------------------- |
+| Harrison Kim    | Student | Conceptualization, Public Engagement             | (1)helped with initial brainstorming of our project;(2)Helped development of our blog and start our educational initiative                |
+| Yejin Lhee      | Student | Conceptualization | (1) Conceptualization - Ideated HP tasks for the main project. |
+| Charlotte Lee   | Student |                   |                                                                |
+| Claire Pinckney | Student |                   |                                                                |
+| Jessica Xin     | Student |                   |                                                                |
+| Aoniya Colynn   | Student |                   |                                                                |
+| Karen Lin       | Student |                   |                                                                |
 
 ## External Contributions
 
@@ -69,3 +71,4 @@ Put in brackets who is connected to the external contributor if applicable
 | Parneet Sekhon        |                  |                      |             |                                                                                         |
 | Umar Ali              |                  |                      |             |                                                                                         |
 | rmehri01 (Lucy)       | Other            | External Advisor     | Wiki Coding | Setting up Codespaces for team to develop without needing to set up a local environment |
+| Nikita Telkar         |                  |                      |             |                                                                                         |
