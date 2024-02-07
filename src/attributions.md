@@ -25,7 +25,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Ada Jiang           | Student |               |                |
 | Burak Ozkan         | Student |               |                |
 | Chloe King          | Student |               |                |
-| Daniel Hinatsu      | Student |               |                |
+| Daniel Hinatsu      | Student |Conceptualization|(1) Conceptualization - Learned how to update the wiki, brainstromed the final project|
 | Diego Perez Hidalgo | Student |               |                |
 | Pattarin Blanchard  | Student |               |                |
 | QingRu Kong         | Student |               |                |
