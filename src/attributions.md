@@ -51,7 +51,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Charlotte Lee   | Student |                                      |                                                                                                                                                   |
 | Claire Pinckney | Student | Conceptualization                    | (1) Conceptualization - Ideated HP tasks for the main project.                                                                                    |
 | Jessica Xin     | Student | Conceptualization, Public Engagement | (1) Conceptualization - helped brainstorm ideas for project; (2) Public Engagement - created hands on synbio acitivites for high school students; |
-| Aoniya Colynn   | Student |                                      |                                                                                                                                                   |
+| Aoniya Colynn   | Student |          Conceptualization, Visualization                            |         (1) Brainstorming. (2) Social media graphics.                                                                                                                                          |
 | Karen Lin       | Student |                                      |                                                                                                                                                   |
 
 ## External Contributions
