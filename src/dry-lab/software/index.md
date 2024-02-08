@@ -5,6 +5,10 @@
 ## GitHub Repos
 
 ## Resources
+- https://docs.rs/acid-store/latest/acid_store/
+- https://github.com/dna-storage/dnastorage
+- https://github.com/shubhamchandak94/nanopore_dna_storage
+- https://github.com/HaolingZHANG
 
 ## Components
 
