@@ -1,6 +1,6 @@
 # Software
 
-![](software.png)
+![https://www.figma.com/file/yj2YY4MDO9O82lSYYSpzG8/Software-Workflow?type=design&node-id=0%3A1&mode=design&t=bkNAOenQtMMmRMPz-1](software-flow.png)
 
 ## GitHub Repos
 
