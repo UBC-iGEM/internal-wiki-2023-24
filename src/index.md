@@ -6,7 +6,7 @@ Welcome to the UBC iGEM 2023-2024 Internal Wiki. Read these pages before you sta
   - [For leads](./documentation/lead.md)
   - [For wiki liaisons](./documentation/liaison.md)
 
-If you have any questions regarding documenting your progress and work, please send a message in the documentation channel.
+If you have any questions regarding documenting your progress and work, please send a message in the documentation-wiki channel.
 
 ## What should this internal wiki contain?
 

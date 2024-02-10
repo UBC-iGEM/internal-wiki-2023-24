@@ -9,7 +9,8 @@ When writing the project description, every member should be table to answer the
 3. What is the project explained in a detailed manner?
 
 ## Project Summary
-Solution: Enhance DNA storage process with improved synthesis and storage semantics: 
+Solution: Enhance DNA storage process with improved synthesis and storage semantics 
+
 1. The expression of thermostable TdT with E. Coli, and automation of optimal reaction conditions for free-running synthesis
 2. Implementation of block based storage semantics using arbitrarily long primers and update system via. versioning and patches. (15)
 
@@ -20,7 +21,7 @@ Approach:
   - synthesis occurring in mild, aqueous conditions (27)
   - Reduction of secondary structures with higher reaction temperatures (27), because DNA secondary structures can be melted by raising the temperature (27)
 
-Block based semantics and updates via patches
+A file system like implementation, segmentation of "blocks" of information and updates via patches
 - Random and sequential access (15)
 - Retrieval of units smaller than unit of random access (15)
 - Software based update patching: faster, more reliable than changing the bases in the lab (15)
