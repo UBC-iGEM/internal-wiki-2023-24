@@ -2,11 +2,6 @@
 
 ![https://www.figma.com/file/yj2YY4MDO9O82lSYYSpzG8/Software-Workflow?type=design&node-id=0%3A1&mode=design&t=bkNAOenQtMMmRMPz-1](software-flow.png)
 
-### questions
-- primer length
-- block size
-- information density
-- what do primers look like (semi-specfic?)
 
 ## GitHub Repos
 
