@@ -3,3 +3,7 @@ run = "mdbook serve -n 0.0.0.0"
 
 [nix]
 channel = "unstable"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
