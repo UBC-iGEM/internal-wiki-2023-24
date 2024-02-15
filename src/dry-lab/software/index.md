@@ -15,17 +15,19 @@
 
 ### Graphical User Interface
 
-### "Block" Based Semantics
-- Implementation and metadata in software
-- Primer constraints (find OS implementation)
-  - Distance
-  - Biological
-
-### Encoding and Decoding
+### Encoding
+- Redundancy
+- Mapping of primers back to address space in software
+- Primer generation
 - Rotation based cipher
+- Segmentation (blocks) of information
+
+### Decoding
 - Error correction
+- Image processing
+- Fuzzy string matching of primers with variable lengths of DNA sequences
+- Reconstructing the file in software
 
 ### DNA as a Persistent Data Structure
-- Primer Generation
-- Reconstructing the file in software
-- Metadata stored in software
+- Generation of primers
+- Reconstructing the file with updates in software

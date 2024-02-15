@@ -16,7 +16,8 @@
     - [February](./wet-lab/notebook/february.md)
   - [Design](./wet-lab/design/index.md)
     - [Plasmid Design](./wet-lab/design/plasmid.md)
-    - [Experiment Design](./wet-lab/design/experiment.md)
+    - [ssDNA to dsDNA Experimental Design](./wet-lab/design/dsdna-experiment.md)
+    - [Solid phase DNA Synthesis Experimental Design](./wet-lab/design/dsdna-experiment.md)
   - [Engineering Success](./wet-lab/engineering/index.md)
   - [Parts](./wet-lab/parts/index.md)
   - [Results](./wet-lab/results/index.md)
@@ -30,12 +31,13 @@
 - [Overview](./dry-lab/index.md)
   - [Software](./dry-lab/software/index.md)
     - [GUI](./dry-lab/software/gui.md)
-    - [Encoding and Decoding](./dry-lab/software/encoding-decoding.md)
-    - [Block Based Semantics](./dry-lab/software/block.md)
-    - [DNA as Persistent Data Structure](./dry-lab/software/persistence.md)
-  - [Protein Modelling](./dry-lab/protein-modelling/index.md)
-  - [Math Modelling](./dry-lab/math-modelling/index.md)
-  - [Bioinformatics](./dry-lab/bioinformatics/index.md)
+    - [Encoding](./dry-lab/software/encoding-decoding.md)
+    - [Decoding](./dry-lab/software/block.md)
+  - [Modelling](./dry-lab/modelling/index.md)
+  - [Microfluidics](./dry-lab/microfluidics/index.md)
+  - [Individual Progress](./dry-lab/individual-prog/index.md)
+    - [Dry Lab Member Name]()
+
 
 # Human Practices
 

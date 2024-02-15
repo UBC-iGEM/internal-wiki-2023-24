@@ -2,6 +2,28 @@
 
 <!-- toc -->
 
+## How to use the internal wiki with Codespaces
+1. If you haven't already opened a Codespace, open a new Codespace and **do not** hit anything while the Codespace starts up. 
+2. Once the Codespace is done downloading all the packages required, run `mdbook serve` to start up a local version of the internal wiki. 
+3. Now follow the instructions for [adding changes to GitHub](#adding-changes-to-github)
+
+## Adding changes to GitHub
+1. Open up the internal wiki on Codespaces or your local development environment. 
+2. Before you add any changes, run `git pull`. This ensures that your local version of the internal wiki is updated with other people's changes. If you don't do this step you make end up with merge conflicts. If running `git pull` results in merge conflicts (it shouldn't if you're always running `git pull`), let Lucy or a wiki liaison know.
+3. Make a new branch `git branch [name-subteam-description]`. Then switch to that branch, `git checkout [name-subteam-description]`. Someone would run: 
+```git
+git branch lucy-drylab-software
+git checkout lucy-drylab-software
+```
+4. Now you can write your updates in! 
+5. When you are ready to publish your updates, you will need to save your files. In git, this is called making a commit. Git provides finer grain control, meaning you can choose which files to save in a project; most of the time you want to save all the files you have modified. Run `git add .`. This adds all modified and created files to the staging area. 
+6. Once you are satisfied with the files in the staging area, run `git commit -m "[message]"`. Replace `[message]` with a meaningful message related to your changes. 
+7. Finally, you can run `git push`. Make sure you are pushing to the UBC iGEM repo, if asked where to push, push to the repo with the link [https://github.com/UBC-iGEM/internal-wiki-2023-24]; you can push to your own fork, but please enable this [setting](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork). 
+8. Following the prompts on Codespaces or the GitHub website, make a PR. That's it! Leads and wiki liaisons will check your content and approve and merge your PR. 
+
+## How to use mdBook locally
+mdBook is an open source project developed by the Rust Foundation for documenting Rust packages. If you're running Windows, I recommend you get WSL. You can get started [here](https://rust-lang.github.io/mdBook/guide/installation.html). Let Lucy know if you have any issues.
+
 ## How to write Markdown
 
 Check out the [CommonMark quick reference](https://commonmark.org/help/) first. Much of this document is borrowed from the rustdoc book[^rust].
@@ -68,7 +90,7 @@ If you want to see all the Markdown features available to you, here is the [spec
 
 ## How to add new pages and subsections
 
-Open the [Internal Wiki](https://github.com/UBC-iGEM/internal-wiki-2023-24) in a Codespace. Follow the instructions [here](https://rust-lang.github.io/mdBook/format/summary.html) on how to add new pages and subsections. When are you creating new pages, please follow these file naming conventions. Any files that don't conform to these file naming conventions will not be accepted as documentation.
+Run `mdbook serve`, then follow the instructions [here](https://rust-lang.github.io/mdBook/format/summary.html) on how to add new pages and subsections. When are you creating new pages, please follow these file naming conventions. Any files that don't conform to these file naming conventions will not be accepted as documentation.
 
 1. Only punctuation that is allowed are dashes.  
 2. All lowercase. 

@@ -28,6 +28,22 @@ Thirdly, after you have ensured your subteam is contributing to the internal wik
 
 Finally, when we are writing the wiki for the iGEM Jamboree, you will have a greater hand in helping the leads design the wiki. You may also help assign other subteam members to writing and reading content.
 
+## How do I review writing? 
+### Reviewing wet lab writing
+These criteria are nonnegotiable: 
+1. Citations, in the proper format (APA)
+2. 
+
+
+
+### Reviewing dry lab writing
+These criteria are nonnegotiable: 
+1. Citations, in the proper format (APA)
+2. For anything code-based: a GitHub repo containing the code in question
+
+
+### Reviewing human practices writing
+
 ## Who do I ask for help?
 At anytime if you feel this role is overwhelming let the co-directors or Lucy know. We will probably have weekly asynchronous updates on Slack, with meetings if necessary.
 
