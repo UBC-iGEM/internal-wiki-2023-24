@@ -14,6 +14,9 @@
 ## Components
 
 ### Graphical User Interface
+- should be cross platform
+- development can start early
+- for iHP should have GUI ready early
 
 ### Encoding
 - Redundancy
