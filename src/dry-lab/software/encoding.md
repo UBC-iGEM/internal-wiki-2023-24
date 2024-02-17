@@ -51,7 +51,7 @@ This something not done in depth by iGEM teams. Redundancy in information theory
 
 ### Generate Primers:
 
-Primers will be generated through an genetic algorithm, and checked with various open source primer design tools[^genetic][^uoft][^tools][^benchling].
+Primers will be generated through an genetic algorithm, and checked with various open source primer design tools[^genetic] [^uoft] [^tools] [^benchling].
 
 Constraint design:
 
