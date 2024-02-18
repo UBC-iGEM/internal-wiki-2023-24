@@ -17,7 +17,7 @@
   - [Design](./wet-lab/design/index.md)
     - [Plasmid Design](./wet-lab/design/plasmid.md)
     - [ssDNA to dsDNA Experimental Design](./wet-lab/design/dsdna-experiment.md)
-    - [Solid phase DNA Synthesis Experimental Design](./wet-lab/design/dsdna-experiment.md)
+    - [Solid phase DNA Synthesis Experimental Design](./wet-lab/design/solidphase-experiment.md)
   - [Engineering Success](./wet-lab/engineering/index.md)
   - [Parts](./wet-lab/parts/index.md)
   - [Results](./wet-lab/results/index.md)
