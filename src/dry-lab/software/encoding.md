@@ -9,6 +9,9 @@ Consists of segmenting information into blocks, generating primers, mapping prim
 3. Primer generation and and storing primers.
 4. Generating sequences to be encoded.
 
+### challenges
+- we must adapt ECCs to shorter sequences and semi-specific synthesis
+
 ## Segmentation of data
 
 ## Redundancy
@@ -36,11 +39,11 @@ This something not done in depth by iGEM teams. Redundancy in information theory
 
 5. Checksums
    - has been done by another iGEM team[^edinburgh]
-   - tells us if an error has occured, but can't correct for it
+   - tells us if an error has occurred, but can't correct for it
+   - given rotation based cipher, we could generate probability of likehood between two bases
 
 ### DNA Specific ECCs
 
-- HEDGES: corrects for insertions, deletions and substitutions
 - Rectangular correction codes[^edinburgh]
 - Someone's PhD[^phd]
 - Binary Golay code[^golay]:in ternary (like ours)
