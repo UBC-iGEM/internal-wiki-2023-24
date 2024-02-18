@@ -1,1 +1,1 @@
-# Solid phase DNA syntehsis Experimental Design
+# ssDNA to dsDNA Experimental Design
