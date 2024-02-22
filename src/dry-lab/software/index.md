@@ -12,7 +12,8 @@
 
 ### Graphical User Interface
 ![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/eb19b67c-f1ce-4f16-87d2-1b7bf8b678a5)
-![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/394ce0b4-00ea-42ac-b18b-225e18e4365d)
+![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/c603085f-0d10-4c40-9951-c46bd351ffd1)
+
 - should be cross platform
 - development can start early
 - for iHP should have GUI ready early
