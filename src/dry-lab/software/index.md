@@ -27,7 +27,7 @@
 - Segmentation (blocks) of information
 
 ### Decoding
-![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/2057d0ea-8149-4a70-aade-e67907cffa95)
+![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/c4919d15-d2d8-45d5-9900-33c74b2ef0bd)
 - Error correction
 - Image processing
 - Fuzzy string matching of primers with variable lengths of DNA sequences
