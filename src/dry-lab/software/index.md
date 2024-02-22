@@ -1,8 +1,5 @@
 # Software
 
-![https://www.figma.com/file/yj2YY4MDO9O82lSYYSpzG8/Software-Workflow?type=design&node-id=0%3A1&mode=design&t=bkNAOenQtMMmRMPz-1](software-flow.png)
-
-
 ## GitHub Repos
 
 ## Resources
@@ -14,11 +11,14 @@
 ## Components
 
 ### Graphical User Interface
+![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/eb19b67c-f1ce-4f16-87d2-1b7bf8b678a5)
+![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/394ce0b4-00ea-42ac-b18b-225e18e4365d)
 - should be cross platform
 - development can start early
 - for iHP should have GUI ready early
 
 ### Encoding
+![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/66c18be2-670d-47ad-bfa2-50bf76096cc2)
 - Redundancy
 - Mapping of primers back to address space in software
 - Primer generation
@@ -26,6 +26,7 @@
 - Segmentation (blocks) of information
 
 ### Decoding
+![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/2057d0ea-8149-4a70-aade-e67907cffa95)
 - Error correction
 - Image processing
 - Fuzzy string matching of primers with variable lengths of DNA sequences
