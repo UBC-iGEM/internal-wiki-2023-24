@@ -2,6 +2,10 @@
 
 <!-- toc -->
 
+## How to use the internal wiki with Replit
+
+<iframe src="https://scribehow.com/embed/Accessing_and_Editing_UBC-iGEM_Wiki_Page__28CL9QzYTb6sJZu4gRdm9w" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+
 ## How to use the internal wiki with Codespaces
 1. If you haven't already opened a Codespace, open a new Codespace and **do not** hit anything while the Codespace starts up. 
 2. Once the Codespace is done downloading all the packages required, run `mdbook serve` to start up a local version of the internal wiki. 
