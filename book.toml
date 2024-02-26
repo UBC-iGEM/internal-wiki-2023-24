@@ -14,6 +14,7 @@ command = "mdbook-toc"
 renderer = ["html"]
 
 [output.html]
+additional-css = ["assets/custom.css"]
 mathjax-support = true
 
 [output.linkcheck]

@@ -1,5 +1,9 @@
 ## Encoding
-![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/2d9883b2-593e-4d84-8efc-7e1057d3f2b2)
+<div class="scroll">
+
+![encoding](encoding_dark.png)
+
+</div>
 
 Consists of segmenting information into blocks, generating primers, mapping primers back to address space and generating all the sequences to be encoded in wet lab.
 
