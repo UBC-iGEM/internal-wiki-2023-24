@@ -1,7 +1,8 @@
 ## Encoding
+
 <div class="scroll">
 
-![encoding](encoding_dark.png)
+![encoding](./images/encoding_dark.png)
 
 </div>
 
@@ -15,6 +16,7 @@ Consists of segmenting information into blocks, generating primers, mapping prim
 4. Generating sequences to be encoded.
 
 ### challenges
+
 - we must adapt ECCs to shorter sequences and semi-specific synthesis
 
 ## Segmentation of data
@@ -126,32 +128,21 @@ print([encode(start, ternary) for start in ["A", "T", "G", "C"]])
 ```
 
 ### Storing primers
+
 On a computer, a tree like data structure will be maintained that maps primers to files. Theoretically, only the primers and some metadata is to be stored on the computer, and all the information is stored on the DNA molecules. We will have to quantify our information density.
 
---- 
+---
 
 [^genetic]: Wu, J. S., Lee, C., Wu, C. C., & Shiue, Y. L. (2004). Primer design using genetic algorithm. Bioinformatics (Oxford, England), 20(11), 1710–1717. https://doi.org/10.1093/bioinformatics/bth147
-
 [^aachen]: Aachen 2021. (2021). Team:aachen/results. https://2021.igem.org/Team:Aachen/Results#CyclicSynthesis
-
 [^redundancy]: Redundancy. (2020, March 21). Wikipedia. Retrieved 21:56, February 15, 2024 from https://simple.wikipedia.org/w/index.php?title=Redundancy&oldid=6874959.
-
 [^github]: https://github.com/igemsoftware2021/Aachen_dna-utils
-
 [^archival]: James Bornholt, Randolph Lopez, Douglas M. Carmean, Luis Ceze, Georg Seelig, and Karin Strauss. 2016. A DNA-Based Archival Storage System. SIGPLAN Not. 51, 4 (April 2016), 637–649. https://doi.org/10.1145/2954679.2872397
-
 [^edinburgh]: [https://2016.igem.org/Team:Edinburgh_UG/Error_Correction](https://2016.igem.org/Team:Edinburgh_UG/Error_Correction)
-
 [^golay]: [https://arxiv.org/abs/1501.07133encodes](https://arxiv.org/abs/1501.07133encodes)
-
 [^phd]: [https://thesis.library.caltech.edu/14951/1/Caltech_Thesis_Jin%20Sima.pdf](https://thesis.library.caltech.edu/14951/1/Caltech_Thesis_Jin%20Sima.pdf)
-
 [^block]: Puru Sharma, Cheng-Kai Lim, Dehui Lin, Yash Pote, and Djordje Jevdjic. 2023. Efficiently Enabling Block Semantics and Data Updates in DNA Storage. In Proceedings of the 56th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '23). Association for Computing Machinery, New York, NY, USA, 555–568. https://doi.org/10.1145/3613424.3614308
-
 [^uoft]: [https://tspace.library.utoronto.ca/retrieve/2354/jb03019.pdf](https://tspace.library.utoronto.ca/retrieve/2354/jb03019.pdf)
-
 [^primer]: [https://www.addgene.org/protocols/primer-design/](https://www.addgene.org/protocols/primer-design/)
-
 [^tools]: [https://blog.addgene.org/free-online-molecular-biology-tools](https://blog.addgene.org/free-online-molecular-biology-tools)
-
 [^benchling]: [https://www.benchling.com/in-silco-primer-design-tools#chapter5](https://www.benchling.com/in-silco-primer-design-tools#chapter5)
