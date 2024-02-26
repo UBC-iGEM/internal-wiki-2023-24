@@ -4,6 +4,11 @@
 }
 
 .scroll img {
-  height 40vw;
+  height: 40vw;
+  max-width: none;
+}
+
+.scroll p img {
+  height: 40vw;
   max-width: none;
 }
