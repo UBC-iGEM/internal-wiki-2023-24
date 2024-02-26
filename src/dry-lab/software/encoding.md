@@ -84,6 +84,7 @@ Constraint design:
 ## Generating sequences to be encoded
 
 ### Rotation Based Cipher[^archival]
+![rotation](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/bd76a401-2cd4-411a-8425-0c21642684ee)
 
 ```python
 huffman_codes = {
