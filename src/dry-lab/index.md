@@ -70,6 +70,10 @@
 ### Silver
 
 - [ ] Engineering Success
+  - [ ] Go through at least one iteration of the engineering design cycle:
+    - [ ] Hardware: Design → Build → Test → Learn
+    - [ ] Software: Design → Build → Test → Learn
+    - [ ] Modelling: Design → Build → Test → Learn
 - [ ] [Human Practices](../human-practices/index.md)
 
 ### Gold
@@ -78,3 +82,4 @@
 - [ ] Special Award Nomination
   - [ ] Best Software Tool
   - [ ] Best Hardware
+  - [ ] Best Model
