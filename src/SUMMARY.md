@@ -1,4 +1,4 @@
-[Project Description](./description.md)
+[Project Description](./index.md)
 
 - [Attributions](./attributions.md)
 
@@ -17,8 +17,6 @@
   - [Results](./wet-lab/results/index.md)
   - [Protocols](./wet-lab/protocols/index.md)
   - [Safety](./wet-lab/safety/index.md)
-  - [Individual Progress](./wet-lab/individual-prog/index.md)
-    - [Wet Lab Member Name]()
 
 # Dry Lab
 
@@ -31,9 +29,6 @@
     - [Persistence]()
   - [Modelling](./dry-lab/modelling/index.md)
   - [Microfluidics](./dry-lab/microfluidics/index.md)
-  - [Individual Progress](./dry-lab/individual-prog/index.md)
-    - [Dry Lab Member Name]()
-
 
 # Human Practices
 
@@ -44,8 +39,6 @@
   - [Communication](./human-practices/communication/index.md)
   - [Interviews](./human-practices/interviews/index.md)
   - [Event Recaps](./human-practices/events/index.md)
-  - [Individual Progress](./human-practices/individual-prog/index.md)
-    - [HP Member Name]()
 
 # Resources
 
@@ -54,7 +47,7 @@
 
 # For Internal Subteam Members
 
-- [Getting Started (For internal team members)](./index.md)
-  - [How to Document](./documentation/index.md)
+- [Getting Started (For internal team members)](./documentation/index.md)
+  - [How to Document](./documentation/how.md)
     - [For leads](./documentation/lead.md)
     - [For wiki liaisons](./documentation/liaison.md)
