@@ -1,11 +1,4 @@
-[Welcome](./index.md)
-
-- [How to Document](./documentation/index.md)
-
-  - [For leads](./documentation/lead.md)
-  - [For wiki liaisons](./documentation/liaison.md)
-
-- [Project Description](./description.md)
+[Project Description](./description.md)
 
 - [Attributions](./attributions.md)
 
@@ -56,7 +49,12 @@
 
 # Resources
 
-- [iGEM](./resources/igem.md)
-- [Synthetic Biology](./resources/synbio.md)
-- [Modelling](./resources/modelling.md)
-- [Bioinformatics](./resources/bioinformatics.md)
+- [Project Related Resources](./resources/project-related.md)
+- [General Resources](./resources/igem.md)
+
+# For Internal Subteam Members
+
+- [Getting Started (For internal team members)](./index.md)
+  - [How to Document](./documentation/index.md)
+    - [For leads](./documentation/lead.md)
+    - [For wiki liaisons](./documentation/liaison.md)
