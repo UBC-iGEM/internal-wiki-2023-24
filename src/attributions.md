@@ -2,9 +2,10 @@
 
 iGEM requires everyone who contributed to the project to fill out the attributions form. For members on the team, leads and co-directors will be checking the Master Tracker to verify that your attributions are honest. Wording is important; don't say more than what you actually did.
 
+<!-- toc -->
 ## How to fill out attributions
-
 Go [here](https://competition.igem.org/deliverables/project-attribution) to figure out what to put in each column.
+
 
 ## Internal Contributions
 
@@ -51,8 +52,23 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Charlotte Lee   | Student | Conceptualization                    | (1) Conceptualization - brainstorming and developing ideas for the project                                                                                            |
 | Claire Pinckney | Student | Conceptualization                    | (1) Conceptualization - Ideated HP tasks for the main project.                                                                                                        |
 | Jessica Xin     | Student | Conceptualization, Public Engagement | (1) Conceptualization - helped brainstorm ideas for project; (2) Public Engagement - created hands on synbio acitivites for high school students;                     |
-| Aoniya Colynn   | Student | Conceptualization, Visualization     | (1) Conceptualization - Brainstorming. (2) Visualization - Social media graphics.                                                                                     |
+| Aoniya Colynn   | Student | Conceptualization, Visualization     | (1) Conceptualization - Brainstorming; (2) Visualization - Social media graphics.                                                                                     |
 | Karen Lin       | Student | Visualization                        | (1) Visualization - created logo for simply synbio                                                                                                                    |
+
+### Internal Advisors
+| Name                  | Role | General Tasks     | Specific Tasks                                                                          |
+|-----------------------|------|-------------------|-----------------------------------------------------------------------------------------|
+| Brian Guo             |      | Conceptualization | Gave feedback during project pitch brainstorming.                                       |
+| Janella Schwab        |      | Other             | Helped with getting us in contact with Eric Ma, one of the founding members of UBC iGEM |
+| Laura Gonzalez Campos |      | Conceptualization | Gave feedback during project pitch brainstorming.                                       |
+| Madina Kagieva        |      | Conceptualization | Gave feedback during project pitch brainstorming.                                       |
+| Nikita Telkar         |      | Conceptualization | Gave feedback during project pitch brainstorming.                                       |
+| Rodrigo Vallejos      |      | Conceptualization | Gave feedback during project pitch brainstorming.                                       |
+| Anjali Parthasarathy  |      | Safety            | Trained wet lab leads and codirectors.                                                  |
+| Brenda Ma             |      | Conceptualization | Gave feedback during project pitch brainstorming.                                       |
+| Edward Li             |      | Conceptualization | Gave feedback during project pitch brainstorming.                                       |
+| Parneet Sekhon        |      |                   |                                                                                         |
+| Umar Ali              |      |                   |                                                                                         |
 
 ## External Contributions
 
@@ -66,18 +82,8 @@ As we start reaching out to external contacts who are willing to help us, once t
 
 The earlier we record down an external contact the easier it is to track so we can add them to our competition wiki.
 
-| Name                  | Institution Type | Relationship To Team | Tasks       | Specific Tasks                                                                          |
-|-----------------------|------------------|----------------------|-------------|-----------------------------------------------------------------------------------------|
-| Brian Guo             |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
-| Janella Schwab        |                  |                      |             | Helped with getting us in contact with Eric Ma, one of the founding members of UBC iGEM |
-| Laura Gonzalez Campos |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
-| Madina Kagieva        |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
-| Nikita Telkar         |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
-| Rodrigo Vallejos      |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
-| Anjali Parthasarathy  |                  |                      |             | Trained wet lab leads and codirectors.                                                  |
-| Brenda Ma             |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
-| Edward Li             |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
-| Parneet Sekhon        |                  |                      |             |                                                                                         |
-| Umar Ali              |                  |                      |             |                                                                                         |
-| rmehri01 (Lucy)       | Other            | External Advisor     | Wiki Coding | Setting up Codespaces for team to develop without needing to set up a local environment |
-| Eric Ma               |                  |                      |             | Helping us pay for hosting of our domain.                                                                                        |
+| Name                      | Institution Type | Relationship To Team | Tasks             | Specific Tasks                                                                                         |
+|---------------------------|------------------|----------------------|-------------------|--------------------------------------------------------------------------------------------------------|
+| rmehri01 (Lucy)           | Other            | External Advisor     | Wiki Coding       | Setting up Codespaces for team to develop without needing to set up a local environment                |
+| Eric Ma                   | Industry         | Sponsor              |                   | Helping us pay for hosting of our domain, and gave general advice for managing a successful iGEM team. |
+| Dr. Albert Folch (Piyush) | Academic         | External Advisor     | Conceptualization | Helped dry lab with initial planning related to do SPS with microfluidics                              |
