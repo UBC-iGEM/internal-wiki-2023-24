@@ -1,6 +1,6 @@
 # Project Related Resources
 
-This is where leads and other subteam members can add ([or request to](https://github.com/UBC-iGEM/internal-wiki-2023-24/pulls)) notes and resources relating specifically to our project.
+This is where leads and other subteam members can add ([or request to](https://github.com/UBC-iGEM/internal-wiki-2023-24/issues/new?assignees=&labels=&projects=&template=add-a-project-related-resource.md&title=Add+resource%3A+%5Btopic%5D) notes and resources relating specifically to our project.
 
 <!-- toc -->
 
