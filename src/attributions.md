@@ -56,18 +56,28 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 
 ## External Contributions
 
-Put in brackets who is connected to the external contributor if applicable
+As we start reaching out to external contacts who are willing to help us, once they have given us advice, please either
+
+1. make an [issue](https://github.com/UBC-iGEM/internal-wiki-2023-24/issues/new?assignees=&labels=&projects=&template=add-a-project-related-resource.md&title=Add+resource%3A+%5Btopic%5D) to track their name down in our internal wiki so Lucy or a wiki liaison can add them to the attributions page; you can make another issue to add updates to the external contact throughout the season
+
+<iframe src="https://scribehow.com/embed/Add_External_Advisor_to_Internal_Wiki__eiTNhbDQSK6C6WDG7nXoqg" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+
+2. or directly edit the page yourself with your external contact and update that entry throughout the season.
+
+The earlier we record down an external contact the easier it is to track so we can add them to our competition wiki.
 
 | Name                  | Institution Type | Relationship To Team | Tasks       | Specific Tasks                                                                          |
-| --------------------- | ---------------- | -------------------- | ----------- | --------------------------------------------------------------------------------------- |
-| Brian Guo             |                  |                      |             |                                                                                         |
-| Laura Gonzalez Campos |                  |                      |             |                                                                                         |
-| Madina Kagieva        |                  |                      |             |                                                                                         |
-| Nikita Telkar         |                  |                      |             |                                                                                         |
-| Rodrigo Vallejos      |                  |                      |             |                                                                                         |
+|-----------------------|------------------|----------------------|-------------|-----------------------------------------------------------------------------------------|
+| Brian Guo             |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
+| Janella Schwab        |                  |                      |             | Helped with getting us in contact with Eric Ma, one of the founding members of UBC iGEM |
+| Laura Gonzalez Campos |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
+| Madina Kagieva        |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
+| Nikita Telkar         |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
+| Rodrigo Vallejos      |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
 | Anjali Parthasarathy  |                  |                      |             | Trained wet lab leads and codirectors.                                                  |
 | Brenda Ma             |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
 | Edward Li             |                  |                      |             | Gave feedback during project pitch brainstorming.                                       |
 | Parneet Sekhon        |                  |                      |             |                                                                                         |
 | Umar Ali              |                  |                      |             |                                                                                         |
 | rmehri01 (Lucy)       | Other            | External Advisor     | Wiki Coding | Setting up Codespaces for team to develop without needing to set up a local environment |
+| Eric Ma               |                  |                      |             | Helping us pay for hosting of our domain.                                                                                        |
