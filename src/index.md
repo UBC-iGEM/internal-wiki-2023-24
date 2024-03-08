@@ -1,3 +1,3 @@
-# Project Description: Improving DNA Storage with Synthetic Biology
+# [Name]: Improving DNA Storage with Synthetic Biology
 
 ## To be completed

@@ -8,7 +8,6 @@
 
 </div>
 
-
 ## Decoding: 
 Algorithm design:
 1. Sequence the DNA bases (Illumina/Nanopore)
