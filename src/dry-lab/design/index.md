@@ -1,6 +1,11 @@
 # Design
 
-## Hardware
+<!-- toc -->
+
+## Why these projects?
+
+## Projects Overview
+### Hardware
 
 | Component                         | Priority | Objective                                                                                                                     | Assigned to    | Report to    |
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------ |
@@ -10,7 +15,7 @@
 | Microfluidic Chip (DNA Capture)   | 2        | TBD                                                                                                                           | Samuel, Piyush | Tina, Piyush |
 | Bioreactor                        | 2        | Create a Bioreactor to allow Wet Lab to Culture E Coli for their experiments                                                  | Samuel, Piyush | Tina, Piyush |
 
-## Software
+### Software
 
 | Component         | Priority | Objective                                                                                                                                                                                                                       | Assigned to                             | Report to |
 | ----------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | --------- |
@@ -20,7 +25,7 @@
 | Error Correction  | 1        | Create an error correction algorithm to work with semi-specific encoding, short nucleotide sequences and high rate of deletion errors.                                                                                          | Riya, Lucy                              | Lucy      |
 | GUI               | 3        | Design a user friendly interface that can be used by our iHP interviewees to try out our DNA storage software, and also visually display our file system                                                                        | All software + other dry lab if desired | Lucy      |
 
-## Modelling
+### Modelling
 
 | Component             | Priority | Objective                                                                                                                                                                                                                                              | Assigned to  | Report to     |
 | --------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------- |
