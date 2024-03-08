@@ -1,14 +1,8 @@
 # Software
 
-## GitHub Repos
+<!-- toc -->
 
-## Resources
-- https://docs.rs/acid-store/latest/acid_store/
-- https://github.com/dna-storage/dnastorage
-- https://github.com/shubhamchandak94/nanopore_dna_storage
-- https://github.com/HaolingZHANG
-
-## Components
+## [Our Repository](https://github.com/UBC-iGEM)
 
 ### Graphical User Interface
 ![encoding_user_dark](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/4646bff2-fbe7-48d4-b55f-c272ec54545e)
@@ -34,7 +28,7 @@
 - Reconstructing the file in software
 
 ## ChaosDNA
-- fault simulation
+- fault simulation of DNA sequences
 
 ### DNA as a Persistent Data Structure
 - Generation of primers

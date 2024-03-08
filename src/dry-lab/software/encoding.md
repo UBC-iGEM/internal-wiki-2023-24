@@ -1,4 +1,6 @@
-## Encoding
+## Encoding and Error Correction
+
+<!-- toc -->
 
 <div class="scroll">
 
@@ -6,13 +8,14 @@
 
 </div>
 
+
 Consists of segmenting information into blocks, generating primers, mapping primers back to address space and generating all the sequences to be encoded in wet lab.
 
 ## Key points
 
 1. Segmentation of data: by breaking an input into smaller blocks, we can control how large or how small a strand is to be synthesized. Shorter strands appear to have a smaller rate of error[^aachen].
 2. Redundancy: a message is encoded and transmitted using more bits that are necessary to encode the message; a piece of information is redundant if it can be removed without loss of information [^redundancy]. This has either not been explored in depth by other iGEM teams[^github].
-3. Primer generation and and storing primers.
+3. Primer generation and storing primers.
 4. Generating sequences to be encoded.
 
 ### challenges
@@ -135,15 +138,27 @@ On a computer, a tree like data structure will be maintained that maps primers t
 ---
 
 [^genetic]: Wu, J. S., Lee, C., Wu, C. C., & Shiue, Y. L. (2004). Primer design using genetic algorithm. Bioinformatics (Oxford, England), 20(11), 1710–1717. https://doi.org/10.1093/bioinformatics/bth147
+
 [^aachen]: Aachen 2021. (2021). Team:aachen/results. https://2021.igem.org/Team:Aachen/Results#CyclicSynthesis
+
 [^redundancy]: Redundancy. (2020, March 21). Wikipedia. Retrieved 21:56, February 15, 2024 from https://simple.wikipedia.org/w/index.php?title=Redundancy&oldid=6874959.
+
 [^github]: https://github.com/igemsoftware2021/Aachen_dna-utils
+
 [^archival]: James Bornholt, Randolph Lopez, Douglas M. Carmean, Luis Ceze, Georg Seelig, and Karin Strauss. 2016. A DNA-Based Archival Storage System. SIGPLAN Not. 51, 4 (April 2016), 637–649. https://doi.org/10.1145/2954679.2872397
+
 [^edinburgh]: [https://2016.igem.org/Team:Edinburgh_UG/Error_Correction](https://2016.igem.org/Team:Edinburgh_UG/Error_Correction)
+
 [^golay]: [https://arxiv.org/abs/1501.07133encodes](https://arxiv.org/abs/1501.07133encodes)
+
 [^phd]: [https://thesis.library.caltech.edu/14951/1/Caltech_Thesis_Jin%20Sima.pdf](https://thesis.library.caltech.edu/14951/1/Caltech_Thesis_Jin%20Sima.pdf)
+
 [^block]: Puru Sharma, Cheng-Kai Lim, Dehui Lin, Yash Pote, and Djordje Jevdjic. 2023. Efficiently Enabling Block Semantics and Data Updates in DNA Storage. In Proceedings of the 56th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO '23). Association for Computing Machinery, New York, NY, USA, 555–568. https://doi.org/10.1145/3613424.3614308
+
 [^uoft]: [https://tspace.library.utoronto.ca/retrieve/2354/jb03019.pdf](https://tspace.library.utoronto.ca/retrieve/2354/jb03019.pdf)
+
 [^primer]: [https://www.addgene.org/protocols/primer-design/](https://www.addgene.org/protocols/primer-design/)
+
 [^tools]: [https://blog.addgene.org/free-online-molecular-biology-tools](https://blog.addgene.org/free-online-molecular-biology-tools)
+
 [^benchling]: [https://www.benchling.com/in-silco-primer-design-tools#chapter5](https://www.benchling.com/in-silco-primer-design-tools#chapter5)

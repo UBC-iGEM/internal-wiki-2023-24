@@ -6,12 +6,11 @@
 
 - [Overview](./wet-lab/index.md)
   - [Notebook](./wet-lab/notebook/index.md)
-    - [February](./wet-lab/notebook/february.md)
+    - [March](./wet-lab/notebook/march.md)
   - [Design](./wet-lab/design/index.md)
-    - [Plasmid Design](./wet-lab/design/plasmid.md)
+    - [Solid phase DNA Synthesis](./wet-lab/design/solidphase-experiment.md)
+    - [ssDNA to dsDNA](./wet-lab/design/dsdna-experiment.md)
     - [Thermostable TdT](./wet-lab/design/tdt.md)
-    - [ssDNA to dsDNA Experimental Design](./wet-lab/design/dsdna-experiment.md)
-    - [Solid phase DNA Synthesis Experimental Design](./wet-lab/design/solidphase-experiment.md)
   - [Engineering Success](./wet-lab/engineering/index.md)
   - [Parts](./wet-lab/parts/index.md)
   - [Results](./wet-lab/results/index.md)
@@ -21,24 +20,28 @@
 # Dry Lab
 
 - [Overview](./dry-lab/index.md)
+- [Design](./dry-lab/design/index.md)
   - [Software](./dry-lab/software/index.md)
-    - [GUI](./dry-lab/software/gui.md)
-    - [Encoding](./dry-lab/software/encoding.md)
-    - [ECC](./dry-lab/software/ecc.md)
+    - [Encoding and Error Correction](./dry-lab/software/encoding.md)
     - [Decoding](./dry-lab/software/decoding.md)
-    - [Persistence]()
   - [Modelling](./dry-lab/modelling/index.md)
-  - [Microfluidics](./dry-lab/microfluidics/index.md)
+    - [Enzyme Kinetics](./dry-lab/modelling/enzyme-kinetics.md)
+    - [Bioreactor Optmization](./dry-lab/modelling/bioreactor.md)
+  - [Hardware](./dry-lab/hardware/index.md)
+    - [Microfluidics](./dry-lab/hardware/microfluidics/index.md)
+    - [Bioreactor](./dry-lab/hardware/bioreactor/index.md)
+- [Engineering Success](./dry-lab/engineering/index.md)
+
 
 # Human Practices
 
 - [Overview](./human-practices/index.md)
-  - [Education](./human-practices/education/index.md)
-  - [Integrated Human Practices](./human-practices/ihp/index.md)
-  - [Inclusivity](./human-practices/inclusivity/index.md)
   - [Communication](./human-practices/communication/index.md)
-  - [Interviews](./human-practices/interviews/index.md)
+  - [Education](./human-practices/education/index.md)
+  - [Inclusivity](./human-practices/inclusivity/index.md)
+  - [Sustainability](./human-practices/sustainability/index.md)
   - [Event Recaps](./human-practices/events/index.md)
+  - [Integrated Human Practices](./human-practices/ihp/index.md)
 
 # Resources
 

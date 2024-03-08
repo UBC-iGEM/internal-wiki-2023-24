@@ -1,10 +1,13 @@
 # Decoding
 
+<!-- toc -->
+
 <div class="scroll">
 
 ![decoding](./images/decoding_dark.png)
 
 </div>
+
 
 ## Decoding: 
 Algorithm design:

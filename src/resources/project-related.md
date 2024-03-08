@@ -12,6 +12,9 @@ This is where leads and other subteam members can add ([or request to](https://g
 ![Step 3](./images/sps/sps3.png)
 ![Step 4](./images/sps/sps4.png)
 
+### Training Resources
+- [Self Learning Material](https://docs.google.com/document/d/11GH5kaz-moZp-oe0COQgQ_ZfmvTHUrH4Ee74s8IFe0I/edit?usp=sharing)
+
 ## Dry Lab
 
 ### Moore's Law

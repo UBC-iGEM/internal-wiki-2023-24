@@ -16,6 +16,7 @@ renderer = ["html"]
 [output.html]
 additional-css = ["assets/custom.css"]
 mathjax-support = true
+git-repository-url = "https://github.com/UBC-iGEM/internal-wiki-2023-24"
 
 [output.linkcheck]
 # follow-web-links = true
