@@ -17,7 +17,7 @@ Wiki liaisons are expected to have a greater understanding of **all** subteam wo
 
 ## What is a wiki liaison?
 
-Generally, a wiki liaison is a subteam member who is not a lead that is helps ensure the work of **other** subteams are well integrated into with **their own** subteam's work. This means the wiki liaison helps the wiki lead enforce standards like the internal wiki so that we can meet the three goals listed above. Additionally, wiki liaisons will make sure all information that could contribute to iGEM requirements are being documented. They will also have a greater hand in helping design, edit and complete the wiki for the iGEM Jamboree.
+Generally, a wiki liaison is a subteam member who is not a lead that is helps ensure the work of **other** subteams are well integrated into with **their own** subteam's work. This means the wiki liaison helps the wiki lead enforce standards like the internal wiki so that we can meet the three goals listed above. Additionally, wiki liaisons will make sure all information that could contribute to iGEM requirements are being documented, by being proactive in subteam meetings and notifying subteam members to document their findings. They will also have a greater hand in helping design, edit and complete the wiki for the iGEM Jamboree.
 
 ## What are my tasks?
 
@@ -25,27 +25,41 @@ To have subteam transparency and integration, you will help the wiki lead ensure
 
 Secondly, after each subteam uploads content to the internal wiki, wiki liaisons are responsible for reading other team's content on the internal wiki. Generally, you are trying to form an overall sense of the goals, directions and motivations of the other subteams. This will help you for the third task.
 
-Thirdly, after you have ensured your subteam is contributing to the internal wiki, and have an understanding of what other subteams are doing, you will be responsible for critically analyzing the work of other subteams. For instance, if you are the dry lab liaison, you will have read over the wet lab and HP pages. If the wet lab design pages are hard to understand or missing information, you will create a GitHub issue stating what is missing and why this information is important, and Lucy will alert the appropriate subteam members to add more information. If human practices has described a computational concept incorrectly, or you can enhance the educational material, similarly, make an issue and complete the previously listed steps. The point of all this work is to have all our subteams be cohesive and integrated. You are also encouraged to attend other subteam specific meetings, but only if you have the time!
+Thirdly, after you have ensured your subteam is contributing to the internal wiki, and have an understanding of what other subteams are doing, you will be responsible for critically analyzing the work of other subteams. For instance, if you are the dry lab liaison, you will have read over the wet lab and HP pages. If the wet lab design pages are hard to understand or missing information, you will create a GitHub issue stating what is missing and why this information is important, and Lucy will alert the appropriate subteam members to add more information. If human practices has described a computational concept incorrectly, or you can enhance the educational material, similarly, make an issue and complete the previously listed steps. You can also make a PR with edits yourself. The point of all this work is to have all our subteams be cohesive and integrated. You are also encouraged to attend other subteam specific meetings, but only if you have the time!
 
 Finally, when we are writing the wiki for the iGEM Jamboree, you will have a greater hand in helping the leads design the wiki. You may also help assign other subteam members to writing and reading content.
 
 ## How do I review writing?
+
+For all pages, make sure they are up to date. It's very easy for documentation to fall out of date. If you notice something is no longer correct, alert the appropriate subteam to make changes!
+
+Please also read through iGEM documentation before reviewing pages, so you know what you should be looking for.
 
 ### Reviewing wet lab writing
 
 These criteria are nonnegotiable:
 
 1. Citations, in the proper format (APA)
-2.
+2. Related to iGEM requirements
+3. Sources for information that isn't general knowledge (this is subjective, ask a lead if you need clarification)
+4. Diagrams for confusing concepts
 
 ### Reviewing dry lab writing
 
 These criteria are nonnegotiable:
 
 1. Citations, in the proper format (APA)
-2. For anything code-based: a GitHub repo containing the code in question
+2. Related to iGEM requirements
+3. For anything code-based: a GitHub repo containing the code in question
+4. Diagrams for confusing concepts
+5. Sources for information that isn't general knowledge (this is subjective, ask a lead if you need clarification)
 
 ### Reviewing human practices writing
+1. Citations, in the proper format (APA)
+2. Related to iGEM requirements
+
+## Working with GitHub
+You will be approving PRs, making issues and sometimes making your own PRs. If you have any questions about this let Lucy now.
 
 ## Who do I ask for help?
 
