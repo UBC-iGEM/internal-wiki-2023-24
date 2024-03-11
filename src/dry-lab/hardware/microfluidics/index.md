@@ -1,9 +1,9 @@
 # Microfluidics
 
 ## Overview
-Microfluidics is a technology that involves the precise manipulation of fluids at the microscale, often within channels of tens to hundreds of micrometers in size. This technology is particularly significant in biomedical research and diagnostics due to its ability to handle small volumes of fluids with high precision and control, leading to reduced reagent use and faster analysis times [^1]. 
+Microfluidics is a technology that involves the precise manipulation of fluids at the microscale, often within channels of tens to hundreds of micrometers in size. This technology is particularly significant in biomedical research and diagnostics due to its ability to handle small volumes of fluids with high precision and control, leading to reduced reagent use and faster analysis times [@origins_microfluidics]. 
 
-In our DNA synthesis project, microfluidics can revolutionize the process by enabling the rapid and efficient assembly of DNA sequences by facilitating the precise delivery and mixing of nucleotides in controlled conditions. This allows for the synthesis of long strands of DNA with high accuracy in a platform that can support high-throughput synthesis through parallel production of multiple DNA sequences [^2].
+In our DNA synthesis project, microfluidics can revolutionize the process by enabling the rapid and efficient assembly of DNA sequences by facilitating the precise delivery and mixing of nucleotides in controlled conditions. This allows for the synthesis of long strands of DNA with high accuracy in a platform that can support high-throughput synthesis through parallel production of multiple DNA sequences [@outlook_microfludics].
 
 ## Context and Scope
 
@@ -64,9 +64,3 @@ For microfluidic channels, we would need an additional step of flow simulation o
 - Project 1 should be complete by Early June. 
 - Project 2 should be complete by end of July.
 - Project 3 should be complete by end of August. 
-
----
-
-[^1]: Whitesides GM. The origins and the future of microfluidics. Nature. 2006;442(7101):368-373. doi:10.1038/nature05058.
-
-[^2]: Battat S, Weitz DA, Whitesides GM. An outlook on microfluidics: the promise and the challenge. Lab Chip. 2022;22(3):530-536. doi:10.1039/D1LC00731A.
