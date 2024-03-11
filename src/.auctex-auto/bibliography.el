@@ -14,6 +14,10 @@
     "rbarcklay2020"
     "wikipediautf"
     "redundancy2020"
-    "howclosedna"))
+    "howclosedna"
+    "lee_2020_photondirected"
+    "_2021_teamaachenresults"
+    "press_2020_hedges"
+    "hanna_2024_short"))
  '(or :bibtex :latex))
 
