@@ -72,7 +72,7 @@ jobs:
 
   # Deployment job
   deploy:
-    if: GITHUB_REF_NAME == 'main'
+    if: github.ref == 'main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
