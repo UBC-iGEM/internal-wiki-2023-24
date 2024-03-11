@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt -y install graphviz
-sudo apt-get install pandoc
+sudo apt-get -y install pandoc
 
 cargo install mdbook-linkcheck
 cargo install mdbook-toc
