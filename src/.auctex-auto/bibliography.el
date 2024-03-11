@@ -18,6 +18,16 @@
     "lee_2020_photondirected"
     "_2021_teamaachenresults"
     "press_2020_hedges"
-    "hanna_2024_short"))
+    "hanna_2024_short"
+    "a2021_analyzing"
+    "a2021_sanger"
+    "next"
+    "cheng_2023_methods"
+    "sanger"
+    "ngs"
+    "paszkiewicz_2010_de"
+    "wikipediacontributors_2019_approximate"
+    "silva_2022_what"
+    "emerging"))
  '(or :bibtex :latex))
 
