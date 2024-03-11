@@ -13,9 +13,6 @@ Consists of segmenting information into blocks, generating primers, mapping prim
 
 ## Key points
 
-
-Paragraph contents with an inline [@clines1974evidence] reference.
-
 1. Segmentation of data: by breaking an input into smaller blocks, we can control how large or how small a strand is to be synthesized. Shorter strands appear to have a smaller rate of error[^aachen].
 2. Redundancy: a message is encoded and transmitted using more bits that are necessary to encode the message; a piece of information is redundant if it can be removed without loss of information [^redundancy]. This has either not been explored in depth by other iGEM teams[^github].
 3. Primer generation and storing primers.
