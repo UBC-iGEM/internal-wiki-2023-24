@@ -42,11 +42,7 @@ We use a hash function to determine the next base [^hedges]. This hash function 
 \\[ K_i = f(currpos, prebits) \\]
 \\[ C = (K_i + b_i)mod3 \\]
 
-We mod3 to get the next base, where mod3 returns the remainder after dividing by 3, so we still use the rotation based cipher.
-
-![]()
-    
-For each bit to encode, redundancy is baked into the hash function output because it takes as input the previous encoded bits.
+We mod3 to get the next base, where mod3 returns the remainder after dividing by 3, so we still use the rotation based cipher. For each bit to encode, redundancy is baked into the hash function output because it takes as input the previous encoded bits.
 
 The type of metadata we should collect includes, but is not limited to: the number of base transitions, checksum, primers, length of encoded base sequence and more.
 
@@ -71,10 +67,8 @@ However, we have not considered if D<sub>i</sub> is a deletion or insertion. If 
 
 When we backtrack, we then go down another branch where we can treat D<sub>i</sub> as an insertion (by deleting it and trying to decode again) or a deletion, (by inserting all 4 bases).
 
-![]()
-
 ## Diagram
-![]()
+![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/c7a95aaa-19b3-4051-b1f2-f65baedf420a)
 
 ## Current solutions
 For more on these papers check out 
