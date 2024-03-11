@@ -2,7 +2,7 @@
  "bibliography"
  (lambda ()
    (LaTeX-add-bibitems
-    "clines1974evidence"
-    "test"))
+    "bioprocess"
+    "bioreactors_synbio"))
  '(or :bibtex :latex))
 
