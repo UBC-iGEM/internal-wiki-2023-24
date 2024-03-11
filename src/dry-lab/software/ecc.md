@@ -1,5 +1,6 @@
 # Error Correction
-Lucy, Riya
+
+*Contribtions*: Lucy, Riya
 
 <!-- toc -->
 

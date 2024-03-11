@@ -1,14 +1,7 @@
 ## Primer Generation and Encoding
 
-*Contributions*: Lucy, Riya, Sebastian
 
 <!-- toc -->
-
-<div class="scroll">
-
-![encoding](./images/encoding_dark.png)
-
-</div>
 
 ## Primer Generation
 
@@ -58,6 +51,14 @@ We can also verify by their use in wet lab, however this may not be feasible giv
 On a computer, a tree like data structure will be maintained that maps primers to files. Theoretically, only the primers and some metadata is to be stored on the computer, and all the information is stored on the DNA molecules. We will have to quantify our information density.
 
 ## Encoding
+
+*Contributions*: Lucy, Riya, Sebastian
+
+<div class="scroll">
+
+![encoding](./images/encoding_dark.png)
+
+</div>
 
 ### Overview
 Based on a user’s file, we must convert that file to a collection of approximately sized nucleotide sequences for synthesis by wet lab. 
