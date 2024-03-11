@@ -13,6 +13,9 @@ output-to-file = false # defaults to false, change to true to create SVG files i
 command = "mdbook-toc"
 renderer = ["html"]
 
+[preprocessor.bibliography]
+command = "mdbook-bibfile-referencing src/bibliography.bib src/ieee.csl"
+
 [output.html]
 additional-css = ["assets/custom.css"]
 mathjax-support = true
