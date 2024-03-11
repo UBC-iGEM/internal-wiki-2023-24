@@ -39,6 +39,12 @@ git checkout lucy-drylab-software
 
 mdBook is an open source project developed by the Rust Foundation for documenting Rust packages. If you're running Windows, I recommend you get WSL. You can get started [here](https://rust-lang.github.io/mdBook/guide/installation.html). Let Lucy know if you have any issues.
 
+## How to add inline citations
+1. edit [src/bibliography.bib](https://github.com/UBC-iGEM/internal-wiki-2023-24/blob/main/src/bibliography.bib), following the format.
+2. Then call your reference like this: [@clines1974evidence, 22]
+
+Check out [an example](https://github.com/jacob-pro/mdbook-bibfile-referencing/tree/master/test-book).
+
 ## How to write Markdown
 
 Check out the [CommonMark quick reference](https://commonmark.org/help/) first. Much of this document is borrowed from the rustdoc book[^rust].
