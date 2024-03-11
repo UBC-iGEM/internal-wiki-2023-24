@@ -8,6 +8,8 @@
     "deem_2023_best"
     "a2019_56"
     "puay_2020_evolving"
-    "_2021_teamaachenmodel"))
+    "_2021_teamaachenmodel"
+    "origins_microfluidics"
+    "outlook_microfludics"))
  '(or :bibtex :latex))
 
