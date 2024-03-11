@@ -8,8 +8,8 @@
   - [Notebook](./wet-lab/notebook/index.md)
     - [March](./wet-lab/notebook/march.md)
 - [Design](./wet-lab/design/index.md)
-  - [Solid phase DNA Synthesis](./wet-lab/design/solidphase-experiment.md)
-  - [ssDNA to dsDNA](./wet-lab/design/dsdna-experiment.md)
+  - [Solid phase DNA Synthesis](./wet-lab/design/solid-phase.md)
+  - [ssDNA to dsDNA](./wet-lab/design/ssdna-dsdna.md)
   - [Thermostable TdT](./wet-lab/design/tdt.md)
 - [Engineering Success](./wet-lab/engineering/index.md)
 - [Parts](./wet-lab/parts/index.md)
@@ -31,7 +31,6 @@
     - [Microfluidics](./dry-lab/hardware/microfluidics/index.md)
     - [Bioreactor](./dry-lab/hardware/bioreactor/index.md)
 - [Engineering Success](./dry-lab/engineering/index.md)
-
 
 # Human Practices
 

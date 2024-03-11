@@ -17,13 +17,13 @@
 
 ### Software
 
-| Component         | Priority | Objective                                                                                                                                                                                                                       | Assigned to                             | Report to |
-|-------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
-| Encoding          | 2        | Implement a software pipeline that when given a file location to write to DNA, creates the DNA sequence(s) to be synthesized, and collects metadata for decoding.                                                               | Sebastian, Lucy                              | Lucy      |
-| Decoding          | 2        | Implement a software pipeline that when given a request to retrieve a file, does the opposite of encoding; using the metadata gathered during encoding, apply error correction and puts the sequences back together into a file | Riya, Lucy                         | Lucy      |
-| In silico testing | 1        | Given an input string, error rate of DNA synthesis and encoding/decoding algorithm, run simulations to determine how robust our software is, quantified by statistics                                                           | Lucy, Sebastian, Riya                   | Lucy      |
-| Error Correction  | 1        | Create an error correction algorithm to work with semi-specific encoding, short nucleotide sequences and high rate of deletion errors.                                                                                          | Riya, Lucy                              | Lucy      |
-| GUI               | 3        | Design a user friendly interface that can be used by our iHP interviewees to try out our DNA storage software, and also visually display our file system                                                                        | All software + other dry lab if desired | Lucy      |
+| Component         | Priority | Objective                                                                                                                              | Assigned to                             | Report to |
+|-------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
+| Encoding          | 2        | Implement a software pipeline that when given a file location to write to DNA, creates the DNA sequence(s) to be synthesized           | Sebastian, Lucy                         | Lucy      |
+| Decoding          | 2        | Implement a software pipeline that when given a request to retrieve a file, does the opposite of encoding                              | Riya, Lucy                              | Lucy      |
+| In silico testing | 1        | Given an input string, error rate of DNA synthesis generate faulty sequences to test against our encoding/decoding algorithm           | Lucy, Sebastian, Riya                   | Lucy      |
+| Error Correction  | 1        | Create an error correction algorithm to work with semi-specific encoding, short nucleotide sequences and high rate of deletion errors. | Riya, Lucy                              | Lucy      |
+| GUI               | 3        | Design a user friendly interface that can be used by our iHP interviewees to try out our DNA storage software                          | All software + other dry lab if desired | Lucy      |
 
 ### Modelling
 
