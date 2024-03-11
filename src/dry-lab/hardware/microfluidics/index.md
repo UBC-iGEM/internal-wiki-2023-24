@@ -34,8 +34,7 @@ Project 3 is very impressive, as it has only existed in literature and never bee
 ## Diagram
 
 The two for the DNA synthesis design are as follows: 
-
-![]()
+![chips](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/2f9fee88-4a3c-4e81-af31-84737c6a7142)
 
 Here, the channels are made out of PMMA, and are mostly lateral. This would allow us to utilize a laser cutter in the Makerspace and not require any additional materials, although the BioMEMs laser cutters could be more useful due to a higher resolution. 
 
