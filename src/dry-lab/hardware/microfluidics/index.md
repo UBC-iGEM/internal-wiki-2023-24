@@ -64,3 +64,5 @@ For microfluidic channels, we would need an additional step of flow simulation o
 - Project 1 should be complete by Early June. 
 - Project 2 should be complete by end of July.
 - Project 3 should be complete by end of August. 
+
+---

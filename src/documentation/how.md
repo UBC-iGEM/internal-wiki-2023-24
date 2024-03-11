@@ -40,8 +40,8 @@ git checkout lucy-drylab-software
 mdBook is an open source project developed by the Rust Foundation for documenting Rust packages. If you're running Windows, I recommend you get WSL. You can get started [here](https://rust-lang.github.io/mdBook/guide/installation.html). Let Lucy know if you have any issues.
 
 ## How to add inline citations
-1. edit [src/bibliography.bib](https://github.com/UBC-iGEM/internal-wiki-2023-24/blob/main/src/bibliography.bib), following the format.
-2. Then call your reference like this: [@clines1974evidence, 22]
+1. edit [src/bibliography.bib](https://github.com/UBC-iGEM/internal-wiki-2023-24/blob/main/src/bibliography.bib), check [here](https://bibtex.eu/types/) for the fields to fill out.
+2. Then call your reference like this: [@ref_name]
 
 Check out [an example](https://github.com/jacob-pro/mdbook-bibfile-referencing/tree/master/test-book).
 
@@ -51,13 +51,7 @@ Check out the [CommonMark quick reference](https://commonmark.org/help/) first. 
 
 Here are some features you must use in our internal wiki:
 
-1. Adding References. If a reference is added in another format, the member who added the reference must convert it to this format.
-
-```
-This is an example of a footnote[^note].
-
-[^note]: This text is the contents of the footnote. Make sure to put this at the bottom of your document.
-```
+1. Adding References. See [above](how.md#how-to-add-inline-citations)
 
 2. Adding Tables. To make cooler tables, check out the [GitHub Tables extension](https://github.github.com/gfm/#tables-extension-).
 
