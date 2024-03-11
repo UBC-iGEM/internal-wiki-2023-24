@@ -2,7 +2,7 @@
  "bibliography"
  (lambda ()
    (LaTeX-add-bibitems
-    "clines1974evidence"
-    "test"))
+    "origins_microfluidics"
+    "outlook_microfludics"))
  '(or :bibtex :latex))
 
