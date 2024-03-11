@@ -3,6 +3,8 @@
  (lambda ()
    (LaTeX-add-bibitems
     "bioprocess"
-    "bioreactors_synbio"))
+    "bioreactors_synbio"
+    "origins_microfluidics"
+    "outlook_microfludics"))
  '(or :bibtex :latex))
 
