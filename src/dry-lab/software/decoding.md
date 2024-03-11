@@ -23,14 +23,13 @@ Depending on the sequencing platform we use, there may be varying degrees of seq
 * Low sensitivity (~15–20% detection limit)
 * Sequences close to primer-binding sites to be of poor quality
 * Output: four-color chromatogram representing the peak fluorescence intensity associated with each labeled ddNTP along the DNA sequence
-![sanger]()
+![sanger](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/96d6a8f4-f7c1-47b2-a256-bc2e239a26b6)
 
 ### NextGen [^ngsalignment] [^ngsalgs]
 * Higher sequencing depth for increased sensitivity (down to 1%)
 * Higher discovery power
 * Short reads (150-300 bps) by Illumina
-
-![ngs]()
+![ngs](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/3c7f58a1-567c-4de7-962c-112dfad3f086)
 
 ### Nanopore [^emering]
 Doesn't require PCR amplification, eliminating amplification bias and simplifying sequencing protocols relatively high error rates, around 10% per nt
@@ -55,8 +54,7 @@ Given four-color chromatogram(s) representing the peak fluorescence intensity, d
 
 ### NGS [^ngsworkflow]
 Given a fastq file which contains, it contains multiple chopped up sequence reads tat each have a confidence score, known as a Phred score, which is the probability the sequencer called the base incorrectly. We assemble the sequence reads de novo into one long read.
-
-![ngs]()
+![ngs_output](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/d539e783-c2fb-44ce-a8b8-325c6ff41c75)
 
 To conduct de novo assembly for output from NGS platform, reads are examined for overlap between them, and the goal to build up a single contig from smaller contigs.
 
@@ -73,7 +71,6 @@ There are established algorithms for solving this problem [^denovo]:
 
 Requires overlap to be scored between all pairs of reads, making runtime as least O(n<sup>2</sup>), overlap is less likely for short reads.
 
-
 #### The de Bruijn graph approach [^denovo] 
 * No need for overlap phase
 * Sequence reads cut into smaller pieces
@@ -84,7 +81,6 @@ Requires overlap to be scored between all pairs of reads, making runtime as leas
 * Find shortest (minimum weight, using heuristic) path that visits every edge -> [Chinese postman problem](https://en.wikipedia.org/wiki/Chinese_postman_problem), NP-complete!
 ** Problems with finding multiple solutions, or sequencing errors which cause high branching and tangle
 * Effect choice of k
-
 
 ### Nanopore
 TBD, as we may not end up using Nanopore to sequence. 
@@ -102,8 +98,7 @@ For the first iteration of the DBTL cycle, we will try **Levenshtein Distance**,
 
 ### Sequence collapse to single nucleotides 
 Given that we are doing semi-specific synthesis, we now collapse homonucleotides to mononucleotides. We use the occurrence of homonucleotides as the probability the sequenced base is actually at that index, to deal with base conflicts, and also signal that the positions of base conflict could either be a deletion, insertion or mutation error.
-
-![collapse]()
+![homo](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/c3d5709c-0f9a-4890-87a8-f53a0112d83d)
 
 After these steps, we can do error correction
 
@@ -137,12 +132,3 @@ We can test in silico by using open source genome data, and try to reassemble (w
 [^fuzzy]: Silva, E. (2022, July 15). What is Fuzzy Matching? Redis. https://redis.com/blog/what-is-fuzzy-matching/
 
 [^wikifuzzy]: ‌Wikipedia Contributors. (2019, November 15). Approximate string matching. Wikipedia; Wikimedia Foundation. https://en.wikipedia.org/wiki/Approximate_string_matching
-
-‌
-‌
-‌
-‌
-‌
-‌
-‌
-‌
