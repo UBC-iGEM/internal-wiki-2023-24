@@ -23,7 +23,7 @@ This version of the bioreactor would have the following features AT MINIMUM:
 - Stir Rod
 - Passive Oxygen diffuser
 
-The functionality is to just grow W.T. E Coli. somehow, and show it isn’t just in a culture. The stir road provides kinetic stimulation, the oxygen Diffuser maintains O<sub>2</sub> levels via diffusion. I don’t expect a lot of iteration within this Mark, maybe 1 or 2 just adding dead spaces/module slots for later additions to the bioreactor.
+The functionality is to just grow W.T. E Coli. somehow, and show it isn’t just in a culture. The stir road provides kinetic stimulation, the oxygen Diffuser maintains O<sub>2</sub> levels via diffusion. I don’t expect a lot of iteration within this Mark, maybe 1 or 2 just adding dead spaces/module slots for later additions to the bioreactor. With the passive oxygen diffuser, E. coli can grow in both anaerobic and aerobic conditions so the diffuser is primarily responsible for regulating the pressure levels inside the reactor. If required, active diffusion and O<sub>2</sub> readout can be added but are not necessary for efficient function.
 
 ### Bioreactor Mk. 2
 
