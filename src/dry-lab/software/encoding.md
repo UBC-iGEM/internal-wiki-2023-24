@@ -46,7 +46,7 @@ Non-goals: Synthesize primers ourselves in the wet lab using this algorithm; thi
     * For determining if secondary structures will form, simple reverse string check is performed, but more advanced checks will be tried in futher iterations [^primer_advanced].
 
 ### Diagram
-![primer]()
+![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/af702be3-9a33-44b4-992e-d72481255e14)
 
 ### How do we test this?
 We can use open source tools that evaluate the melting/annealing temperature, secondary structure formation and other constraints to ensure our code is generating acceptable primers.
@@ -80,8 +80,8 @@ UTF-8 is a standardized format for storing and reading characters. UTF-8 encodes
 - 11100000 10100100 10111001
   - using UTF-8: ह
   - using ASCII: à¤¹
-
-![]()
+    
+![utf](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/6a2f72ef-bc6c-4a87-b985-0319e0009a8b)
 
 An extra step we take to store information in our DNA storage process is to convert bits to trits. In theory, there is no gain to convert bits to trits because DNA is so dense [^dense]. Additionally, because computers are still binary, having trits instead of bits doesn’t give us any “more” information.
 
@@ -128,7 +128,7 @@ Could also do image compression: [OpenCV](https://towardsdatascience.com/deep-le
 Refer to [error correction](ecc.md).
 
 ### Diagrams
-![encoding]()
+![encode_char](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/1729561c-c4d2-44a9-a959-76053ec09654)
 ![rotation](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/bd76a401-2cd4-411a-8425-0c21642684ee) [^archival]
 
 ### Current solutions
