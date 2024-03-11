@@ -95,8 +95,7 @@ TdT promises to synthesize longer sequences traditional, as compared to chemical
 Additionally, coupled with a kinetic model, it is possible to try and optimize for base transitions that take less time, while maintaining the previously mentioned points. 
 
 ### Goals 
-* Convert binary data into nucleotide bases. 
-* Collect metadata for error correction during decoding phase 
+To complete an iteration of the DBTL cycle, a barebones encoding platform without error correction coupled will be completed. Metadata will be collected. After seeing the success of error correction without coupling encoding with error correction, our second iteration of the DBTL cycle will start to couple encoding with error correction.
 
 ### The actual design
 #### Text

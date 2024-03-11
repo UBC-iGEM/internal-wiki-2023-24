@@ -40,8 +40,8 @@ The synthesis method can also differentiate our sequence recovery method. If we 
 Many pre-existing alignment strategies rely on a reference template; we don’t have that luxury and conduct sequence alignment without a template, otherwise known as de novo sequence assembly.
 
 ## Goals and non-goals
-Goals:
-* Based on the sequencing platform used by wet lab, perform alignment in a timely manner and with acceptable accuracy.
+Goal: 
+To perform iterations of the DBTL cycle, we will complete the algorithms required to perform alignment in a timely manner and with acceptable accuracy on one platform, most likely NGS. We will implement one of the two algorithms that is mentioned below, then in the second iteration try the other algorithm.
 
 Non-goals:
 * Generalize to all sequencing platforms.
@@ -100,7 +100,7 @@ For the first iteration of the DBTL cycle, we will try **Levenshtein Distance**,
 Given that we are doing semi-specific synthesis, we now collapse homonucleotides to mononucleotides. We use the occurrence of homonucleotides as the probability the sequenced base is actually at that index, to deal with base conflicts, and also signal that the positions of base conflict could either be a deletion, insertion or mutation error.
 ![homo](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/c3d5709c-0f9a-4890-87a8-f53a0112d83d)
 
-After these steps, we can do error correction
+After these steps, we can do [error correction](#ecc.md).
 
 ## Current Solutions
 - [Basecalling, alignment, assembly and deconvolution of Sanger Chromatogram trace files](https://github.com/gear-genomics/tracy?tab=readme-ov-file)

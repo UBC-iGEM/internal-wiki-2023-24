@@ -29,7 +29,7 @@ Given specific synthesis means we can control the type of base and how many of t
 **This document will assume we are using semi-specific synthesis.**
 
 ## Goals 
-We must collect enough metadata to correct a DNA sequence with around 30-50% synthesis error [^aachen]. We should avoid adding error correction bits unless there is drastic improvement. This could depend on the type of data we are encoding.
+We must collect enough metadata to correct a DNA sequence with around 30-50% synthesis error [^aachen]. We should avoid adding error correction bits unless there is drastic improvement. This could depend on the type of data we are encoding. To complete an iteration of the DBTL cycle, we will implement different algorithms, followed by testing in silico.
 
 ## The actual design
 
