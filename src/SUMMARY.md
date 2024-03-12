@@ -36,8 +36,12 @@
 
 - [Overview](./human-practices/index.md)
   - [Communication](./human-practices/communication/index.md)
+      - [Infographics](./human-practices/communication/infographics.md)
+      - [Blog](./human-practices/communication/blog.md)
+      - [User Manual](./human-practices/communication/user-manual.md)
   - [Education](./human-practices/education/index.md)
   - [Inclusivity](./human-practices/inclusivity/index.md)
+      - [EDI Seminar](./human-practices/inclusivity/edi-seminar.md)
   - [Sustainability](./human-practices/sustainability/index.md)
   - [Event Recaps](./human-practices/events/index.md)
   - [Integrated Human Practices](./human-practices/ihp/index.md)
