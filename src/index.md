@@ -58,5 +58,6 @@ Below is a list of our **main** project goals that are required for our team to 
 - We aim to develop an SPS platform, where the immobilized primer isn’t exposed to the stress of being physically moved around
 - We will be using TS TdT instead of WT TdT for enzymatic DNA synthesis
 - We will be incorporating more error correction measures to increase the accuracy of data recovery
-There are also published literature [1](https://pubs.acs.org/doi/abs/10.1021/acscatal.1c04879), [2](https://www.nature.com/articles/s41467-020-18681-5), [3](https://www.science.org/doi/10.1126/sciadv.adi0263) that look into TdT-based enzymatic DNA synthesis, but most of their techniques have been patented.
+  
+There is also published literature [1](https://pubs.acs.org/doi/abs/10.1021/acscatal.1c04879), [2](https://www.nature.com/articles/s41467-020-18681-5), [3](https://www.science.org/doi/10.1126/sciadv.adi0263) that looks into TdT-based enzymatic DNA synthesis, but most of their techniques have been patented.
 
