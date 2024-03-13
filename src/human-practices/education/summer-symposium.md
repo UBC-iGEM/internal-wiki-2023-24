@@ -8,22 +8,22 @@ Centered around a symposium format, this initiative allows students to showcase 
 
 ## Goals and non-goals
 ### Goals
-To stimulate interest in synthetic biology among high school students
-Allow the creative process of idea generation and pitching
-Provide a supportive platform for students to receive expert feedback
-Enhance learning experience
-Encourage further exploration of STEM fields. 
+- To stimulate interest in synthetic biology among high school students
+- Allow the creative process of idea generation and pitching
+- Provide a supportive platform for students to receive expert feedback
+- Enhance learning experience
+- Encourage further exploration of STEM fields. 
 
 ### Non-Goals
-Providing in-depth research opportunities
-Direct implementation of the pitched ideas 
-Extending the initiative to include participants beyond high school students
-To cover areas outside of synthetic biology. 
+- Providing in-depth research opportunities
+- Direct implementation of the pitched ideas 
+- Extending the initiative to include participants beyond high school students
+- To cover areas outside of synthetic biology. 
 
 ## Plan
-Invite high school students during Let’s Talk Science visits
-Host potential workshops focused on the fundamentals of synthetic biology and effective pitch techniques (can be done via Zoom)
-Have students submit their synbio project ideas
-Review submissions and give feedback
-Finalize logistics for the symposium
-Host the Summer symposium!
+- Invite high school students during Let’s Talk Science visits
+- Host potential workshops focused on the fundamentals of synthetic biology and effective pitch techniques (can be done via Zoom)
+- Have students submit their synbio project ideas
+- Review submissions and give feedback
+- Finalize logistics for the symposium
+- Host the Summer symposium!
