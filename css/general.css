@@ -1,0 +1,9 @@
+.scroll {
+      overflow: auto;
+  white-space: nowrap;
+}
+
+ .scroll img {
+      height: 50vw;
+      width: auto;
+  }

@@ -1,5 +1,13 @@
 # Decoding
 
+<!-- toc -->
+
+<div class="scroll">
+
+![decoding](./images/decoding_dark.png)
+
+</div>
+
 ## Decoding: 
 Algorithm design:
 1. Sequence the DNA bases (Illumina/Nanopore)

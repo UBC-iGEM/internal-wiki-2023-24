@@ -1,5 +1,13 @@
-## Encoding
-![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/2d9883b2-593e-4d84-8efc-7e1057d3f2b2)
+## Encoding and Error Correction
+
+<!-- toc -->
+
+<div class="scroll">
+
+![encoding](./images/encoding_dark.png)
+
+</div>
+
 
 Consists of segmenting information into blocks, generating primers, mapping primers back to address space and generating all the sequences to be encoded in wet lab.
 
@@ -7,10 +15,11 @@ Consists of segmenting information into blocks, generating primers, mapping prim
 
 1. Segmentation of data: by breaking an input into smaller blocks, we can control how large or how small a strand is to be synthesized. Shorter strands appear to have a smaller rate of error[^aachen].
 2. Redundancy: a message is encoded and transmitted using more bits that are necessary to encode the message; a piece of information is redundant if it can be removed without loss of information [^redundancy]. This has either not been explored in depth by other iGEM teams[^github].
-3. Primer generation and and storing primers.
+3. Primer generation and storing primers.
 4. Generating sequences to be encoded.
 
 ### challenges
+
 - we must adapt ECCs to shorter sequences and semi-specific synthesis
 
 ## Segmentation of data
@@ -78,6 +87,7 @@ Constraint design:
 ## Generating sequences to be encoded
 
 ### Rotation Based Cipher[^archival]
+![rotation](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/bd76a401-2cd4-411a-8425-0c21642684ee)
 
 ```python
 huffman_codes = {
@@ -122,9 +132,10 @@ print([encode(start, ternary) for start in ["A", "T", "G", "C"]])
 ```
 
 ### Storing primers
+
 On a computer, a tree like data structure will be maintained that maps primers to files. Theoretically, only the primers and some metadata is to be stored on the computer, and all the information is stored on the DNA molecules. We will have to quantify our information density.
 
---- 
+---
 
 [^genetic]: Wu, J. S., Lee, C., Wu, C. C., & Shiue, Y. L. (2004). Primer design using genetic algorithm. Bioinformatics (Oxford, England), 20(11), 1710–1717. https://doi.org/10.1093/bioinformatics/bth147
 

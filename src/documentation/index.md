@@ -1,115 +1,93 @@
-# How to Document
+# Welcome
 
-<!-- toc -->
+Welcome to the UBC iGEM 2023-2024 Internal Wiki. Read these pages before you start adding to our wiki!
 
-## How to use the internal wiki with Replit
+- [How to Document](how.md)
+  - [For leads](lead.md)
+  - [For wiki liaisons](liaison.md)
 
-### How to run the internal wiki on Replit
-<iframe src="https://scribehow.com/embed/Accessing_and_Editing_UBC-iGEM_Wiki_Page__28CL9QzYTb6sJZu4gRdm9w" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+If you have any questions regarding documenting your progress and work, please send a message in the documentation-wiki channel.
 
-### How to push changes to internal wiki on Replit
-<iframe src="https://scribehow.com/embed/Push_changes_to_Internal_Wiki_on_Replit_Step-by-Step_Guide__jItfj2-jSwCz9w1tIQNLTA" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+## What should this internal wiki contain?
 
-## How to use the internal wiki with Codespaces
-1. If you haven't already opened a Codespace, open a new Codespace and **do not** hit anything while the Codespace starts up. 
-2. Once the Codespace is done downloading all the packages required, run `mdbook serve` to start up a local version of the internal wiki. 
-3. Now follow the instructions for [adding changes to GitHub](#adding-changes-to-github)
+This wiki contains everything that lets other members know how other subteams get things running, what other subteams are researching, and the current state of a subteam.
 
-## Adding changes to GitHub
-1. Open up the internal wiki on Codespaces or your local development environment. 
-2. Before you add any changes, run `git pull`. This ensures that your local version of the internal wiki is updated with other people's changes. If you don't do this step you make end up with merge conflicts. If running `git pull` results in merge conflicts (it shouldn't if you're always running `git pull`), let Lucy or a wiki liaison know.
-3. Make a new branch `git branch [name-subteam-description]`. Then switch to that branch, `git checkout [name-subteam-description]`. Someone would run: 
-```git
-git branch lucy-drylab-software
-git checkout lucy-drylab-software
-```
-4. Now you can write your updates in! 
-5. When you are ready to publish your updates, you will need to save your files. In git, this is called making a commit. Git provides finer grain control, meaning you can choose which files to save in a project; most of the time you want to save all the files you have modified. Run `git add .`. This adds all modified and created files to the staging area. 
-6. Once you are satisfied with the files in the staging area, run `git commit -m "[message]"`. Replace `[message]` with a meaningful message related to your changes. 
-7. Finally, you can run `git push`. Make sure you are pushing to the UBC iGEM repo, if asked where to push, push to the repo with the link [https://github.com/UBC-iGEM/internal-wiki-2023-24]; you can push to your own fork, but please enable this [setting](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork). 
-8. Following the prompts on Codespaces or the GitHub website, make a PR. That's it! Leads and wiki liaisons will check your content and approve and merge your PR. 
+What differentiates this internal wiki from the master todo list? On the master todo list, you can see a task someone in dry lab is working on, while in this internal wiki you can read about the progress, current state, and future plans that member (or subteam) has regarding this task.
 
-## How to use mdBook locally
-mdBook is an open source project developed by the Rust Foundation for documenting Rust packages. If you're running Windows, I recommend you get WSL. You can get started [here](https://rust-lang.github.io/mdBook/guide/installation.html). Let Lucy know if you have any issues.
+On the sidebar you can see all the different categories for each subteam. These folders were put here for a reason; they are a one to one correspondence with the required wiki pages for the iGEM competition. Create files within these folders when adding your content. This internal wiki serves as documentation for every subteam. Any content that is related to any of these topics on the sidebar should be here.
 
-## How to write Markdown
+**NOTE**: We are not writing the final wiki pages here. Later on when we start writing our final content for the iGEM Wiki, use this website as a way to quickly and efficiently absorb and understand material from all our different subteams. The final wiki document is NOT HERE. When you start wiki writing, you will be **DIRECTLY committing** to the **iGEM provisioned Wiki repository on GitLab**.
 
-Check out the [CommonMark quick reference](https://commonmark.org/help/) first. Much of this document is borrowed from the rustdoc book[^rust].
+## What doesn't this internal wiki contain?
 
-Here are some features you must use in our internal wiki:
+Subteam meeting notes, administrative documents, sponsorship documents, finance. Anything sub-related to our project. Message the documentation channel to verify what goes on the internal wiki if you are unsure. Documentation officially starts when we are finished with pitching and have chosen a project.
 
-1. Adding References. If a reference is added in another format, the member who added the reference must convert it to this format.
+## Goals
 
-```
-This is an example of a footnote[^note].
+### Subteam transparency
 
-[^note]: This text is the contents of the footnote. Make sure to put this at the bottom of your document.
-```
+Commits to this internal wiki hub are public. This means members can see who is contributing to our documentation and who isn't. The goal is for everyone to be an engaged and active member and contributing to our documentation in a consistent manner is one way to do so. This includes recording down setbacks, progress, blockers, wins and more.
 
-2. Adding Tables. To make cooler tables, check out the [GitHub Tables extension](https://github.github.com/gfm/#tables-extension-).
+One notable requirement of iGEM is to demonstrate we have used the Engineering Cycle in our project. This means we must demonstrate that we are iterating on the design of our project which is only possible if we record down what went wrong in our processes and how we plan to fix it.
 
-| Header1 | Header2 |
-| ------- | ------- |
-| abc     | def     |
+Additionally, iGEM also requires a notebook (from wet lab, but dry lab should also have individual notebooks). Anyone should be able to freely access these notebooks to inquire about what subteams are up to.
 
-```
-| Header1 | Header2 |
-|---------|---------|
-| abc     | def     |
+We are also using [software practices](#why-are-we-using-software-practices) when adding content to our internal wiki. This includes all members making a personal branch to pull updates and push their own, making PRs to merge their content into the main branch, using issues, and more. If you are confused by this, wait until our Git, GitHub and Documentation workshop; if you're still confused send a message in the documentation channel.
 
-```
+### Knowledge Transfer
 
-3. Adding task lists.
+**Encourage creativity**; the more knowledge sharing we have, the better all our different subteams can collaborate. The more integrated each subteam is the better we will perform at iGEM.
 
-```
-- [x] Complete task
-- [ ] Incomplete task
-```
+**iGEM is a holistic competition.** Having a strong dry lab will get you no better than silver if other subteams are struggling. Everyone is expected to have an educated and in depth knowledge of the project from every angle; dry lab, wet lab and HP. This is not possible without documentation from each subteam.
 
-4. Warning blocks
+Additionally, teams must integrate each other's work into their own work. This is only possible if knowledge is being shared between all members of the team.
 
-<div class="warning">A big warning!</div>
+### Track Progress: Concrete, small steps (with deliverables) towards our goal
 
-```
-<div class="warning">A big warning!</div>
-```
+The iGEM project involves many moving parts from all our subteams. In order to ensure everyone is aware of what is going on and to comply with [subteam transparency](#subteam-transparency), we must break our project down into a few overarching goals, and then these goals into concrete, small steps. **Leads should create goals** based on their subteams and larger tasks for these goals, while **subteam members should take these larger tasks and break them down into smaller tasks for themselves**. This should **all be recorded on the internal wiki**. Not on Slack channels, not in private DMs or Google Docs. New folders and files should be created to aid this process.
 
-5. Latex, via [MathJax](https://www.mathjax.org/)
+Now you're asking, what does it mean to create a concrete, small step?
 
-```
-\\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
-```
+#### Concrete (with a meaningful deliverable)
 
-\\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
+When defining a next course of action, either for your subteam members or yourself, make sure there is a clear reason for doing this task that contributes to an overarching goal. Each task should also have deliverable that indicates that this step has been successfully completed. For instance, if you are a lead and have given your subteam members a task to understand Golden Gate Assembly, there are two things you should think about. One, why should they learn this procedure? In the context of synthetic biology, you should let your members know that [Golden Gate Assembly](https://technology.igem.org/assembly/golden-gate) is an "extremely powerful modular assembly technique in synthetic biology that allows for the efficient and precise assembly of multiple DNA fragments into a single construct." and that we are planning to use this technique in our experiments. Even if you believe the reasoning behind a task is obvious, this is not the case for every member. Be explicit in this reasoning.
 
-6. Graphs via the [DOT Language](https://graphviz.gitlab.io/doc/info/lang.html)
+Two, how can your subteam members can explicitly demonstrate this understanding in a way that if possible, benefits all members? For instance, ask every member to upload their notes to this internal wiki; then members from other subteams can read what they have written and understand the Golden Gate Assembly as well. This not only allows your members to consolidate their understanding of Golden Gate Assembly, but also to allow knowledge sharing to other subteams.
 
-```dot process
-digraph {
-    "processed" -> "graph"
-}
-```
+#### Small
 
-7. [Including Files](https://rust-lang.github.io/mdBook/format/mdbook.html#including-files)
+Tasks should be defined such that they can be completed within a certain time period and contribute to an overarching goal. Time periods that make sense include weekly (to present at our weekly generals) or biweekly; anything more than a month indicates the task may too large or vaguely. If a task you are defining is taking longer than a week or two, then that task can be broken down into smaller tasks. This includes documentation; this documentation should be updated at least once a week from each subteam.
 
-Note you can write HTML in Markdown as well! But please refrain from doing so unless necessary.
+Based on weekly tasks leads give their subteam members, each member should create daily tasks for themselves, that are recorded on this internal wiki. Smaller tasks allow leads to check in on their members to see how they are progressing within the larger weekly task.
 
-If you want to see all the Markdown features available to you, here is the [spec](https://spec.commonmark.org/0.30/).
+### Wiki Transfer
 
-## How to add new pages and subsections
+Everyone is expected to write on the wiki. Having your progress, results and knowledge here will make wiki writing easier for everyone. The workflow for wiki writing should be as follows:
 
-Run `mdbook serve`, then follow the instructions [here](https://rust-lang.github.io/mdBook/format/summary.html) on how to add new pages and subsections. When are you creating new pages, please follow these file naming conventions. Any files that don't conform to these file naming conventions will not be accepted as documentation.
+1. You are assigned a page to contribute to.
+2. You come to this internal wiki to check out related pages.
+3. If you need more information about a page, you know exactly who to ask by looking at the commit history.
+4. If your page requires writing about the entire process and not just end results, you can find all of the progress here.
+5. You start writing the final wiki page in the GitLab repository with this website open.
 
-1. Only punctuation that is allowed are dashes.  
-2. All lowercase. 
-3. When possible create folders to categorize files. If you need help with this, send a message in the documentation/wiki channel.
-4. Only .md files are allowed.
-5. Numbers are allowed.
+## Questions
 
-Now go to the following pages to see how to write documentation if you are a:
+### Why mdBook?
 
-- Member: Go to your subteam and read over every subsection.
-- [Lead](./lead.md)
-- [Wiki Liaison](./liaison.md)
+This documentation format was created by the Rust Language to document their programming language and other Rust projects.
 
-[^rust]: https://doc.rust-lang.org/rustdoc/how-to-write-documentation.html
+### Why aren't we using Notion?
+
+An ideal platform is Notion, however, Canadian schools are not able to get free access to Notion, and our student accounts have limits that cannot accommodate our team of 20 people. Using [Notion](https://www.notion.so/pricing) would cost us $1920.
+
+### Why are we using GitHub and Git?
+
+Practice for the final wiki.
+
+### Is it okay if I have everything locally?
+
+Brainstorming is okay to keep local, all fleshed out ideas must be on the internal wiki.
+
+### Why are we using software/agile practices?
+
+Good way to maintain transparency, and proven to work.

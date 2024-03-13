@@ -6,7 +6,7 @@ Writing clear documentation for other subteams and your members is of utmost imp
 
 ## Overview Page
 
-As mentioned, having [concrete, small steps (with deliverables) towards our goal](../index.md#concrete-small-steps-with-deliverables-towards-our-goal) is very important to reaching our end of having a well integrated and working project for the iGEM jamboree. When planning for your subteam, please write an Overview page. Below are the steps you will take.
+As mentioned, having [concrete, small steps (with deliverables) towards our goal](index.md#concrete-small-steps-with-deliverables-towards-our-goal) is very important to demonstrating the E-DBTL cycle so we can have a well integrated and working project for the iGEM jamboree. When planning for your subteam, please write an Overview page. Below are the steps you will take.
 
 Add everything that is listed below at the page: /[your-subteam]/index.html. For wet lab this would be [here](../wet-lab/index.md).
 
@@ -14,16 +14,38 @@ Add everything that is listed below at the page: /[your-subteam]/index.html. For
 2. Create **timeline** for your subteam. Use a table for this.
 3. Create **clear goals** for your team on the page. Categorize goals based on medal requirement, MVP goals or "for-fun" goals and any other labels you deem useful.
    - These goals should be continually iterated upon; if you are finding that your subteam has trouble reaching these goals or reaches them too quickly, reevaluate your goals as these issues arise.
-4. Consider your subteam members' strengths and preferences and assign members to tasks accordingly.
+4. List all projects that will occur within your subteam.
 5. Create a PR when you are done writing, and get at least one other lead from **another subteam** to review your plans.
 
 These overview pages should be updated weekly based on new information and tasks/goals being completed.
 
 Each overview page should have the following:
 
+## Projects this year
+
+### Category
+
+| Component                    | Priority | Objective                             | Assigned to | Report to |
+| ---------------------------- | -------- | ------------------------------------- | ----------- | --------- |
+| Eating 50 peanut butter cups | 1        | Try to eat lots of peanut butter cups | Me          | My dog    |
+| Being a cat                  | 2        | Do a day in the life of being a cat   | Me          | My cat    |
+| ...                          | ...      | ...                                   | ...         | ...       |
+| ...                          | ...      | ...                                   | ...         | ...       |
+| ...                          | ...      | ...                                   | ...         | ...       |
+
+### Category
+
+| Component | Priority | Objective | Assigned to | Report to |
+| --------- | -------- | --------- | ----------- | --------- |
+| ...       | ...      | ...       | ...         | ...       |
+| ...       | ...      | ...       | ...         | ...       |
+| ...       | ...      | ...       | ...         | ...       |
+
 ## Goals
 
-[TODO]
+1. ...
+2. ...
+3. ...
 
 ## iGEM Medal Requirements
 

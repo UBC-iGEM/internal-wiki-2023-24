@@ -1,3 +1,27 @@
 # Design
+<!-- toc -->
 
-All experiment, plasid, and other designs for wet lab go here. For each design, create a new file in SUMMARY.md. Include pictures, graphics, external sites to help explain your designs to the other subteam members.
+## Why these projects?
+
+## Projects Overview
+
+### TdT Production
+
+| Component | Priority | Objective | Assigned to | Report to |
+|-----------|----------|-----------|-------------|-----------|
+|           |          |           |             |           |
+|           |          |           |             |           |
+
+### Solid Phase Synthesis
+
+| Component | Priority | Objective | Assigned to | Report to |
+|-----------|----------|-----------|-------------|-----------|
+|           |          |           |             |           |
+|           |          |           |             |           |
+
+### ssDNA to dsDNA
+
+| Component | Priority | Objective | Assigned to | Report to |
+|-----------|----------|-----------|-------------|-----------|
+|           |          |           |             |           |
+|           |          |           |             |           |

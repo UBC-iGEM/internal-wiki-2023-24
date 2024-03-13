@@ -1,0 +1,14 @@
+.scroll {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scroll img {
+  height: 30wv;
+  max-width: none;
+}
+
+.scroll p img {
+  height: 30vw;
+  max-width: none;
+}

@@ -30,3 +30,13 @@ If you need to add images, make a folder with the date with in the wet lab folde
 `
 ![description](../images/2022-05-04/left.png)
 `
+
+If you want to add subscripts or superscripts, or any sort of mathematical notation, please use \\[ \LaTeX \\]
+
+`
+\\[ \text{MgCl}_2  \\]
+`
+
+\\[ \text{MgCl}_2 \\]
+
+If you don't use Latex Lucy will be very sad :(, you can search on Google how to use Latex.

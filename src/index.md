@@ -1,90 +1,63 @@
-# Welcome
+# [Project Name]: Improving DNA Storage with Synthetic Biology
 
-Welcome to the UBC iGEM 2023-2024 Internal Wiki. Read these pages before you start adding to our wiki!
+# Project Description
 
-- [How to Document](./documentation/index.md)
-  - [For leads](./documentation/lead.md)
-  - [For wiki liaisons](./documentation/liaison.md)
+## Overview
+With the world entering the zettabyte era, the current data storage model that relies heavily on ‘the cloud,’ or large data storage centers, is projected to be incapable of meeting society’s growing demand in data storage. To give everyone some context, 1 zettabyte is equivalent to 1 trillion gigabytes.
 
-If you have any questions regarding documenting your progress and work, please send a message in the documentation-wiki channel.
+Our project aims to tackle the growing need for a better, more energy-efficient data storage medium compared to current magnetic and optical data storage options by means of synthetic biology. Currently, we aim to achieve this through 2 separate tracks:
+- Developing an **enzymatic** DNA synthesis platform that can elongate a **single-stranded** DNA (ssDNA) in a **template-independent** manner. The synthesized ssDNA strand will then be converted to a more stable, double-stranded DNA (dsDNA) and inserted into a plasmid for long-term data storage.
+- Developing a **data encoding/decoding pipeline** that allows binary files (used by computers) to be stored in a ternary format compatible with our DNA synthesis platform, retrieved, and converted back into binary.
 
-## What should this internal wiki contain?
+## Context and Scope
+How we decide to shape the context of our project will largely depend on the iHP interviews our team will be conducting throughout the season. Depending on our project’s ‘story,’ the technical aspects of our project’s design may also change to reflect the story’s emphasis. Below are 3 potential contexts in which our project can be placed as of now:
+- Preserving indigenous stories
+- Storing archived governmental records
+- Storing archived medical records
 
-This wiki contains everything that lets other members know how other subteams get things running, what other subteams are researching, and the current state of a subteam.
+The technical scope of our project is mostly limited by the iGEM competition timeline; we essentially have 4 months to carry out most of our wet lab experiments and produce a minimum viable product (MVP). This means that our project’s aim is to:
+- Successfully demonstrate a **proof-of-concept** DNA synthesis and storage platform with sample data relevant to our project’s context.
+- Successfully perform E-DBTL cycles from **both wet lab and dry lab** to convince the iGEM judges that our project’s design went through multiple iterations that each develop on top of each other.
 
-What differentiates this internal wiki from the master todo list? On the master todo list, you can see a task someone in dry lab is working on, while in this internal wiki you can read about the progress, current state, and future plans that member (or subteam) has regarding this task.
+Note that our project does **NOT** aim to:
+- Develop a polished, complete DNA synthesis and storage platform that is ready for launch. We will not have the time nor resources to make this happen by the Jamboree. Keep this in mind when you’re working on the project and try not to focus on details that are not required for a proof-of-concept or an MVP.
 
-On the sidebar you can see all the different categories for each subteam. These folders were put here for a reason; they are a one to one correspondence with the required wiki pages for the iGEM competition. Create files within these folders when adding your content. This internal wiki serves as documentation for every subteam. Any content that is related to any of these topics on the sidebar should be here.
+## Current Plans
+### DNA Synthesis Platform
+We will be using terminal deoxynucleotidyl transferase (TdT) to enzymatically synthesize ssDNA strands since TdT does not require a template strand for DNA elongation; it just requires a short nucleotide sequence (a primer) to add nucleotides to at the 3’ OH position. When natural deoxynucleoside triphosphate (dNTP) - guanine (dGTP or G), cytosine (dCTP or C), adenine (dATP or A), and thymine (dTTP or T) - is provided to TdT, the enzyme will perform ssDNA elongation until it either runs out of dNTPs to add or if the reaction condition is no longer favorable. In other words, even if we just provide 1 type of dNTP for TdT to work with, we cannot control the number of nucleotides added to the strand in a single reaction cycle (reagent addition → incubation → reagent wash), making our synthesis method ‘**semi**’-specific. 
 
-**NOTE**: We are not writing the final wiki pages here. Later on when we start writing our final content for the iGEM Wiki, use this website as a way to quickly and efficiently absorb and understand material from all our different subteams. The final wiki document is NOT HERE. When you start wiki writing, you will be **DIRECTLY committing** to the **iGEM provisioned Wiki repository on GitLab**.
+TdT’s ssDNA elongation efficiency also decreases when the ssDNA strand starts to fold on itself and create secondary DNA structures (i.e., loops and folds). To prevent this, we can increase the reaction temperature as secondary DNA structures are much less likely to form at higher temperatures. Natural or wildtype (WT) TdT, however, cannot withstand such high temperatures. We aim to resolve this issue by using a modified **thermostable TdT (TS TdT)** that can withstand higher temperatures. By synthesizing ssDNA strands using TS TdT and higher reaction temperatures, we aim to increase the synthesis efficiency of our platform. 
 
-## What doesn't this internal wiki contain?
+We will be performing ssDNA elongation with TdT on a **solid phase synthesis (SPS)** platform. Unlike Aachen 2021’s method where an immobilized ssDNA primer was ‘dipped’ into multiple reaction tubes, we will be immobilizing our ssDNA primer on a solid plate (either made of glass or plastic) and have our reagents flow to the plate’s surface.
 
-Subteam meeting notes, administrative documents, sponsorship documents, finance. Anything sub-related to our project. Message the documentation channel to verify what goes on the internal wiki if you are unsure. Documentation officially starts when we are finished with pitching and have chosen a project.
+### Software
+Although TdT is capable of adding all 4 types of dNTPs, it is known to prefer adding nucleotides to certain primer sequences that meet specific constraints. We will be developing a software algorithm that can generate the ‘best’ candidate **primer sequences** that can be used to initiate ssDNA elongation. We will also be developing a complete data **encoding and decoding software pipeline** that will convert a binary input file (compatible with computers) into a ternary representation of data to be stored in DNA sequences (to be synthesized with our platform) with corresponding metadata, then retrieve and decode the sequence information back into binary for users to access the stored data. Note that our sequence will be encoding information in ternary (using 0, 1, and 2) instead of quaternary (using 0, 1, 2, and 3 like the 4 types of dNTPs) due to our synthesis platform being semi-specific, as previously mentioned. Rather than having each dNTP correspond to a single number (such as G=0, C=1, A=2, T=3), we will be assigning a single number to the **transition between 2 types of dNTPs** (such as C→G=0, C→T=1, C→A=2). There will be various types of **metadata** assigned to each ternary DNA sequence, which will be used to identify where the retrieved information belongs to in our filing directory and help decode the sequence information back into binaries. We will also be implementing **error correction algorithms** in our decoding step to increase the accuracy of our retrieval process. We will also be developing a graphical user interface (GUI) to allow users to ‘upload’ and ‘download’ their files from our DNA-based data storage platform. Note that we will not be able to perform the complete workflow starting from file uploading, synthesis, retrieval, and downloading for all end-users at the Jamboree due to time and physical constraints. But the GUI will be a good visual representation of our end-goal and be integrated into our MVP for demonstration purposes.
 
-## Goals
+### Hardware
+SPS is a synthesis method that is highly compatible with microfluidics, since they only differ in the reaction scale; SPS operates in a manual scale where the user directly drops or flows reagents to the immobilized ssDNA primer, while in a microfluidic chip the reagents flow through narrow channels in a much smaller scale (i.e., millimeters). Once we demonstrate that ssDNA can be elongated with TS TdT in an SPS platform, we will then be transferring that reaction into a microfluidic chip. This will allow our synthesis reactions to be parallel, automated, high throughput, and higher precision as microfluidic pumps used to control reagent flow through different channels can be controlled by a computer. We will also be building upon the bioreactor from the 2023 team to culture E. coli expressing TdT.
 
-### Subteam transparency
+### Human Practices
+We want our project to be relevant for stakeholder use and have their perspectives incorporated into our project’s design through the entire engineering design, build, test, and learn cycle (E-DBTL cycle). We will be reaching out to various industry professionals and community members for advice and feedback on our project’s design throughout the season. We will also be planning multiple synthetic biology- and DNA data storage-related initiatives to raise our profile.
 
-Commits to this internal wiki hub are public. This means members can see who is contributing to our documentation and who isn't. The goal is for everyone to be an engaged and active member and contributing to our documentation in a consistent manner is one way to do so. This includes recording down setbacks, progress, blockers, wins and more.
+## Main Goals and Side Goals
+Below is a list of our **main** project goals that are required for our team to win a Gold medal at the Jamboree:
+- Demonstrate that an SPS platform can be used to elongate ssDNA strands with TdT
+- Express TS TdT using site-directed mutagenesis from WT TdT in E. coli
+- Optimize the reaction conditions for TS TdT in an SPS platform
+- Develop a primer generation algorithm to identify optimal ssDNA primer sequences
+- Develop a pipeline to encode data into DNA sequences/corresponding metadata
+- Develop a pipeline to decode DNA sequences using error correction algorithms and metadata
+- Develop a graphic user interface (GUI) that demonstrates how users can upload and download their files from our system
+- Design a microfluidic chip that translates TS TdT-based ssDNA elongation in an SPS platform into the microfluidic scale
+- Build upon the current bioreactor to allow TdT culturing
+- Demonstrate the E-DBTL cycle within our experimental, software, and hardware aspects of the project
+- Incorporate feedback and advice from industry professionals and stakeholder communities into our project design and development
 
-One notable requirement of iGEM is to demonstrate we have used the Engineering Cycle in our project. This means we must demonstrate that we are iterating on the design of our project which is only possible if we record down what went wrong in our processes and how we plan to fix it.
+## Other Implementations
+[Aachen 2021](https://2021.igem.org/Team:Aachen) team also developed an enzymatic DNA synthesis platform - the DIP method -, where immobilized primer strands are dipped into reaction tubes each containing TdT and 1 type of dNTP. Several points where our system differs from theirs is:
+- We aim to develop an SPS platform, where the immobilized primer isn’t exposed to the stress of being physically moved around
+- We will be using TS TdT instead of WT TdT for enzymatic DNA synthesis
+- We will be incorporating more error correction measures to increase the accuracy of data recovery
+  
+There is also published literature [1](https://pubs.acs.org/doi/abs/10.1021/acscatal.1c04879), [2](https://www.nature.com/articles/s41467-020-18681-5), [3](https://www.science.org/doi/10.1126/sciadv.adi0263) that looks into TdT-based enzymatic DNA synthesis, but most of their techniques have been patented.
 
-Additionally, iGEM also requires a notebook (from wet lab, but dry lab should also have individual notebooks). Anyone should be able to freely access these notebooks to inquire about what subteams are up to.
-
-We are also using [software practices](#why-are-we-using-software-practices) when adding content to our internal wiki. This includes all members making a personal branch to pull updates and push their own, making PRs to merge their content into the main branch, using issues, and more. If you are confused by this, wait until our Git, GitHub and Documentation workshop; if you're still confused send a message in the documentation channel.
-
-### Knowledge Transfer
-
-**Encourage creativity**; the more knowledge sharing we have, the better all our different subteams can collaborate. The more integrated each subteam is the better we will perform at iGEM.
-
-**iGEM is a holistic competition.** Having a strong dry lab will get you no better than silver if other subteams are struggling. Everyone is expected to have an educated and in depth knowledge of the project from every angle; dry lab, wet lab and HP. This is not possible without documentation from each subteam.
-
-Additionally, teams must integrate each other's work into their own work. This is only possible if knowledge is being shared between all members of the team.
-
-### Track Progress: Concrete, small steps (with deliverables) towards our goal
-
-The iGEM project involves many moving parts from all our subteams. In order to ensure everyone is aware of what is going on and to comply with [subteam transparency](#subteam-transparency), we must break our project down into a few overarching goals, and then these goals into concrete, small steps. **Leads should create goals** based on their subteams and larger tasks for these goals, while **subteam members should take these larger tasks and break them down into smaller tasks for themselves**. This should **all be recorded on the internal wiki**. Not on Slack channels, not in private DMs or Google Docs. New folders and files should be created to aid this process.
-
-Now you're asking, what does it mean to create a concrete, small step?
-
-#### Concrete (with a meaningful deliverable)
-
-When defining a next course of action, either for your subteam members or yourself, make sure there is a clear reason for doing this task that contributes to an overarching goal. Each task should also have deliverable that indicates that this step has been successfully completed. For instance, if you are a lead and have given your subteam members a task to understand Golden Gate Assembly, there are two things you should think about. One, why should they learn this procedure? In the context of synthetic biology, you should let your members know that [Golden Gate Assembly](https://technology.igem.org/assembly/golden-gate) is an "extremely powerful modular assembly technique in synthetic biology that allows for the efficient and precise assembly of multiple DNA fragments into a single construct." and that we are planning to use this technique in our experiments. Even if you believe the reasoning behind a task is obvious, this is not the case for every member. Be explicit in this reasoning.
-
-Two, how can your subteam members can explicitly demonstrate this understanding in a way that if possible, benefits all members? For instance, ask every member to upload their notes to this internal wiki; then members from other subteams can read what they have written and understand the Golden Gate Assembly as well. This not only allows your members to consolidate their understanding of Golden Gate Assembly, but also to allow knowledge sharing to other subteams.
-
-#### Small
-
-Tasks should be defined such that they can be completed within a certain time period and contribute to an overarching goal. Time periods that make sense include weekly (to present at our weekly generals) or biweekly; anything more than a month indicates the task may too large or vaguely. If a task you are defining is taking longer than a week or two, then that task can be broken down into smaller tasks. This includes documentation; this documentation should be updated at least once a week from each subteam.
-
-Based on weekly tasks leads give their subteam members, each member should create daily tasks for themselves, that are recorded on this internal wiki. Smaller tasks allow leads to check in on their members to see how they are progressing within the larger weekly task.
-
-### Wiki Transfer
-
-Everyone is expected to write on the wiki. Having your progress, results and knowledge here will make wiki writing easier for everyone. The workflow for wiki writing should be as follows:
-
-1. You are assigned a page to contribute to.
-2. You come to this internal wiki to check out related pages.
-3. If you need more information about a page, you know exactly who to ask by looking at the commit history.
-4. If your page requires writing about the entire process and not just end results, you can find all of the progress here.
-5. You start writing the final wiki page in the GitLab repository with this website open.
-
-## Questions
-
-### Why mdBook?
-
-This documentation format was created by the Rust Language to document their programming language and other Rust projects.
-
-### Why aren't we using Notion?
-
-An ideal platform is Notion, however, Canadian schools are not able to get free access to Notion, and our student accounts have limits that cannot accommodate our team of 20 people. Using [Notion](https://www.notion.so/pricing) would cost us $1920.
-
-### Why are we using GitHub and Git?
-Practice for the final wiki.
-
-### Is it okay if I have everything locally?
-Brainstorming is okay to keep local, all fleshed out ideas must be on the internal wiki.
-
-### Why are we using software/agile practices?
-Good way to maintain transparency, and proven to work.

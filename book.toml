@@ -13,8 +13,13 @@ output-to-file = false # defaults to false, change to true to create SVG files i
 command = "mdbook-toc"
 renderer = ["html"]
 
+[preprocessor.bibliography]
+command = "mdbook-bibfile-referencing src/bibliography.bib src/apa.csl"
+
 [output.html]
+additional-css = ["assets/custom.css"]
 mathjax-support = true
+git-repository-url = "https://github.com/UBC-iGEM/internal-wiki-2023-24"
 
 [output.linkcheck]
 # follow-web-links = true

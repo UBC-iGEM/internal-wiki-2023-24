@@ -4,7 +4,7 @@
 
 ## Iteration 1
 
-### TdT Production
+### Software
 |        | Relevant Pages/Commits | Date(s) |
 |--------|------------------------|---------|
 | Design |                        | March   |
@@ -12,7 +12,15 @@
 | Test   |                        |         |
 | Learn  |                        |         |
 
-### Solid Phase Synthesis
+### Hardware
+|        | Relevant Pages/Commits | Date(s) |
+|--------|----------------|---------|
+| Design |                | March   |
+| Build  |                |         |
+| Test   |                |         |
+| Learn  |                |         |
+
+### Modelling
 |        | Relevant Pages/Commits | Date(s) |
 |--------|------------------------|---------|
 | Design |                        | March   |

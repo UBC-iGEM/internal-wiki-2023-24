@@ -8,6 +8,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+  pull_request:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,6 +32,10 @@ jobs:
     env:
       MDBOOK_VERSION: 0.4.21
     steps:
+      - name: Download Pandoc 2.14
+        run: wget -O pandoc.deb https://github.com/jgm/pandoc/releases/download/2.14.0.3/pandoc-2.14.0.3-1-amd64.deb
+      - name: Install Pandoc
+        run: sudo dpkg -i pandoc.deb
       - name: Setup Graphviz
         uses: ts-graphviz/setup-graphviz@v1.2.0
       - uses: actions/checkout@v3
@@ -42,6 +47,10 @@ jobs:
         uses: baptiste0928/cargo-install@v2
         with:
           crate: mdbook-linkcheck
+      - name: Install Biblio
+        uses: baptiste0928/cargo-install@v2
+        with:
+          crate: mdbook-bibfile-referencing
       - name: Install TOC
         uses: baptiste0928/cargo-install@v2
         with:
@@ -62,6 +71,7 @@ jobs:
 
   # Deployment job
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
