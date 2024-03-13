@@ -88,6 +88,6 @@ For more on these papers check out
 ## How do we test this?
 * We should see if added ECC bits actually increase the accuracy of information; need to perform statistical analysis
     * Or is the actual sequence more important
-    * Via ChaosDNA
+    * Via [ChaosDNA](chaosdna.md)
 
 ---

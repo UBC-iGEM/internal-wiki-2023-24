@@ -111,6 +111,6 @@ After these steps, we can do [error correction](#ecc.md).
   - “These software packages are able to perform de novo assembly of Illumina short sequence reads with the exception of SHORTY, which is designed to assemble ABI SOLiD colour-space data. Velvet and SOPRA can assemble sequence-space and colour-space data. aCurtain is a pipeline, based on Velvet, for hierarchical assembly of short sequence reads in order to overcome memory usage limitations. bOases is specifically designed for assembling transcribed sequences.” [@paszkiewicz_2010_de]
 
 ## How do we test this?
-We can test in silico by using open source genome data, and try to reassemble (without the reference template) and then check the performance.
+We can test in silico by using open source genome data, and try to reassemble (without the reference template) and then check the performance, additionally through [ChaosDNA](chaosdna.md).
 
 ---

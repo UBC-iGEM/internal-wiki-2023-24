@@ -6,16 +6,12 @@
 ## Primary goal
 By encoding a heavily compressed file, we can effectively increase the amount of information stored in DNA for a given number of nucleotide bases.
 
-
-
 ## Key points
 1. Data compression: defined in information theory as the process of encoding information using fewer bits than the original representation. In the context of our work, decreasing the number of nucleotide bases required to encode a given file.
 2. Token (LLMs): the fundamental data unit within natural language processing systems such as large language models (LLMs). Most common AI systems used today are some form of LLM (e.g., ChatGPT, Google Gemini, Diffusion-based models such as Stable Diffusion). A token essentially acts as a small component of a large data set; when an LLM takes text input, such as a sentence inputted into a chatbot, it breaks the query down into a set of tokens. These tokens are then processed by the model.
 3. Lossless compression: a compression process that does not result in any data loss.
 4. Lossy compression: a compression process that results in data loss. For instance, when audio is compressed into common file formats such as .mp3, audio quality is sacrificed to decrease file sizes.
 5. Compression ratio: the ratio between the file size of the inputted and outputted files. Often expressed in bits per base (bpb, output/input).
-
-
 
 ## Text compression
 
@@ -36,3 +32,8 @@ Thus, the model used for compression must be careful selected, with a focus on o
 ![ts_zip benchmarks](./images/ts_zip-time.png)
 
 </div>
+
+## Other Text compression algorithms:
+- GZip: https://www.gnu.org/software/gzip/
+- LZ4: [https://github.com/lz4/lz4](https://github.com/lz4/lz4)
+- [https://en.wikipedia.org/wiki/Bzip2](https://en.wikipedia.org/wiki/Bzip2)
