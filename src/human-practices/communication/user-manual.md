@@ -13,6 +13,7 @@ As a foundational advance project with a clear deliverable in the form of a soft
 ### Non-Goals
 * A summary of our whole project; engineering design process, wet lab details, human practices initiatives, should not be included 
 * Only relevant information will be included (context)
+
 ## Plan
 Sections to include in the document: 
 * Introduction 

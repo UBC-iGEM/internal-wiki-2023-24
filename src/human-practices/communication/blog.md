@@ -12,5 +12,6 @@ Science knowledge holds an important role in policy and decision making in socie
 
 ### Non-Goals 
 * Increasing viewership and engagement - do not need to work on marketing other than reposting and supporting each other
+
 ## Plan
 All information is written in [this document](https://docs.google.com/document/d/1-8aSKSGI76kBacukW1unSoVD9LehKRr7WmXuYSvquNM/edit)! 

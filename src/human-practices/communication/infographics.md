@@ -7,7 +7,7 @@ Science communication and education are important in terms of creating an aware 
 
 The Design Subteam will create a series of infographics that reflect aspects of our project including, but not limited to: DNA Storage, the importance of science communication, microfluidics, and solid phase synthesis. 
 
-## Goals and non-goals
+## Goals
 ### Goals: 
 * To create visually appealing, comprehensive infographics for the general public 
 * To practice making science-based graphics to convey information 
