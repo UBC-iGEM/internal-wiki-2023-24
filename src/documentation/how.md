@@ -76,10 +76,4 @@ Run `mdbook serve`, then follow the instructions [here](https://rust-lang.github
 4. Only .md files are allowed.
 5. Numbers are allowed.
 
-Now go to the following pages to see how to write documentation if you are a:
-
-- Member: Go to your subteam and read over every subsection.
-- [Lead](./lead.md)
-- [Wiki Liaison](./liaison.md)
-
 [^rust]: https://doc.rust-lang.org/rustdoc/how-to-write-documentation.html
