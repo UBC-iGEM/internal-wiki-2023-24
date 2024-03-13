@@ -1,6 +1,4 @@
-# [Project Name]: Improving DNA Storage with Synthetic Biology
-
-# Project Description
+# Project Description: Improving DNA Storage with Synthetic Biology
 
 ## Overview
 With the world entering the zettabyte era, the current data storage model that relies heavily on ‘the cloud,’ or large data storage centers, is projected to be incapable of meeting society’s growing demand in data storage. To give everyone some context, 1 zettabyte is equivalent to 1 trillion gigabytes.

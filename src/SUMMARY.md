@@ -55,6 +55,6 @@
 # For Internal Subteam Members
 
 - [Getting Started (For internal team members)](./documentation/index.md)
-  - [How to Document](./documentation/how.md)
-    - [For leads](./documentation/lead.md)
-    - [For wiki liaisons](./documentation/liaison.md)
+  - [How to use Git and GitHub](./documentation/git-github.md)
+  - [How to use mdbook](./documentation/how.md)
+  - [For wiki liaisons](./documentation/liaison.md)
