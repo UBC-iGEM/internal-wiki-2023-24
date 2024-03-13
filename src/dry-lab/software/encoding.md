@@ -15,7 +15,7 @@ Given a set of requirements, create primers that the wet lab can use for synthes
 ### Context and Scope
 Primers are important for DNA synthesis in our bodies. Usually 5-22 nucleotides long, primers are ssDNA that serve to “prime” or prepare a template strand for an enzyme to bind and initiate DNA synthesis. We will be generating primers with the four bases of DNA, because they are easier to synthesize and more stable than RNA based primers. Unlike DNA polymerase, TdT is unique, and does not require a template strand, so we will be focussing on generating primers that TdT can bind to and initiate DNA synthesis. 
 
-Storage wise, primers act as unique identifiers for the data that is encoded in the information portion of the DNA sequence. Software-wise, the only strict requirement is that it is easy to generate unique primers; however there are biological constraints we must adhere to.
+Storage-wise, primers act as unique identifiers for the data that is encoded in the information portion of the DNA sequence. Software-wise, the only strict requirement is that it is easy to generate unique primers; however there are biological constraints we must adhere to.
 
 ### Goals and non-goals
 Goals: Generate primers that confine to these [constraints](https://github.com/UBC-iGEM/dna-software/issues/10), with the goal of ultimately generating acceptable primers for wet lab to order.
@@ -63,12 +63,6 @@ On a computer, a tree like data structure will be maintained that maps primers t
 ### Overview
 Based on a user’s file, we must convert that file to a collection of approximately sized nucleotide sequences for synthesis by wet lab. 
 
-#### Key Points 
-1. Segmentation of data: by breaking an input into smaller blocks, we can control how large or how small a strand is to be synthesized. Shorter strands appear to have a smaller rate of error[^aachen].
-2. Redundancy: a message is encoded and transmitted using more bits that are necessary to encode the message; a piece of information is redundant if it can be removed without loss of information [@redundancy2020]. This has either not been explored in depth by other iGEM teams[@aachen2022].
-3. Primer generation and storing primers.
-4. Generating sequences to be encoded.
-
 ### Context and Scope
 A bit is the most basic form of information a classical computer can interpret, so this means data that is stored and interpreted on a computer is in the form of 0 and 1.
 
@@ -99,13 +93,9 @@ To complete an iteration of the DBTL cycle, a barebones encoding platform withou
 
 ### The actual design
 #### Text
-1. To conserve bases for encoding information or error correcting codes, compression of some format will occur
-- Text compression algorithms:
-  - GZip: https://www.gnu.org/software/gzip/
-  - LZ4: [https://github.com/lz4/lz4](https://github.com/lz4/lz4)
-  - [https://en.wikipedia.org/wiki/Bzip2](https://en.wikipedia.org/wiki/Bzip2)
+1. To conserve bases for encoding information or error correcting codes, [compression](compression.md) of some format will occur
 2. Convert bits to trits
-3. Segment the trits into blocks of trits
+3. Segment the trits into blocks of trits, as shorter strands appear to have a smaller rate of error[@aachen2022]
 4. Using rotation based cipher, generate four nucleotide sequences
 5. Choose most stable generated nucleotide sequence 
 6.  for every sequence (not applicable for POC)
@@ -125,7 +115,7 @@ Could also do image compression: [OpenCV](https://towardsdatascience.com/deep-le
 7. Give completed nucleotide sequences to wet lab.
 
 #### Coupled with error correction 
-Refer to [error correction](ecc.md).
+Refer to [error correction](ecc.md), error correction is a form of redundancy, which has not been explored in depth by other iGEM teams[@aachen2022].
 
 ### Diagrams
 ![encode_char](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/1729561c-c4d2-44a9-a959-76053ec09654)
