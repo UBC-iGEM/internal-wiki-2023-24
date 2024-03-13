@@ -25,6 +25,7 @@
     - [Encoding](./dry-lab/software/encoding.md)
     - [Error Correction](./dry-lab/software/ecc.md)
     - [Decoding](./dry-lab/software/decoding.md)
+    - [Compression](./dry-lab/software/compression.md)
   - [Modelling](./dry-lab/modelling/index.md)
     - [Enzyme Kinetics](./dry-lab/modelling/enzyme-kinetics.md)
     - [Bioreactor Optmization](./dry-lab/modelling/bioreactor.md)
