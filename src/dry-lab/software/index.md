@@ -77,14 +77,13 @@ Goal: A researcher/developer of the encoding/decoding/ECC algorithm should be ab
 ![decoding_dry_wet](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/47924633-1ec9-4b7c-96b3-f9a703be84b2)
 
 ## Existing solutions
-- [An abstraction of data storage](https://docs.rs/acid-store/latest/acid_store/)
--  [Python implementation of DNA storage system](https://github.com/dna-storage/dnastorage)
+- [Python implementation of DNA storage system](https://github.com/dna-storage/dnastorage)
 - [DNA storage for nanopore sequencing using convolutional coding and basecaller-decoder integration](https://github.com/shubhamchandak94/nanopore_dna_storage)
 
 ## How do we test this?
-The most important portion of our backend to test is the error correction. To complete iterations of the E-DBTL cycle, testing in silico will occur. Using ChaosDNA, an algorithm that simulates faults (delations, insertions, mutations) in DNA sequences, we can alter the rate of total error, then alter the proportions of deletion, insertions, mutations, the error correction mechanism can be tested against the different types of synthesis and sequencing errors.
+The most important portion of our backend to test is the error correction. To complete iterations of the E-DBTL cycle, testing in silico will occur. With ChaosDNA, an algorithm that simulates faults (deletions, insertions, mutations) in DNA sequences, we can alter the rate of total error, then alter the proportions of deletion, insertions, mutations. We then run the error correction mechanism can against the faulty strands.
 
-When wet lab has finished their POC, we can give wet lab different sequences of varying levels of redundacy to see the effect of adding more error correction and try to identify the most common type of error that occurs.
+When wet lab has finished their POC, we can give wet lab different sequences of varying levels of redundancy to see the effect of adding more error correction and try to identify the most common type of error that occurs.
 
 For primer generation, we can use open source tools online to test our primers, and later verification from the wet lab.
  
