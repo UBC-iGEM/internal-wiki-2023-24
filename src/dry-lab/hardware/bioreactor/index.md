@@ -4,7 +4,7 @@
 
 ## Overview
 
-A bioreactor is a device that provides a controlled environment for the cultivation of biological organisms (like bacteria, yeast, plant and animal cells) under specific conditions to promote growth. Controllable conditions include temperature, pH, oxygen levels, and nutrient supply, which are precisely manipulated to optimize the resident population’s biological processes [^2].
+A bioreactor is a device that provides a controlled environment for the cultivation of biological organisms (like bacteria, yeast, plant and animal cells) under specific conditions to promote growth. Controllable conditions include temperature, pH, oxygen levels, and nutrient supply, which are precisely manipulated to optimize the resident population’s biological processes [@bioprocess].
 
 Developing a bioreactor early on in our competitive season significantly enhanced our project’s outcomes, by allowing for scalable production of W.T. E Coli for the numerous experiments that Wet-Lab aimed to complete. Additionally, it served as a training tool for rookie Wet-Lab members learning to culture E Coli., teaching them concepts of cell culture and molecular cloning through an error proof system.
 
@@ -23,7 +23,7 @@ This version of the bioreactor would have the following features AT MINIMUM:
 - Stir Rod
 - Passive Oxygen diffuser
 
-The functionality is to just grow W.T. E Coli. somehow, and show it isn’t just in a culture. The stir road provides kinetic stimulation, the oxygen Diffuser maintains O<sub>2</sub> levels via diffusion. I don’t expect a lot of iteration within this Mark, maybe 1 or 2 just adding dead spaces/module slots for later additions to the bioreactor.
+The functionality is to just grow W.T. E Coli. somehow, and show it isn’t just in a culture. The stir road provides kinetic stimulation, the oxygen Diffuser maintains O<sub>2</sub> levels via diffusion. I don’t expect a lot of iteration within this Mark, maybe 1 or 2 just adding dead spaces/module slots for later additions to the bioreactor. With the passive oxygen diffuser, E. coli can grow in both anaerobic and aerobic conditions so the diffuser is primarily responsible for regulating the pressure levels inside the reactor. If required, active diffusion and O<sub>2</sub> readout can be added but are not necessary for efficient function.
 
 ### Bioreactor Mk. 2
 
@@ -82,8 +82,3 @@ Testing will primarily be based on one metric: bacterial population in the biore
 - It would be nice to have Mk. 4 completed by mid September
 
 ---
-
-[^2]: Doran PM. Bioprocess Engineering Principles. 2nd ed. London: Academic Press; 2013.
-
-[^1]: Luiselli M. The Role of Bioreactors in Synthetic Biology. Journal of Biodiversity, Bioprospecting and Development. 2022;8(10). doi:10.37421/2376-0214.2022.8.10.
-
