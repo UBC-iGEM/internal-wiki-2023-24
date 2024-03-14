@@ -5,7 +5,7 @@
 ## How to add inline citations
 1. edit [src/bibliography.bib](https://github.com/UBC-iGEM/internal-wiki-2023-24/blob/main/src/bibliography.bib), check [here](https://bibtex.eu/types/) for the fields to fill out. For example, 
 ```
-@article{clines1974evidence,
+@article{ref_name,
     url = {http://www.jstor.org/stable/3263863},
     author = {D. J. A. Clines},
     journal = {Journal of Biblical Literature},
@@ -17,7 +17,7 @@
     year = {1974}
 }
 ```
-2. Then call your reference in any mdbook file like this: [@clines1974evidence]
+2. Then call your reference in any mdbook file like this: [@ref_name]
 
 ## How to write Markdown
 
