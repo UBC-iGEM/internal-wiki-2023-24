@@ -3,10 +3,21 @@
 <!-- toc -->
 
 ## How to add inline citations
-1. edit [src/bibliography.bib](https://github.com/UBC-iGEM/internal-wiki-2023-24/blob/main/src/bibliography.bib), check [here](https://bibtex.eu/types/) for the fields to fill out.
-2. Then call your reference like this: [@ref_name]
-
-Check out [an example](https://github.com/jacob-pro/mdbook-bibfile-referencing/tree/master/test-book).
+1. edit [src/bibliography.bib](https://github.com/UBC-iGEM/internal-wiki-2023-24/blob/main/src/bibliography.bib), check [here](https://bibtex.eu/types/) for the fields to fill out. For example, 
+```
+@article{clines1974evidence,
+    url = {http://www.jstor.org/stable/3263863},
+    author = {D. J. A. Clines},
+    journal = {Journal of Biblical Literature},
+    number = {1},
+    pages = {22--40},
+    publisher = {Society of Biblical Literature},
+    title = {{The Evidence for an Autumnal New Year in Pre-Exilic Israel Reconsidered}},
+    volume = {93},
+    year = {1974}
+}
+```
+2. Then call your reference in any mdbook file like this: [@clines1974evidence]
 
 ## How to write Markdown
 
