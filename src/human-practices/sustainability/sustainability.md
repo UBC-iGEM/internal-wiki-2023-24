@@ -11,7 +11,7 @@ This initiative will build on the success of the previous two years that it has 
 - To continue exploring the intersection of synthetic biology with the SDGs
 - Enrich the audience’s understanding and appreciation for the field’s potential to impact global sustainability positively 
 - To cultivate meaning connections
-- To gain valuable relationships with influential Health Professionals
+- To gain valuable relationships with influential health professionals
 - To establish a network of recurring and new guests who can contribute valuable insights to the podcast
 
 ### Non-Goals
@@ -22,5 +22,5 @@ This initiative will build on the success of the previous two years that it has 
 - Identify and prioritize SDGs that have not been covered in previous sessions or new advancements
 - Brainstorm SDGs that can also be project specific
 - Reach out to previous guests who have been on the podcast before as well as new voices and experts who can bring unique perspectives to the podcast.
-- Figure out how to enhance production quality (Better question, recording, editing, design, etc)
+- Figure out how to enhance production quality (better question, recording, editing, design, etc)
 - Implement a feedback mechanism for listeners and guests (identify opportunities for growth and improvement in future episodes)
