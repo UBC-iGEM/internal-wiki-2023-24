@@ -2,9 +2,8 @@
 
 Welcome to the UBC iGEM 2023-2024 Internal Wiki. Read these pages before you start adding to our wiki!
 
-- [How to Document](how.md)
-  - [For leads](lead.md)
-  - [For wiki liaisons](liaison.md)
+- [How to use mdbook](how.md)
+- [How to use Git and GitHub](git-github.md)
 
 If you have any questions regarding documenting your progress and work, please send a message in the documentation-wiki channel.
 
