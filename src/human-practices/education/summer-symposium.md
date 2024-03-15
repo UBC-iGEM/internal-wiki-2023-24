@@ -12,13 +12,13 @@ Centered around a symposium format, this initiative allows students to showcase 
 - Allow the creative process of idea generation and pitching
 - Provide a supportive platform for students to receive expert feedback
 - Enhance learning experience
-- Encourage further exploration of STEM fields. 
+- Encourage further exploration of STEM fields 
 
 ### Non-Goals
 - Providing in-depth research opportunities
 - Direct implementation of the pitched ideas 
 - Extending the initiative to include participants beyond high school students
-- To cover areas outside of synthetic biology. 
+- To cover areas outside of synthetic biology
 
 ## Plan
 - Invite high school students during Let’s Talk Science visits

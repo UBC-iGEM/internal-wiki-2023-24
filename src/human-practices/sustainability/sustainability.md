@@ -8,14 +8,14 @@ This initiative will build on the success of the previous two years that it has 
 
 ## Goals and non-goals
 ### Goals
-- To continue exploring the intersection of synthetic biology with the SDGs.
+- To continue exploring the intersection of synthetic biology with the SDGs
 - Enrich the audience’s understanding and appreciation for the field’s potential to impact global sustainability positively 
 - To cultivate meaning connections
 - To gain valuable relationships with influential Health Professionals
 - To establish a network of recurring and new guests who can contribute valuable insights to the podcast
 
 ### Non-Goals
-- To venture into discussions that do not have a clear link to these areas. 
+- To venture into discussions that do not have a clear link to these areas 
 - Increasing viewership and using it for funding purposes
 
 ## Plan

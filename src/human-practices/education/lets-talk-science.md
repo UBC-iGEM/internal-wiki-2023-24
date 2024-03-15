@@ -8,8 +8,8 @@ Let’s Talk Science’s extensive experience in science education combined with
 
 ## Goals and non-goals
 ### Goals
-- To increase awareness and understanding of synthetic biology among highschool students.
-- To inspire students to pursue further education and careers in the STEM fields, particularly in synthetic biology and related disciplines. 
+- To increase awareness and understanding of synthetic biology among highschool students
+- To inspire students to pursue further education and careers in the STEM fields, particularly in synthetic biology and related disciplines
 
 ### Non-Goals
 - To target audiences outside of the highschool education level for this specific initiative
@@ -18,9 +18,9 @@ Let’s Talk Science’s extensive experience in science education combined with
 ## Plan
 Brainstorming and ideation of classroom activities
 - Pitching idea to LTS representatives 
-- Marketing and Branding
+- Marketing and branding
 - Contacting highschools through Let’s Talk Science 
-- Volunteer Training for our internal team
+- Volunteer training for our internal team
 - Final activity preparations + material gathering
 - Executing our program with classroom visits
 
