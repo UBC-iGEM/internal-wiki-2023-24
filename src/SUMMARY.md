@@ -41,9 +41,12 @@
     - [Blog](./human-practices/communication/blog.md)
     - [User Manual](./human-practices/communication/user-manual.md)
   - [Education](./human-practices/education/index.md)
+    - [Let's Talk Science](./human-practices/education/lets-talk-science.md)
+    - [Summer Symposium](./human-practices/education/summer-symposium.md)
   - [Inclusivity](./human-practices/inclusivity/index.md)
     - [EDI Seminar](./human-practices/inclusivity/edi-seminar.md)
   - [Sustainability](./human-practices/sustainability/index.md)
+    - [Sustainable Development in Synthetic Biology](./human-practices/sustainability/sustainability.md)
   - [Event Recaps](./human-practices/events/index.md)
   - [Integrated Human Practices](./human-practices/ihp/index.md)
 
