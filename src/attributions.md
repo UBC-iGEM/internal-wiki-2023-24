@@ -89,3 +89,4 @@ The earlier we record down an external contact the easier it is to track so we c
 | Dr. Albert Folch (Piyush) | Academic         | External Advisor     | Conceptualization | Helped dry lab with initial planning related to do SPS with microfluidics                              |
 | Dr. Holly Longstaff | Industry | External Advisor | Conceptualization | Helped give insight on the direction of the project related to health care data systems | 
 | Kenny Hammond | Industry | External Advisor | Conceptualization | Helped give insight on the direction of the project related to health care data systems | 
+| [Jon Corbett](http://joncorbett.ca/research.html) | Academic | Collaborator, External Advisor | Conceptualization | Provided context for our DNA storage platform (indigenous history) and offered technical advice for dealing with high rates of deletion | 
