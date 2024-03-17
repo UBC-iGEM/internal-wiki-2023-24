@@ -11,10 +11,11 @@
   - [Solid phase DNA Synthesis](./wet-lab/design/solid-phase.md)
   - [ssDNA to dsDNA](./wet-lab/design/ssdna-dsdna.md)
   - [Thermostable TdT](./wet-lab/design/tdt.md)
+- [Protocols](./wet-lab/protocols/index.md)
+  - [TdT Cloning](./wet-lab/protocols/cloning.md)
 - [Engineering Success](./wet-lab/engineering/index.md)
 - [Parts](./wet-lab/parts/index.md)
 - [Results](./wet-lab/results/index.md)
-- [Protocols](./wet-lab/protocols/index.md)
 - [Safety](./wet-lab/safety/index.md)
 
 # Dry Lab
