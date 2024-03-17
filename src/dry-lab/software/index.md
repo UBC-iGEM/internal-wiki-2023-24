@@ -28,16 +28,11 @@ For purposes of the E-DBTL cycle, some details will be exposed to the user, such
   - This detail should be hidden from the user in a real world use case
 - selection of different encoding/decoding/ECC algorithms to use on input data
 
-## Goals and non-goals
-For our MVP, our software platform must be able to:
-- encode and decode a binary input
-- recover a sequence with 30% error
-- provide a graphic user interface
+## DBTL Cycles
+### Iteration 1
+Implement a barebones pipeline, and see how much error can be tolerated in 100 nucleotide long DNA sequences with in silico testing.
 
-To complete the requirements for E-DBTL cycle:
-- in silico simulation, which computes fault simulation of DNA sequences (called ChaosDNA) so we can test our various algorithms
-
-### Backend
+#### Backend
 Goal: [Encoding](encoding.md) (given an existing file, convert that file into sequence(s) of nucleotides): 
 1. Primer generation
 2. Sequence generation
@@ -50,18 +45,29 @@ Goal: [Decoding](decoding.md) (given a request for a certain file):
 4. Collapse sequences back into one file
 5. Return the file to the user
 
-### Frontend (graphical user interface)
+#### Frontend
 Goal: A user should be able to drag a file into the application, create new folders, rename folders, delete folders, delete files.
 - should be cross platform
 - for iHP interviews should have GUI ready early
 
-### Testing
-Goal: [Fault Simulation: ChaosDNA](chaosdna.md) (provide platform for in-silico testing of software):
+#### Testing
+Goal: [ChaosDNA](chaosdna.md) (provide platform for in-silico testing of software):
 1. Given a string, total error rate, deletion error rate, mutation error rate, insertion error rate, generate a distribution of sequences that may be synthesized from wet lab
 2. Run our software on these faulty sequences
 3. Run statistical analysis on the success rate of software
 
 If we are satisfied with our initial MVP platform, we can demonstrate encoding/decoding of large files, and persistence.
+
+### Iteration 2
+Redefine algorithms to tolerate up to 30% error in 100 nucleotide long DNA sequences, with in silico testing.
+
+### Iteration 3 
+Implement DNA Storage Alliance specifications, and do in silico testing on DNA sequences with 1000s of nucleotides.
+- [Sector Zero](https://www.snia.org/standards/technology-standards-software/standards-portfolio/dna-data-storage-sector-zero)
+- [Sector One](https://www.snia.org/standards/technology-standards-software/standards-portfolio/dna-data-storage-sector-one)
+
+### Iteration 4/5 
+Test our software on sequences synthesized by wet lab, and redefine algorithms with in silico testing and wet lab data.
 
 ## Diagrams
 **User POV: Encoding**
@@ -89,8 +95,5 @@ For primer generation, we can use open source tools online to test our primers, 
  
 To test the graphical user interface, we will conduct interviews with the general public to see how they would use our tool.
 
-## How long will this take?
-1. Encoding: 1 - 2 months
-2. Decoding: 1 - 2 months
-3. GUI: 2 months
-4. ChaosDNA: 1-2 weeks to build, testing throughout the season
+
+
