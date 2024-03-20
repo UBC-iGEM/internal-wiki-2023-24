@@ -39,7 +39,7 @@ Please also read through iGEM documentation before reviewing pages, so you know 
 
 These criteria are nonnegotiable:
 
-1. Citations, in the proper format (APA)
+1. Citations, in the bibliography.bib file
 2. Related to iGEM requirements
 3. Sources for information that isn't general knowledge (this is subjective, ask a lead if you need clarification)
 4. Diagrams for confusing concepts
@@ -48,18 +48,18 @@ These criteria are nonnegotiable:
 
 These criteria are nonnegotiable:
 
-1. Citations, in the proper format (APA)
+1. Citations, in the bibliography.bib file
 2. Related to iGEM requirements
 3. For anything code-based: a GitHub repo containing the code in question
 4. Diagrams for confusing concepts
 5. Sources for information that isn't general knowledge (this is subjective, ask a lead if you need clarification)
 
 ### Reviewing human practices writing
-1. Citations, in the proper format (APA)
+1. Citations, in the bibliography.bib file
 2. Related to iGEM requirements
 
 ## Working with GitHub
-You will be approving PRs, making issues and sometimes making your own PRs. If you have any questions about this let Lucy now.
+You will be reviewing and approving PRs, making issues and sometimes making your own PRs. If you have any questions about this let Lucy now.
 
 ## Who do I ask for help?
 
