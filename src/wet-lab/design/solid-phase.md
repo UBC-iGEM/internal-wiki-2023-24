@@ -24,7 +24,9 @@ The goal of this phase is
 There are two different methods being considered for immobilization. All approaches are based on the same principle. 
 
 Disulfide 5’ modifier and dibenzocylooctyne 5’ modifier are the primer methods in consideration. The idea with each modified primer is to use orthogonal reacting functional groups. As a DNA oligo has both a 3’ and 5’ free hydroxyl group, using a 5’ modifier that selectively reacts with its counterpart would prevent the 3’ hydroxyl from reacting in any meaningful quantities.
+
 ![Sulfide solid phase synthesis](Sulfide-SPS.png)
+
 Rogers, Y.-H.; Jiang-Baucom, P.; Huang, Z.-J.; Bogdanov, V.; Anderson, S.; Boyce-Jacino, M. T. Immobilization of Oligonucleotides onto a Glass Support via Disulfide Bonds: A Method for Preparation of DNA Microarrays. Analytical Biochemistry 1999, 266 (1), 23–30. DOI:10.1006/abio.1998.2857.
 
 ## The actual design of modified DNTPs
