@@ -1,4 +1,6 @@
 run = "mdbook serve -n 0.0.0.0"
+entrypoint = "main.sh"
+modules = ["bash:v1-20231215-e6d471c"]
 
 [nix]
 channel = "unstable"
@@ -6,3 +8,7 @@ channel = "unstable"
 [[ports]]
 localPort = 3000
 externalPort = 80
+
+[deployment]
+run = ["bash", "main.sh"]
+deploymentTarget = "cloudrun"
