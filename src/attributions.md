@@ -87,3 +87,6 @@ The earlier we record down an external contact the easier it is to track so we c
 | rmehri01 (Lucy)           | Other            | External Advisor     | Wiki Coding       | Setting up Codespaces for team to develop without needing to set up a local environment                |
 | Eric Ma                   | Industry         | Sponsor              |                   | Helping us pay for hosting of our domain, and gave general advice for managing a successful iGEM team. |
 | Dr. Albert Folch (Piyush) | Academic         | External Advisor     | Conceptualization | Helped dry lab with initial planning related to do SPS with microfluidics                              |
+| Dr. Holly Longstaff | Industry | External Advisor | Conceptualization | Helped give insight on the direction of the project related to health care data systems | 
+| Kenny Hammond | Industry | External Advisor | Conceptualization | Helped give insight on the direction of the project related to health care data systems | 
+| [Jon Corbett](http://joncorbett.ca/research.html) | Academic | Collaborator, External Advisor | Conceptualization | Provided context for our DNA storage platform (indigenous history) and offered technical advice for dealing with high rates of deletion | 
