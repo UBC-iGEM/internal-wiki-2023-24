@@ -37,6 +37,7 @@ The DNTPs will be ordered as 3’-BzNPPOC modified DNTP’s or 3’aminohydroxy 
 Hölz, K.; Hoi, J. K.; Schaudy, E.; Somoza, V.; Lietard, J.; Somoza, M. M. High-Efficiency Reverse (5′→3′) Synthesis of Complex DNA Microarrays. Scientific Reports 2018, 8 (1). DOI:10.1038/s41598-018-33311-3. 
 
 ![amine-PG](amine-PG.png)
+
 Verardo, D.; Adelizzi, B.; Rodriguez-Pinzon, D. A.; Moghaddam, N.; Thomée, E.; Loman, T.; Godron, X.; Horgan, A. Multiplex Enzymatic Synthesis of DNA with Single-Base Resolution. Science Advances 2023, 9 (27). DOI:10.1126/sciadv.adi0263. 
 
 ## Proposed solutions to immobilization
