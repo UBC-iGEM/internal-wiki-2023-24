@@ -3,7 +3,8 @@
 ## Solid phase DNA Synthesis
 
 This document outlines the process of non-traditional solid phase DNA synthesis through the use of tdt. In particular, this document will provide a broad overview of the workflow and the details of primer immobilization, solid phase chemistry, and primer cleavage. It also outlines the chemistry of monomers intended to use.
-Context and Scope
+## Context and Scope
+
 Traditional solid phase chemical synthesis occurs from 3’ -> 5’ as shown below.
 ![chemical solid phase DNA synthesis](Chemical-SPPS.png)
 
