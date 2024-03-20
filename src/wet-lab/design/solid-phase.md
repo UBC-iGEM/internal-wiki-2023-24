@@ -34,6 +34,7 @@ Rogers, Y.-H.; Jiang-Baucom, P.; Huang, Z.-J.; Bogdanov, V.; Anderson, S.; Boyce
 The DNTPs will be ordered as 3’-BzNPPOC modified DNTP’s or 3’aminohydroxy modified DNTPs. BzNPPOC is a highly photolabile group that is readily cleaved in UV light. This protecting group has been highly used in chip chemistry however care is required to prevent premature deprotection when exposed to ambient light. 3’aminohydroxyl groups are readily cleaved in sodium nitrite. These modified nucleotides will allow for single insertion as there is no 3’ hydroxyl for additional reaction. Thus a specific synthesis can be achieved. As part of the tdt synthesis workflow, an additional deprotection step is required prior to the following nucleotide reaction.
 
 ![Photolabile-PG](Photolabile-PG.png)
+
 Hölz, K.; Hoi, J. K.; Schaudy, E.; Somoza, V.; Lietard, J.; Somoza, M. M. High-Efficiency Reverse (5′→3′) Synthesis of Complex DNA Microarrays. Scientific Reports 2018, 8 (1). DOI:10.1038/s41598-018-33311-3. 
 
 ![amine-PG](amine-PG.png)
