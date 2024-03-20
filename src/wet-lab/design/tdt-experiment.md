@@ -1,5 +1,8 @@
 # Thermostable TdT
 
+
+<!-- toc -->
+
 ## Overview
 
 The document provides the details related to Terminal deoxynucleotidyl transferase (TdT) utilized in the project. This includes the general description of WT TdT and thermostable TdT, in addition to their application in the project.
@@ -18,7 +21,7 @@ ssDNA is prone to secondary structure formation (1). This issue can be minimized
 
 ## Design
 
-**Thermostable TdT Cloning: Ligation Independent Cloning (LIC)**
+### Thermostable TdT Cloning: Ligation Independent Cloning (LIC)
 Material:
 
 - Plasmid of Choice: Addgene # 29659 - pET His6 sumo TEV LIC cloning vector
@@ -53,7 +56,7 @@ Procedure:
 
 7. Transformation
 
-   - Transform chemically competent Top10 e.coli with cloning product
+   - Transform chemically competent Top10 E.coli with cloning product
 
 8. Colony picking
 
@@ -67,12 +70,12 @@ Procedure:
 
     - Send plasmid for Sanger sequencing
 
-**Protein Purification: Immobilized metal affinity chromatography**
+## Protein Purification: Immobilized metal affinity chromatography
 
 Protocol reference [link](https://link.springer.com/protocol/10.1007/978-1-59745-582-4_2)
 
-**TdT Optimization**
-**Liquid Phase (Gel)**
+### TdT Optimization
+#### Liquid Phase (Gel)
 
 - Each reaction was carried out in 20µL total volume.
 - All reaction components but the dNTP were assembled in 18µL
@@ -82,7 +85,7 @@ Protocol reference [link](https://link.springer.com/protocol/10.1007/978-1-59745
 - The reaction was then incubated at room temperature for at least two minutes, resolved on a TBE Polyacrylamide gel
 - Length of ssDNA is determined by comparing with the ladder
 
-**Condition to compare:**
+**Condition to compare:** [@TdT_background]
 
 Run reaction with each dNTP + ladder + primer reference
 
@@ -90,7 +93,7 @@ Run reaction with each dNTP + ladder + primer reference
 - Different TdT concentration
 - Different buffer concentration
 - Different temperature: RT vs 37 vs 47 (mutant)
-- With/without CoCl2: 0 vs 2.5mM vs 5 mM
+- With/without CoCl<sub>2</sub>: 0 vs 2.5mM vs 5 mM
 - Different reaction time: 2 vs 10 vs 30 min
 
 Testing dNTP concentration need for all 4 types of nucleotides
@@ -98,10 +101,10 @@ The rest rxns can be carried with selected dNTPs
 
 Protocol reference [link](https://www.nature.com/articles/s41467-019-10258-1#MOESM1)
 
-**Solid Phase (TBD)**
+#### Solid Phase (TBD)
 
 ## How long will this take?
 
 This depends heavily on how successfully each experiment goes. The estimation is around 1 month.
 
-[@TdT_background]
+---
