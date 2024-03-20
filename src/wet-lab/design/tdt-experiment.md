@@ -104,6 +104,4 @@ Protocol reference [link](https://www.nature.com/articles/s41467-019-10258-1#MOE
 
 This depends heavily on how successfully each experiment goes. The estimation is around 1 month.
 
-## Reference:
-
-Liang, X., Kuhn, H., & Frank-Kamenetskii, M. D. (2006). Monitoring single-stranded DNA secondary structure formation by determining the topological state of DNA catenanes. Biophysical Journal, 90(8), 2877–2889. https://doi.org/10.1529/biophysj.105.074104
+[@TdT_background]
