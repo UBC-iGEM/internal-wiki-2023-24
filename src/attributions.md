@@ -14,7 +14,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Name              | Role           | General Tasks     | Specific Tasks                                                                   |
 | ----------------- | -------------- | ----------------- | -------------------------------------------------------------------------------- |
 | Steven Hallam     | Primary PI     |                   |                                                                                  |
-| Chaehyeon Lee     | Student Leader | Conceptualization | (1) Conceptualization - Facilitated the team-wide project brainstorming process. |
+| Chaehyeon Lee     | Student Leader | Conceptualization, Fundraising, Project Administration, Background Research | (1) Conceptualization - Facilitated the team-wide project brainstorming process. (2) Fundraising - Supervised and led various fundraising initiatives including Departmental, Faculty, and Industry sponsorship requests. (3) Project Administration - Supervised and led the project's overall progress and administrative tasks. (4) Background Research - Organized weekly project development meetings during March to ensure subteam integration during the project design phase. Performed literature review to ensure project's experimental plan is feasible within the competition timeline. Reached out to various external advisors for technical advice to ensure project is feasible. |
 | Narjis Alhusseini | Student Leader | Conceptualization | (1) Conceptualization - Facilitated the team-wide project brainstorming process. |
 
 ### Wet Lab
