@@ -33,7 +33,12 @@ Thus, the model used for compression must be careful selected, with a focus on o
 
 </div>
 
-## Other Text compression algorithms:
-- GZip: https://www.gnu.org/software/gzip/
-- LZ4: [https://github.com/lz4/lz4](https://github.com/lz4/lz4)
-- [https://en.wikipedia.org/wiki/Bzip2](https://en.wikipedia.org/wiki/Bzip2)
+### Other compression algorithms:
+#### GZip: [https://www.gnu.org/software/gzip/](https://www.gnu.org/software/gzip/)
+Gzip is a commonly used compression algorithm and filetype. It can be used to compress many different source filetypes, but is non-competitive compared to ts_zip in terms of compression ratio for text files specifically. However, should be considered for svg compression.
+
+#### Bzip2: [https://en.wikipedia.org/wiki/Bzip2](https://en.wikipedia.org/wiki/Bzip2)
+Bzip2 is similar to Gzip; a compression algorithm with diverse use cases. Typically slightly worse-performing than Gzip.
+
+#### LZ4: [https://github.com/lz4/lz4](https://github.com/lz4/lz4)
+Unique compression ratio that offers modes for higher compression or faster speeds. Requires more complex installation for use; has numerous dependencies. Potentially competitive with GZip for certain use cases. Currently not benchmarked; **will be further investigated**.
