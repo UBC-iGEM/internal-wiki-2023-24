@@ -1,4 +1,4 @@
-## Primer Generation and Encoding
+## Primer Generation and Sequence Generation
 
 
 <!-- toc -->
@@ -7,22 +7,15 @@
 
 *Contributions*: Lucy, QingRu, Achint, Tina
 
-### Overview
-The first Design/Build state is complete, now we are in Testing stage for the primer generation algorithm.
-
-Given a set of requirements, create primers that the wet lab can use for synthesizing ssDNA with TdT. Additionally, demonstrate that our data storage model will not run out of primers, and that we can create more primers to append/make edits to preexisting files [@Sharma_Lim_Lin_Pote_Jevdjic_2023,].
-
-### Context and Scope
+### Why do we need primers?
 Primers are important for DNA synthesis in our bodies. Usually 5-22 nucleotides long, primers are ssDNA that serve to “prime” or prepare a template strand for an enzyme to bind and initiate DNA synthesis. We will be generating primers with the four bases of DNA, because they are easier to synthesize and more stable than RNA based primers. Unlike DNA polymerase, TdT is unique, and does not require a template strand, so we will be focussing on generating primers that TdT can bind to and initiate DNA synthesis. 
 
 Storage-wise, primers act as unique identifiers for the data that is encoded in the information portion of the DNA sequence. Software-wise, the only strict requirement is that it is easy to generate unique primers; however there are biological constraints we must adhere to.
 
-### Goals and non-goals
-Goals: Generate primers that confine to these [constraints](https://github.com/UBC-iGEM/dna-software/issues/10), with the goal of ultimately generating acceptable primers for wet lab to order.
+We want to generate primers that confine to these [constraints](https://github.com/UBC-iGEM/dna-software/issues/10), with the goal of ultimately generating acceptable primers for wet lab to order. Given a set of requirements, create primers that the wet lab can use for synthesizing ssDNA with TdT. Additionally, demonstrate that our data storage model will not run out of primers, and that we can create more primers to append/make edits to preexisting files [@Sharma_Lim_Lin_Pote_Jevdjic_2023,].
 
-Non-goals: Synthesize primers ourselves in the wet lab using this algorithm; this algorithm will be used a few times to get the best primers, then the wet lab will order them. Then this software may be tuned a bit but after wet lab buys primers this piece of software just acts as a conceptual piece to demonstrate POC where we can generate enough primers on the fly, show we won't accidentally allocate two files to the same primer, etc.
 
-### The actual design
+### How are we generating primers?
 * A “genetic algorithm” requires [@Wu_Lee_Wu_Shiue_2004]:
     * Start with k randomly generated individuals of specified length
     * Fitness function
@@ -38,7 +31,6 @@ Non-goals: Synthesize primers ourselves in the wet lab using this algorithm; thi
     * For determining melting temperature [@addgene2019] 
     * For determining if secondary structures will form, simple reverse string check is performed, but more advanced checks will be tried in futher iterations [@primerpcr].
 
-### Diagram
 ![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/af702be3-9a33-44b4-992e-d72481255e14)
 
 ### How do we test this?
@@ -46,11 +38,11 @@ We can use open source tools that evaluate the melting/annealing temperature, se
 
 We can also verify by their use in wet lab, however this may not be feasible given lack of time and resources.
 
-### Storing primers
+### How are primers stored (computationally)?
 
 On a computer, a tree like data structure will be maintained that maps primers to files. Theoretically, only the primers and some metadata is to be stored on the computer, and all the information is stored on the DNA molecules. We will have to quantify our information density.
 
-## Encoding
+## Sequence Generation
 
 *Contributions*: Lucy, Riya, Sebastian
 
@@ -61,9 +53,11 @@ On a computer, a tree like data structure will be maintained that maps primers t
 </div>
 
 ### Overview
-Based on a user’s file, we must convert that file to a collection of approximately sized nucleotide sequences for synthesis by wet lab. 
 
-### Context and Scope
+
+### How do computers interpret bits?
+Thus, given a user’s file, we must convert that file to a collection of approximately sized nucleotide sequences for synthesis by wet lab. How does a computer know what information is contained in a file, and how we do convert that information into the four nucleotides of DNA?
+
 A bit is the most basic form of information a classical computer can interpret, so this means data that is stored and interpreted on a computer is in the form of 0 and 1.
 
 A set of bits can have any meaning if there is no context provided behind how to decode these bits. For text, the mapping from binary sequences to characters is standardized via the UTF-8 (Unicode Transformation Format - 8 bits) standard [@wikipediautf]. 
@@ -78,7 +72,16 @@ UTF-8 is a standardized format for storing and reading characters. UTF-8 encodes
     
 ![utf](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/6a2f72ef-bc6c-4a87-b985-0319e0009a8b)
 
-An extra step we take to store information in our DNA storage process is to convert bits to trits. In theory, there is no gain to convert bits to trits because DNA is so dense [@howclosedna]. Additionally, because computers are still binary, having trits instead of bits doesn’t give us any “more” information.
+When we encode information, it is important to note down, either on the actual DNA strand itself or on a computer, how to interpret these bits once we read back the DNA strand. This is what is called metadata, data that tells you information about data! 
+
+There are several ways to change a bit sequence into a DNA strand, and a few are listed below: 
+- base4 encoding: 0 -> A, 1 -> T, 2 -> G, 3 -> C
+- Church encoding: 0 -> A or C, 1 -> G or T
+- base2 encoding: 00 -> A, 11 -> T, 01 -> G, 10 -> C
+- HEDGES ECC (to be discussed)
+- Rotation based cihper (to be discussed)
+
+An extra step we take to store information in our DNA storage process is to convert our sequence from base2 to base3 (rotation based cipher) or base4, which are others way of representing the same number. In theory, there is no gain to convert bits to trits because DNA is so dense [@howclosedna]. Additionally, because computers are still binary, having trits instead of bits doesn’t give us any “more” information.
 
 However, compression wise, converting bits to trits gives us an advantage for the context of our project, where we are short on time and resources, and want to synthesize shorter strands. We are able to gain compression when converting bits to trits because the bigger the base you choose to represent a number, the “less” digits you need to store that number. Bits represent numbers in base2 while trits represent numbers in base3. Thus, converting bits to trits allows for higher information density, allow us to use less nucleotides to store information, as compared to leaving the bits as is.
 
@@ -88,40 +91,31 @@ TdT promises to synthesize longer sequences traditional, as compared to chemical
 
 Additionally, coupled with a kinetic model, it is possible to try and optimize for base transitions that take less time, while maintaining the previously mentioned points. 
 
-### Goals 
-To complete an iteration of the DBTL cycle, a barebones encoding platform without error correction coupled will be completed. Metadata will be collected. After seeing the success of error correction without coupling encoding with error correction, our second iteration of the DBTL cycle will start to couple encoding with error correction.
+### How does sequence generation actually work?
+1. File format
+   - the file format tells us how to interpret bits that encode that file
+   - without knowing the file format (the file extension), we have no idea what the bits encode for
+2. Compression 
+   - if there is no special compression strategy, we will just compress using a generic compression algorithm, otherwise, we can take advantage of certain file formats and compress in a special way
+3. Block the bit sequence
+   - we break the information into chucnks of around 80 - 100 nts long
+   - if we are doing semi-specific synthesis, probably around 20 - 30 nts long
+4. Choose an encoding strategy
+   - if we are doing specific synthesis, we have many encoding strategies to choose from, HEDGES is discussed in [error correction](ecc.md)
+   - if we are dong semi-specific synthesis, we must use the rotation based cihper (diagrams shown below)
+5. Convert bits or other intermediate form into nucleotideas
+   - using our chosen encoding strategy, we start converting our bits/intermediate form into nucleotides
+6. Add outer codes
+   - a form of purely redundant error correction
+7. Collect metadata
+   - if using semi-specific, we can collect the number of different transitions
+8. Give sequences to wet lab
 
-### The actual design
-#### Text
-1. To conserve bases for encoding information or error correcting codes, [compression](compression.md) of some format will occur
-2. Convert bits to trits
-3. Segment the trits into blocks of trits, as shorter strands appear to have a smaller rate of error[@aachen2022]
-4. Using rotation based cipher, generate four nucleotide sequences
-5. Choose most stable generated nucleotide sequence 
-6.  for every sequence (not applicable for POC)
-7. Collect metadata for  and add bases for redundancy if applicable.
-8. Give completed nucleotide sequences to wet lab
-
-#### Images (generative, SVG)
-As a proof of concept, we can encode images if we put more work on the software to run algorithms to generate images on the spot (similar to SVGs). In the context of Dr. Corbett’s work on [generative bead art](http://joncorbett.ca/research.html).
-Could also do image compression: [OpenCV](https://towardsdatascience.com/deep-learning-based-super-resolution-with-opencv-4fd736678066?gi=2a019b394980)
-
-1. We store a color table, and the generic mathematical expression or program that requires this color table and xyz coordinate system to recreate the image of interest. For SVG, we follow the SVG standard for encoding/decoding this image format.
-2. Essentially, we have a mathematical function and we are only encoding the inputs to this mathematical expression. 
-3. Convert input to bits following the encoding format specific to that image format
-4. Similar to above, we convert bits to trits to blocks of trits, then rotation based cipher, and choose the most thermodynamically stable sequence
-5. Generate primers (not applicable for POC)
-6. Collect metadata, for error correction, adding redundancy (more important in this case)
-7. Give completed nucleotide sequences to wet lab.
-
-#### Coupled with error correction 
-Refer to [error correction](ecc.md), error correction is a form of redundancy, which has not been explored in depth by other iGEM teams[@aachen2022].
-
-### Diagrams
+### Visual representation?
 ![encode_char](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/1729561c-c4d2-44a9-a959-76053ec09654)
 ![rotation](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/bd76a401-2cd4-411a-8425-0c21642684ee) [@Bornholt_Lopez_Carmean_Ceze_Seelig_Strauss_2016]
 
-### Current solutions
+### What are current solutions?
 * Rotation based cipher always starting with “A”: [https://2021.igem.org/Team:Aachen](https://2021.igem.org/Team:Aachen)
 * Encoding music (using the extra trit for another layer of representation): [https://www.nature.com/articles/s41467-020-18681-5](https://www.nature.com/articles/s41467-020-18681-5) 
 * Re-writable two-dimensional DNA-based data storage with machine learning reconstruction: [https://www.nature.com/articles/s41467-022-30140-x](https://www.nature.com/articles/s41467-022-30140-x) 
