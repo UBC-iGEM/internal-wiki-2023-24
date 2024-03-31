@@ -28,4 +28,8 @@ assignees: ''
 ## Tasks
 [FILLIN: you can leave this blank for now, or try to fill in based on iGEM's [attributions site](https://competition.igem.org/deliverables/project-attribution)]
 
-## Specific Tasks: What are they helping you with? 1-2 sentences is fine.
+## iHP Interview Notes
+[FILLIN: please link the Google Doc containing their iHP notes. It can be empty and filled it later.]
+
+## Specific Tasks: 
+[FILLIN: What are they helping you with? 1-2 sentences is fine.]
