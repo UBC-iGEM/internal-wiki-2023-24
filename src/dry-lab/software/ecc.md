@@ -4,17 +4,21 @@
 
 <!-- toc -->
 
-## Overview
-Correcting for errors that occur in the DNA synthesis, storage, sequencing process, as relating to our DNA synthesis method.
+## Overview, Context and Scope
+Correcting for errors that occur in the DNA synthesis, storage, sequencing process, as relating to our DNA synthesis method. TdT, and DNA synthesis and sequencing in general have very high rate of error. 
 
-## Context and Scope
 A benchmark for the percentage of errors we may be dealing with:
 * % Reads containing errors [@lee_2020_photondirected]:
     * Single base deletions: 25.8%
     * Single base insertions: 13.4%
     * mismatches: 8.9%
     
-### Semi-specific synthesis: 
+We must collect enough metadata to correct a DNA sequence with around 30-50% synthesis error [@_2021_teamaachenresults]. We should avoid adding error correction bits unless there is drastic improvement. This could depend on the type of data we are encoding. To complete an iteration of the DBTL cycle, we will implement a simple error correction algorithm for both semi-specific and specific synthesis, followed by testing in silico. Based on the results of the algorithm, we either enhance it or abandon and try another algorithm.
+
+## How does synthesis method affect error correction?
+The synthesis method differentiates our sequence recovery method. If we are using semi-specific, we can rely on homonucleotides and number of transitions for sequence consensus. For specific synthesis, we would rely on error correcting codes.
+
+## Semi-specific synthesis 
 Given that our synthesis method is semi-specific: this means we can control the **type** of base we are adding, but we cannot control the **number** of bases. Additionally, because we will be attaching “blocks” of bases, such as “AAAA” when we just want “A”, a nucleotide sequence of 100 bases may only contain 20-30 unique nucleotides
 
 The challenge here is how can we apply error correction: 
@@ -23,53 +27,27 @@ The challenge here is how can we apply error correction:
 3. Where sequences are short (100 nt) 
 4. To be robust such than it an tolerate higher rates of error
 
-### Specific synthesis: 
-Given specific synthesis means we can control the type of base and how many of that base we add. However, gaining the ability to add specifically means deletion errors and insertion errors are more detrimental since there is no redundancy (unless we explicitly add it ourselves). The advantage is that we can choose to how we want to encode the redundancy.
+### What metadata should we collect for semi-specific synthesis?
+The number of transitions will be collected, which we can see if it is enough metadata to decode a faulty nucleotide sequence.
 
-**This document will assume we are using semi-specific synthesis.**
-
-## Goals 
-We must collect enough metadata to correct a DNA sequence with around 30-50% synthesis error [@_2021_teamaachenresults]. We should avoid adding error correction bits unless there is drastic improvement. This could depend on the type of data we are encoding. To complete an iteration of the DBTL cycle, we will implement one error correction algorithm, followed by testing in silico. Based on the results of the algorithm, we either enhance it or abandon and try another algorithm.
-
-## The actual design
-
-### During encoding stage
-
-#### Inner codes 
-At each step of the pipeline, collect some relevant metadata, refer to [encoding](encoding.md) for more details: If we couple error correction and encoding together, instead of naively converting bits to trits: 
-
-We use a hash function to determine the next base [@press_2020_hedges]. This hash function takes as input the bits of current bit index, and previous encoded bits to output a value: 
-
-\\[ K_i = f(currpos, prebits) \\]
-\\[ C = (K_i + b_i)mod3 \\]
-
-We mod3 to get the next base, where mod3 returns the remainder after dividing by 3, so we still use the rotation based cipher. For each bit to encode, redundancy is baked into the hash function output because it takes as input the previous encoded bits.
-
-The type of metadata we should collect includes, but is not limited to: the number of base transitions, checksum, primers, length of encoded base sequence and more.
-
-Next, we generate a checksum; this checksum will tell us if errors have occurred in synthesis and may help us reconstruct the sequence through guess and check, stochastic probability. We will need to test the checksum against faulty sequences and see if a checksum ever fails to detect a faulty DNA sequence
-
-#### Outer codes (only if we can do specific synthesis)
-* Reed solomon codes (with GC++) [@hanna_2024_short]
-* Rectangular correction codes
-
-### During decoding stage
-#### If we naively convert bits to trits
+### How is error correction done with this metadata?
 Using metadata collected during encoding and checksum, systematically guess which base transitions occur. We first find how many base transitions are missing, and try insertions, deletions, mutations to match the recorded metadata. This is similar to solving sudoku, e are guessing which base transitions are correct. We will use stochastic estimation to choose the “most likely” correct bases. Everytime some “constraint” is violated, we can either backtrack or create a new “sudoku” to solve.
 
 We try solving this problem for some allotted time; if the algorithm fails to return we mark the strand as too erroneous to recover and signal failure to the user, otherwise, we move onto to reconstruct the file.
 
-#### If we couple error correction and encoding together [@press_2020_hedges]
-Given a DNA sequence to decode, assume we have correctly decoded up to D<sub>i-1</sub>, and now want to know D<sub>i</sub>. Since D<sub>i</sub> can only be 0 or 1, there is a choice of two different bases that D<sub>i </sub>can be, but given the redundancy of the parameters given as input to the hash function, there is only one base, B, that D<sub>i </sub>can be. If D<sub>i </sub>= B, we continue, otherwise, assign a penalty score.
+## Specific synthesis: 
+Given specific synthesis means we can control the type of base and how many of that base we add. However, gaining the ability to add specifically means deletion errors and insertion errors are more detrimental since there is no redundancy (unless we explicitly add it ourselves). The advantage is that we can choose to how we want to encode the redundancy. We will first try to encode redundancy using HEDGES [@press_2020_hedges].
 
-A penalty score is assigned to tell the algorithm that an error has likely occurred, and we need to probably backtrack. It is a heuristic that has to be experimentally determined (meaning have to run the algorithm with different levels of penalty scores). If mutation occurred, penalty score would not build up as quickly as if deletion/insertion occurred, then all the bases after are going to fail the redundancy checks, and the penalty score increases. The goal is to minimize penalty score (ideally 0).
+### Inner codes
+Inner codes refers to bases that encode for redundancy and information. HEDGES is a type of inner code. For more on HEDGES, refer to [encoding](encoding.md). If you are interested, I highly recommend you read the paper [@press_2020_hedges].
 
-However, we have not considered if D<sub>i</sub> is a deletion or insertion. If either is the case, then penalties will rapidly accumulate, and we will know to terminate the search down that branch. The algorithm terminates based on this statement: “The decoding problem, conceptually a maximum likelihood search, thus reduces to a shortest-path search in a tree with branching factor 6, but with the saving grace that the correct path will be much shorter than any deviation from it.” [@press_2020_hedges].
+### Outer codes
+Outer codes only encode for redundancy, but can be more powerful than inner codes. A type of outer code is reed solomon codes (with GC++) [@hanna_2024_short], which we will also implement.
 
-When we backtrack, we then go down another branch where we can treat D<sub>i</sub> as an insertion (by deleting it and trying to decode again) or a deletion, (by inserting all 4 bases).
+### How do we decode a HEDGES encoding nucleotide sequence?
+![](images/hedges-decode.jpg)
 
-## Diagram
-![image](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/c7a95aaa-19b3-4051-b1f2-f65baedf420a)
+Read the HEDGS paper if you want to know more [@press_2020_hedges].
 
 ## Current solutions
 For more on these papers check out 
