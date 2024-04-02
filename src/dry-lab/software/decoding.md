@@ -2,22 +2,18 @@
 
 <!-- toc -->
 
-<div class="scroll">
-
-![decoding](./images/decoding_dark.png)
-
-</div>
-
 *Contributions*: Lucy, Chae, Riya, Sebastian
 
-## Overview
-Alignment of fragments of DNA sequences after sequencing is performed from various tools. 
+## Overview, Context and Scope
+After DNA is sequenced, we must perform some work on the sequenced strands before we can decode the DNA. This includes alignment of fragments of DNA sequences after sequencing, and the methodology depends the sequencing platform we use.
 
-## Context and Scope
-Depending on the sequencing platform we use, there may be varying degrees of sequence alignment required.
+Many pre-existing alignment strategies are used in the realm of bioinformatics, and rely on a reference template; we don’t have that luxury and conduct sequence alignment without a template, otherwise known as de novo sequence assembly.
 
+To perform iterations of the DBTL cycle, we will complete the algorithms required to perform alignment in a timely manner and with acceptable accuracy on one platform, most likely NGS. We will implement one of the two algorithms that is mentioned below, then in the second iteration try the other algorithm.
+
+## What types of sequencing machines are there? 
 ### Sanger 
-- [@a2021_analyzing] [@a2021_sanger]
+* [@a2021_analyzing] [@a2021_sanger]
 * First 20-40 base pairs are not well resolved 
 * Simple data analysis
 * Longer reads (500-700 bps)
@@ -27,7 +23,7 @@ Depending on the sequencing platform we use, there may be varying degrees of seq
 ![sanger](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/96d6a8f4-f7c1-47b2-a256-bc2e239a26b6)
 
 ### NextGen 
-- [@next] [@cheng_2023_methods]
+* [@next] [@cheng_2023_methods]
 * Higher sequencing depth for increased sensitivity (down to 1%)
 * Higher discovery power
 * Short reads (150-300 bps) by Illumina
@@ -36,26 +32,16 @@ Depending on the sequencing platform we use, there may be varying degrees of seq
 ### Nanopore 
 Doesn't require PCR amplification, eliminating amplification bias and simplifying sequencing protocols relatively high error rates, around 10% per nt [@emerging].
 
-### Synthesis method:
-The synthesis method can also differentiate our sequence recovery method. If we are using semi-specific, we can rely on homonucleotides for sequence consensus. For specific synthesis, we would rely on error correcting codes.
 
-Many pre-existing alignment strategies rely on a reference template; we don’t have that luxury and conduct sequence alignment without a template, otherwise known as de novo sequence assembly.
-
-## Goals and non-goals
-Goal: 
-To perform iterations of the DBTL cycle, we will complete the algorithms required to perform alignment in a timely manner and with acceptable accuracy on one platform, most likely NGS. We will implement one of the two algorithms that is mentioned below, then in the second iteration try the other algorithm.
-
-Non-goals:
-* Generalize to all sequencing platforms.
-
-## Actual Design
-**There are many established algorithms in this domain, we will use one of those.** Based on the selected platform, sequence analysis will be performed as so: 
+## What algorithms are we using? 
+**There are many established algorithms in this domain, we will use one of those.** Based on the selected platform, sequence alignment will be performed as so: 
 
 ### Sanger 
-Given four-color chromatogram(s) representing the peak fluorescence intensity, depending on the amplification scale in wet lab, we can compare chromatogram(s) to each to resolve conflicts. For de novo assembly, we can resolve conflicts based on redundancy of chromatogram [@sanger].
+Given four-color chromatogram(s) representing the peak fluorescence intensity, depending on the amplification scale in wet lab, we can compare chromatogram(s) to each other to resolve conflicts. For de novo assembly, we can resolve conflicts based on redundancy of chromatograms [@sanger].
 
 ### NGS 
-Given a fastq file which contains, it contains multiple chopped up sequence reads tat each have a confidence score, known as a Phred score, which is the probability the sequencer called the base incorrectly. We assemble the sequence reads de novo into one long read [@ngs].
+A fastq file contains multiple chopped up sequence reads, each having a confidence score known as a Phred score. A Phred score is the probability the sequencer called the base incorrectly. We assemble the sequence reads de novo into one long read based on the overlaps between the chopped up sequences [@ngs].
+
 ![ngs_output](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/d539e783-c2fb-44ce-a8b8-325c6ff41c75)
 
 To conduct de novo assembly for output from NGS platform, reads are examined for overlap between them, and the goal to build up a single contig from smaller contigs.
@@ -87,8 +73,8 @@ Requires overlap to be scored between all pairs of reads, making runtime as leas
 ### Nanopore
 TBD, as we may not end up using Nanopore to sequence. 
 
-### Identify and remove primer
-Using the primer we have stored, run fuzzy string matching algorithms [@wikipediacontributors_2019_approximate].
+## Why do we need to remove primer from the sequence before we do error correction?
+We have to remove the nucleotides representing the primer in order to only decode on the nucleotide strand that contains information bases. Using the primer we have stored, we can run fuzzy string matching algorithms [@wikipediacontributors_2019_approximate]. We must use fuzzy (approximate) algorithms because there is a chance the primer doesn't quite match the primer sequence we have stored (due to errors in synthesis and sequencing).
 
 From simplest to advanced [@silva_2022_what]: 
 * Levenshtein distance: used in strings
@@ -98,7 +84,7 @@ From simplest to advanced [@silva_2022_what]:
 
 For the first iteration of the DBTL cycle, we will try **Levenshtein Distance**, and pursue other algorithms if there is notable gain from using them.
 
-### Sequence collapse to single nucleotides 
+## Sequence collapse to single nucleotides 
 Given that we are doing semi-specific synthesis, we now collapse homonucleotides to mononucleotides. We use the occurrence of homonucleotides as the probability the sequenced base is actually at that index, to deal with base conflicts, and also signal that the positions of base conflict could either be a deletion, insertion or mutation error.
 ![homo](https://github.com/UBC-iGEM/internal-wiki-2023-24/assets/55033656/c3d5709c-0f9a-4890-87a8-f53a0112d83d)
 
