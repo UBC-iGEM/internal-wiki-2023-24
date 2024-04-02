@@ -16,8 +16,7 @@ This is where leads and other subteam members can add ([or request to](https://g
 - [Self Learning Material](https://docs.google.com/document/d/11GH5kaz-moZp-oe0COQgQ_ZfmvTHUrH4Ee74s8IFe0I/edit?usp=sharing)
 
 ## Dry Lab
-
-### Moore's Law
+[Slides on Information Theory/Computer Storage](http://ubcigem.com/information_theory/)
 
 ### Glacial Storage 
 Check out these [dry lab slides](https://docs.google.com/presentation/d/1nQOVYAYPGF8G0qWAzkASHRrQ8TtsM2maiz3NgsDCdHM/edit?usp=sharing) for some info on Glacial Storage!
