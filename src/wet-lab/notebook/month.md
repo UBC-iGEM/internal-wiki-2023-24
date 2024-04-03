@@ -1,6 +1,26 @@
-# month
+# Lab Notebook Template
 
-## yyyy-mm-dd
-### People: 
-### Tasks: 
-### Notes: 
+# Experiment Title
+yyyy-mm-dd
+
+Performed by:
+
+Written by: 
+
+## Purpose: 
+
+## Materials:
+* 
+
+## Methods: 
+1. 
+
+## Results: Please attach pictures!!!!! 
+
+
+### Table template 
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
