@@ -26,6 +26,7 @@
     - [Blog](./human-practices/communication/blog.md)
     - [User Manual](./human-practices/communication/user-manual.md)
   - [Education](./human-practices/education/index.md)
+    - [Internal Workshops](./human-practices/education/workshops.md)
     - [Let's Talk Science](./human-practices/education/lets-talk-science.md)
     - [Summer Symposium](./human-practices/education/summer-symposium.md)
   - [Inclusivity](./human-practices/inclusivity/index.md)
