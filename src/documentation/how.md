@@ -2,24 +2,11 @@
 
 <!-- toc -->
 
-## How to add inline citations
-1. edit [src/bibliography.bib](https://github.com/UBC-iGEM/internal-wiki-2023-24/blob/main/src/bibliography.bib), check [here](https://bibtex.eu/types/) for the fields to fill out. For example, 
-```
-@article{ref_name,
-    url = {http://www.jstor.org/stable/3263863},
-    author = {D. J. A. Clines},
-    journal = {Journal of Biblical Literature},
-    number = {1},
-    pages = {22--40},
-    publisher = {Society of Biblical Literature},
-    title = {{The Evidence for an Autumnal New Year in Pre-Exilic Israel Reconsidered}},
-    volume = {93},
-    year = {1974}
-}
-```
-2. Then call your reference in any mdbook file like this: [@ref_name]
-
 ## How to write Markdown
+
+Refer to these documents on how to write markdown if you are using:
+- [VSCode](https://code.visualstudio.com/docs/languages/markdown)
+- [Replit](https://docs.replit.com/tutorials/replit/markdown)
 
 Check out the [CommonMark quick reference](https://commonmark.org/help/) first. Much of this document is borrowed from the rustdoc book[^rust].
 
@@ -77,14 +64,20 @@ Note you can write HTML in Markdown as well! But please refrain from doing so un
 
 If you want to see all the Markdown features available to you, here is the [spec](https://spec.commonmark.org/0.30/).
 
-## How to add new pages and subsections
 
-Run `mdbook serve`, then follow the instructions [here](https://rust-lang.github.io/mdBook/format/summary.html) on how to add new pages and subsections. When are you creating new pages, please follow these file naming conventions. Any files that don't conform to these file naming conventions will not be accepted as documentation.
-
-1. Only punctuation that is allowed are dashes.
-2. All lowercase.
-3. When possible create folders to categorize files. If you need help with this, send a message in the documentation/wiki channel.
-4. Only .md files are allowed.
-5. Numbers are allowed.
-
-[^rust]: https://doc.rust-lang.org/rustdoc/how-to-write-documentation.html
+## How to add inline citations
+1. edit [src/bibliography.bib](https://github.com/UBC-iGEM/internal-wiki-2023-24/blob/main/src/bibliography.bib), check [here](https://bibtex.eu/types/) for the fields to fill out. For example, 
+```
+@article{ref_name,
+    url = {http://www.jstor.org/stable/3263863},
+    author = {D. J. A. Clines},
+    journal = {Journal of Biblical Literature},
+    number = {1},
+    pages = {22--40},
+    publisher = {Society of Biblical Literature},
+    title = {{The Evidence for an Autumnal New Year in Pre-Exilic Israel Reconsidered}},
+    volume = {93},
+    year = {1974}
+}
+```
+2. Then call your reference in any mdbook file like this: [@ref_name]

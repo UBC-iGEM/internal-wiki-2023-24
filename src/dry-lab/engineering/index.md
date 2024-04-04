@@ -23,6 +23,7 @@
 | Learn  |                |
 
 ## Bioreactor
+![gantt chart](../hardware/bioreactor/gantt.png)
 
 ### Iteration 1
 

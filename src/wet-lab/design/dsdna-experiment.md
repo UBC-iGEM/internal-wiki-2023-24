@@ -1,5 +1,7 @@
 # ssDNA to dsDNA Experimental Design
 
+<!-- toc -->
+
 ## Overview
 
 Convert ssDNA synthesized by thermostable TdT (mutant 3-2) to dsDNA to generate a more stable dsDNA to allow better long-term storage.
@@ -8,15 +10,14 @@ Convert ssDNA synthesized by thermostable TdT (mutant 3-2) to dsDNA to generate 
 
 Terminal deoxynucleotidyl transferase (TdT) is a special type of polymerase found in mammals that is able to synthesize ssDNA in a template-independent manner. Our project aims to utilize TdT to customize and synthesize DNA strands for data storage.
 
-Since TdT’s ability is limited to ssDNA synthesis, while ssDNA is not a stable biological molecule, this constrainsts our ability to store data long term using ssDNA. Hence, we propose to convert ssDNA to dsDNA once it is synthesized by TdT.
+Since TdT’s ability is limited to ssDNA synthesis, while ssDNA is not a stable biological molecule, this constrains our ability to store data long term using ssDNA. Hence, we propose to convert ssDNA to dsDNA once it is synthesized by TdT.
 
 ## Goals
 
 - Synthesize dsDNA from ssDNA to achieve a more stable biological molecule for storage
 
 ## Proposed solutions and workflow
-
-**PCR**
+### PCR
 
 1. Denaturation (~96°C):
    Melt secondary structure, linearize ssDNA
@@ -27,11 +28,11 @@ Since TdT’s ability is limited to ssDNA synthesis, while ssDNA is not a stable
 3. Extension (~72°C):
    Taq polymerase extends the primers → dsDNA
 
-Primer design
+### Primer design
 
 Primer is designed to be complementary to the initiator DNA of ssDNA synthesis and polyA tail
 
-Primer design requirement
+#### Primer design requirement
 
 - 40-60 GC%
 - The forward and reverse primer can’t have a temperature difference of greater than 5C
@@ -57,17 +58,17 @@ PCR amplify the restriction enzyme recognition site onto the donor sequence (dsD
 
 3. Perform Gibson Assembly to ligate the dsDNA into the plasmid in E.coli
 
-**Transformation**
+### Transformation
 
 Integrate the plasmid into E.coli BL21 (DE3) from NEB for protein expression
 
-**Colony Picking**
+### Colony Picking
 
 Pick colony with correct antibiotic resistance
 
 ## How do we test this?
 
-Options to see if this worked
+Options to see if this worked:
 
 1. Use the same PCR primer to amplify the dsDNA inside the plasmid then use agarose gel to measure the length of the sequence integrated
 2. Sanger sequence or NGS (depending on the situation)

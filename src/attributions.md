@@ -3,9 +3,10 @@
 iGEM requires everyone who contributed to the project to fill out the attributions form. For members on the team, leads and co-directors will be checking the Master Tracker to verify that your attributions are honest. Wording is important; don't say more than what you actually did.
 
 <!-- toc -->
-## How to fill out attributions
-Go [here](https://competition.igem.org/deliverables/project-attribution) to figure out what to put in each column.
 
+## How to fill out attributions
+
+Go [here](https://competition.igem.org/deliverables/project-attribution) to figure out what to put in each column.
 
 ## Internal Contributions
 
@@ -14,7 +15,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Name              | Role           | General Tasks     | Specific Tasks                                                                   |
 | ----------------- | -------------- | ----------------- | -------------------------------------------------------------------------------- |
 | Steven Hallam     | Primary PI     |                   |                                                                                  |
-| Chaehyeon Lee     | Student Leader | Conceptualization | (1) Conceptualization - Facilitated the team-wide project brainstorming process. |
+| Chaehyeon Lee     | Student Leader | Conceptualization, Fundraising, Project Administration, Background Research | (1) Conceptualization - Facilitated the team-wide project brainstorming process. (2) Fundraising - Supervised and led various fundraising initiatives including Departmental, Faculty, and Industry sponsorship requests. (3) Project Administration - Supervised and led the project's overall progress and administrative tasks. (4) Background Research - Organized weekly project development meetings during March to ensure subteam integration during the project design phase. Performed literature review to ensure project's experimental plan is feasible within the competition timeline. Reached out to various external advisors for technical advice to ensure project is feasible. |
 | Narjis Alhusseini | Student Leader | Conceptualization | (1) Conceptualization - Facilitated the team-wide project brainstorming process. |
 
 ### Wet Lab
@@ -29,7 +30,7 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Chloe King          | Student | Conceptualization                                                                                              | (1) Conceptualization - Brainstorming and developing ideas for the project                                                                                                                                                                                                                   |
 | Daniel Hinatsu      | Student | Conceptualization                                                                                              | (1) Conceptualization - Learned how to update the wiki, brainstromed the final project                                                                                                                                                                                                       |
 | Diego Perez Hidalgo | Student | Conceptualization                                                                                              | (1) Conceptualization -                                                                                                                                                                                                                                                                      |
-| Pattarin Blanchard  | Student | Conceptualization                                                                                              | (1) Conceptualization - Contributed to project pitch at later stages                                                                                                                                                                                                                         |
+| Pattarin Blanchard  | Student | Conceptualization, Background Research                                                                                              | (1) Conceptualization - Contributed to project pitch at later stages; (2) Background Research - Literature review for TdT variants, 3'-protected, fluorescent-tagged dNTPs suitable for *de novo* enzymatic DNA synthesis                                                                                                                                                                                                                         |
 | Ran Tao             | Student | Conceptualization, Background Research, Investigation                                                          |                                                                                                                                                                                                                                                                                              |
 
 ### Dry Lab
@@ -56,8 +57,9 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Karen Lin       | Student | Visualization                        | (1) Visualization - created logo for simply synbio                                                                                                                    |
 
 ### Internal Advisors
+
 | Name                  | Role | General Tasks     | Specific Tasks                                                                          |
-|-----------------------|------|-------------------|-----------------------------------------------------------------------------------------|
+| --------------------- | ---- | ----------------- | --------------------------------------------------------------------------------------- |
 | Brian Guo             |      | Conceptualization | Gave feedback during project pitch brainstorming.                                       |
 | Janella Schwab        |      | Other             | Helped with getting us in contact with Eric Ma, one of the founding members of UBC iGEM |
 | Laura Gonzalez Campos |      | Conceptualization | Gave feedback during project pitch brainstorming.                                       |
@@ -70,7 +72,8 @@ Go [here](https://competition.igem.org/deliverables/project-attribution) to figu
 | Parneet Sekhon        |      |                   |                                                                                         |
 | Umar Ali              |      |                   |                                                                                         |
 
-## External Contributions
+
+## External Contacts/iHP
 
 As we start reaching out to external contacts who are willing to help us, once they have given us advice, please either
 
@@ -78,15 +81,6 @@ As we start reaching out to external contacts who are willing to help us, once t
 
 <iframe src="https://scribehow.com/embed/Add_External_Advisor_to_Internal_Wiki__eiTNhbDQSK6C6WDG7nXoqg" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
 
-2. or directly edit the page yourself with your external contact and update that entry throughout the season.
+2. or directly edit the [iHP page](human-practices/ihp/index.md) yourself with your external contact and update that entry throughout the season.
 
 The earlier we record down an external contact the easier it is to track so we can add them to our competition wiki.
-
-| Name                      | Institution Type | Relationship To Team | Tasks             | Specific Tasks                                                                                         |
-|---------------------------|------------------|----------------------|-------------------|--------------------------------------------------------------------------------------------------------|
-| rmehri01 (Lucy)           | Other            | External Advisor     | Wiki Coding       | Setting up Codespaces for team to develop without needing to set up a local environment                |
-| Eric Ma                   | Industry         | Sponsor              |                   | Helping us pay for hosting of our domain, and gave general advice for managing a successful iGEM team. |
-| Dr. Albert Folch (Piyush) | Academic         | External Advisor     | Conceptualization | Helped dry lab with initial planning related to do SPS with microfluidics                              |
-| Dr. Holly Longstaff | Industry | External Advisor | Conceptualization | Helped give insight on the direction of the project related to health care data systems | 
-| Kenny Hammond | Industry | External Advisor | Conceptualization | Helped give insight on the direction of the project related to health care data systems | 
-| [Jon Corbett](http://joncorbett.ca/research.html) | Academic | Collaborator, External Advisor | Conceptualization | Provided context for our DNA storage platform (indigenous history) and offered technical advice for dealing with high rates of deletion | 
