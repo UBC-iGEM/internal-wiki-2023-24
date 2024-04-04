@@ -2,6 +2,8 @@
 
 [Meeting Notes](https://drive.google.com/drive/folders/1E_gh956eETLY7uBk27NX-Mp3P9KKm9QV?usp=sharing)
 
+## Notebook
+For each notebook entry, copy the template [here](https://github.com/UBC-iGEM/internal-wiki-2023-24/blob/main/src/wet-lab/notebook/month.md). Additionally, add a weekly summary to the [main](notebook/index.md) notebook page.
 ## Goals
 - Work as a team through the DBTL cycle 
 - Practice experimental planning, analysis and data collection 
